@@ -1,0 +1,38 @@
+{
+  "categories": 66,
+  "articles": 496,
+  "with_en_link": 201,
+  "with_wikidata": 477,
+  "missing_text_this_run": 0,
+  "root_categories": [
+    {
+      "category": "Tỉnh của Việt Nam",
+      "depth": 0
+    },
+    {
+      "category": "Tỉnh cũ Việt Nam",
+      "depth": 0
+    },
+    {
+      "category": "Thành phố trực thuộc trung ương (Việt Nam)",
+      "depth": 0
+    },
+    {
+      "category": "Trường đại học và cao đẳng Việt Nam theo địa phương",
+      "depth": 1
+    },
+    {
+      "category": "Đại học Việt Nam",
+      "depth": 0
+    },
+    {
+      "category": "Học viện Việt Nam",
+      "depth": 1
+    },
+    {
+      "category": "Đại học Quốc gia Việt Nam",
+      "depth": 1
+    }
+  ],
+  "depth": 1
+}
