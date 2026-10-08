@@ -1,0 +1,14 @@
+# CQ7: Lợi ích của suy diễn — số thực thể theo lớp DBpedia (chỉ có trong graph suy ra, dữ liệu gốc chỉ ghi lớp vio:)
+PREFIX vio:  <https://w3id.org/vi-dbpedia/ontology/>
+PREFIX vir:  <https://w3id.org/vi-dbpedia/resource/>
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX dbr:  <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT ?lop (COUNT(DISTINCT ?x) AS ?so) WHERE {
+  GRAPH <https://w3id.org/vi-dbpedia/graph/inferred> { ?x a ?lop }
+  FILTER(?lop IN (dbo:Province, dbo:City, dbo:University, dbo:AdministrativeRegion, dbo:Place, dbo:Organisation))
+}
+GROUP BY ?lop
+ORDER BY DESC(?so)

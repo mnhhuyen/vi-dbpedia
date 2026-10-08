@@ -1,0 +1,15 @@
+# CQ5: Số cơ sở giáo dục đại học theo tỉnh/thành
+PREFIX vio:  <https://w3id.org/vi-dbpedia/ontology/>
+PREFIX vir:  <https://w3id.org/vi-dbpedia/resource/>
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX dbr:  <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT ?tinh (COUNT(DISTINCT ?t) AS ?soTruong) WHERE {
+  ?t a vio:CoSoGiaoDucDaiHoc ; vio:truSoTai ?x .
+  ?x a vio:DonViHanhChinhCapTinh ; rdfs:label ?tinh .
+  FILTER(LANG(?tinh) = "vi")
+}
+GROUP BY ?tinh
+ORDER BY DESC(?soTruong)

@@ -1,0 +1,16 @@
+# CQ4: Các trường thành viên của mỗi đại học quốc gia / đại học vùng (vio:coThanhVien được suy ra từ nghịch đảo)
+PREFIX vio:  <https://w3id.org/vi-dbpedia/ontology/>
+PREFIX vir:  <https://w3id.org/vi-dbpedia/resource/>
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX dbr:  <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT ?daiHoc (COUNT(?tv) AS ?soThanhVien) (GROUP_CONCAT(?tenTv; separator=" | ") AS ?danhSach) WHERE {
+  ?dh a vio:DaiHoc ; rdfs:label ?daiHoc ;
+      vio:coThanhVien ?tv .
+  ?tv rdfs:label ?tenTv .
+  FILTER(LANG(?tenTv) = "vi" && LANG(?daiHoc) = "vi")
+}
+GROUP BY ?daiHoc
+ORDER BY DESC(?soThanhVien)

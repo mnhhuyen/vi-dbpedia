@@ -1,0 +1,19 @@
+# CQ1: 10 tỉnh/thành hiện hành đông dân nhất (dân số, diện tích km², mật độ)
+PREFIX vio:  <https://w3id.org/vi-dbpedia/ontology/>
+PREFIX vir:  <https://w3id.org/vi-dbpedia/resource/>
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX dbr:  <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT ?ten ?danSo (ROUND(?dienTich / 1000000) AS ?dienTichKm2) ?matDo WHERE {
+  ?x a vio:DonViHanhChinhCapTinh ;
+     rdfs:label ?ten ;
+     dbo:populationTotal ?danSo .
+  OPTIONAL { ?x dbo:areaTotal ?dienTich }
+  OPTIONAL { ?x dbo:populationDensity ?matDo }
+  FILTER NOT EXISTS { ?x dbo:dissolutionDate ?d }      # bỏ tỉnh đã giải thể
+  FILTER(LANG(?ten) = "vi")
+}
+ORDER BY DESC(?danSo)
+LIMIT 10

@@ -1,0 +1,18 @@
+# CQ10 (federated, cần mạng): Dân số theo bản tiếng Việt so với DBpedia tiếng Anh
+PREFIX vio:  <https://w3id.org/vi-dbpedia/ontology/>
+PREFIX vir:  <https://w3id.org/vi-dbpedia/resource/>
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX dbr:  <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT ?ten ?danSoVi ?danSoEn (?danSoVi - ?danSoEn AS ?chenhLech) WHERE {
+  ?x a vio:DonViHanhChinhCapTinh ; rdfs:label ?ten ;
+     dbo:populationTotal ?danSoVi ; owl:sameAs ?en .
+  FILTER(STRSTARTS(STR(?en), "http://dbpedia.org/resource/"))
+  FILTER NOT EXISTS { ?x dbo:dissolutionDate ?d }
+  SERVICE <https://dbpedia.org/sparql> { ?en dbo:populationTotal ?danSoEn }
+  FILTER(LANG(?ten) = "vi")
+}
+ORDER BY DESC(?danSoVi)
+LIMIT 20

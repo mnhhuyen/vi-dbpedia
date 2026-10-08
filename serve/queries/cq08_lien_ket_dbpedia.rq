@@ -1,0 +1,16 @@
+# CQ8: Tỉnh của ta và tài nguyên tương ứng trên DBpedia tiếng Anh, Wikidata
+PREFIX vio:  <https://w3id.org/vi-dbpedia/ontology/>
+PREFIX vir:  <https://w3id.org/vi-dbpedia/resource/>
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX dbr:  <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT ?ten ?dbpedia ?wikidata WHERE {
+  ?x a vio:Tinh ; rdfs:label ?ten .
+  FILTER NOT EXISTS { ?x dbo:dissolutionDate ?d }
+  OPTIONAL { ?x owl:sameAs ?dbpedia FILTER(STRSTARTS(STR(?dbpedia), "http://dbpedia.org/")) }
+  OPTIONAL { ?x owl:sameAs ?wikidata FILTER(STRSTARTS(STR(?wikidata), "http://www.wikidata.org/")) }
+  FILTER(LANG(?ten) = "vi")
+}
+ORDER BY ?ten

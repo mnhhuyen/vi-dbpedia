@@ -1,0 +1,27 @@
+# Cấu hình Apache Jena Fuseki cho DBpedia tiếng Việt.
+# Chạy:  fuseki-server --config=config.ttl
+# Giao diện web:   http://localhost:3030/
+# SPARQL endpoint: http://localhost:3030/vi-dbpedia/sparql
+
+PREFIX fuseki: <http://jena.apache.org/fuseki#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX tdb2:   <http://jena.apache.org/2016/tdb#>
+
+[] rdf:type fuseki:Server .
+
+<#service> rdf:type fuseki:Service ;
+    fuseki:name "vi-dbpedia" ;
+    fuseki:endpoint [ fuseki:operation fuseki:query  ; fuseki:name "sparql" ] ;
+    fuseki:endpoint [ fuseki:operation fuseki:query  ; fuseki:name "query"  ] ;
+    fuseki:endpoint [ fuseki:operation fuseki:gsp-r  ; fuseki:name "get"    ] ;
+    # Hai endpoint ghi dưới đây dùng cho load.py. Chỉ mở trên máy cá nhân;
+    # nếu đưa endpoint lên mạng thì xoá hai dòng này.
+    fuseki:endpoint [ fuseki:operation fuseki:gsp-rw ; fuseki:name "data"   ] ;
+    fuseki:endpoint [ fuseki:operation fuseki:update ; fuseki:name "update" ] ;
+    fuseki:dataset <#dataset> .
+
+# TDB2: lưu trên đĩa, khởi động lại không mất dữ liệu.
+# unionDefaultGraph: truy vấn không ghi GRAPH sẽ thấy dữ liệu của MỌI named graph.
+<#dataset> rdf:type tdb2:DatasetTDB2 ;
+    tdb2:location "databases/vi-dbpedia" ;
+    tdb2:unionDefaultGraph true .
