@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/vi-dbpedia/void/dataset> a void:Dataset ;
+    dcterms:created "2026-10-09"^^xsd:date ;
+    dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> ;
+    dcterms:source <https://vi.wikipedia.org/> ;
+    dcterms:title "DBpedia tiếng Việt (bản thử nghiệm)"@vi ;
+    void:entities 496 ;
+    void:subset <https://w3id.org/vi-dbpedia/void/abstracts>,
+        <https://w3id.org/vi-dbpedia/void/categories>,
+        <https://w3id.org/vi-dbpedia/void/geo-coordinates>,
+        <https://w3id.org/vi-dbpedia/void/infobox-properties>,
+        <https://w3id.org/vi-dbpedia/void/instance-types>,
+        <https://w3id.org/vi-dbpedia/void/labels>,
+        <https://w3id.org/vi-dbpedia/void/mappingbased-literals>,
+        <https://w3id.org/vi-dbpedia/void/mappingbased-objects>,
+        <https://w3id.org/vi-dbpedia/void/page-links>,
+        <https://w3id.org/vi-dbpedia/void/provenance> ;
+    void:triples 56554 ;
+    void:uriSpace "https://w3id.org/vi-dbpedia/resource/" ;
+    void:vocabulary <http://dbpedia.org/ontology/>,
+        dcterms:,
+        <http://www.w3.org/2003/01/geo/wgs84_pos#>,
+        prov:,
+        foaf:,
+        <https://w3id.org/vi-dbpedia/ontology/> .
+
+<https://w3id.org/vi-dbpedia/void/abstracts> a void:Dataset ;
+    void:dataDump <https://w3id.org/vi-dbpedia/dumps/abstracts.nt> ;
+    void:triples 496 .
+
+<https://w3id.org/vi-dbpedia/void/categories> a void:Dataset ;
+    void:dataDump <https://w3id.org/vi-dbpedia/dumps/categories.nt> ;
+    void:triples 1953 .
+
+<https://w3id.org/vi-dbpedia/void/geo-coordinates> a void:Dataset ;
+    void:dataDump <https://w3id.org/vi-dbpedia/dumps/geo-coordinates.nt> ;
+    void:triples 48 .
+
+<https://w3id.org/vi-dbpedia/void/infobox-properties> a void:Dataset ;
+    void:dataDump <https://w3id.org/vi-dbpedia/dumps/infobox-properties.nt> ;
+    void:triples 8226 .
+
+<https://w3id.org/vi-dbpedia/void/instance-types> a void:Dataset ;
+    void:dataDump <https://w3id.org/vi-dbpedia/dumps/instance-types.nt> ;
+    void:triples 321 .
+
+<https://w3id.org/vi-dbpedia/void/labels> a void:Dataset ;
+    void:dataDump <https://w3id.org/vi-dbpedia/dumps/labels.nt> ;
+    void:triples 496 .
+
+<https://w3id.org/vi-dbpedia/void/mappingbased-literals> a void:Dataset ;
+    void:dataDump <https://w3id.org/vi-dbpedia/dumps/mappingbased-literals.nt> ;
+    void:triples 1987 .
+
+<https://w3id.org/vi-dbpedia/void/mappingbased-objects> a void:Dataset ;
+    void:dataDump <https://w3id.org/vi-dbpedia/dumps/mappingbased-objects.nt> ;
+    void:triples 865 .
+
+<https://w3id.org/vi-dbpedia/void/page-links> a void:Dataset ;
+    void:dataDump <https://w3id.org/vi-dbpedia/dumps/page-links.nt> ;
+    void:triples 40674 .
+
+<https://w3id.org/vi-dbpedia/void/provenance> a void:Dataset ;
+    void:dataDump <https://w3id.org/vi-dbpedia/dumps/provenance.nt> ;
+    void:triples 1488 .
+

@@ -1,0 +1,164 @@
+# Bảng mapping infobox tiếng Việt -> ontology (dbo: + vio:)
+# Tương đương "DBpedia Mappings Wiki" của DBpedia tiếng Anh.
+#
+# Cấu trúc mỗi template:
+#   class_rules : danh sách luật, luật ĐẦU TIÊN khớp sẽ quyết định lớp của bài
+#                 (không luật nào khớp -> bài không được gán lớp, chỉ có dữ liệu thô)
+#   properties  : tham số infobox -> thuộc tính ontology
+#
+# Điều kiện trong class_rules:
+#   source_category : bài được tìm thấy trong thể loại này (từ source_categories.tsv.gz)
+#   title_in        : tiêu đề nằm trong danh sách
+#   title_prefix    : tiêu đề bắt đầu bằng (không phân biệt hoa thường)
+#   title_contains  : tiêu đề chứa chuỗi (không phân biệt hoa thường)
+#   class: null     : khớp thì KHÔNG gán lớp (dùng để loại trừ)
+#
+# Thuộc tính:
+#   parser       : cách đọc giá trị (xem parsers.py)
+#   property     : thuộc tính đích
+#   datatype     : kiểu literal (bỏ trống với object property)
+#   lang         : tag ngôn ngữ cho chuỗi
+#   year_property: dùng thuộc tính này nếu parser date chỉ đọc được năm
+#   object       : true nếu giá trị là tài nguyên (liên kết tới bài khác)
+#   target_class / target_prefix : chỉ nhận đích có lớp này / tiêu đề bắt đầu bằng chuỗi này
+#                  (tránh để luật rdfs3 gán sai lớp cho đích)
+#   routes       : chọn thuộc tính theo tiêu đề của đích (luật đầu tiên khớp); không khớp -> bỏ
+#   text_fallback: nếu không có liên kết, nối chữ thường với một bài đã biết (tiêu đề bài
+#                  hoặc chữ hiển thị của liên kết ở các bài khác)
+
+base: "https://w3id.org/vi-dbpedia/"
+
+prefixes:
+  vio: "https://w3id.org/vi-dbpedia/ontology/"
+  dbo: "http://dbpedia.org/ontology/"
+  geo: "http://www.w3.org/2003/01/geo/wgs84_pos#"
+  foaf: "http://xmlns.com/foaf/0.1/"
+  rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+
+# Tham số chỉ phục vụ trình bày, không đưa vào tầng dữ liệu thô (vip:)
+skip_raw_params: [logo, ghi chú logo, hình, image, cỡ hình, logo_size, caption, chú thích hình,
+  ghi chú hình, nhiều hình, bản đồ 1, tựa bản đồ 1, giấu bản đồ mặc định, màu nền tựa, màu chữ tựa,
+  border, total_width, image_style, caption_align, perrow, quân kỳ, hiệu kỳ, công an hiệu]
+
+university_rules: &university_rules
+  - {title_contains: "phân hiệu", class: null}          # phân hiệu không phải cơ sở độc lập
+  - {title_prefix: "Trường Cao đẳng", class: null}
+  - {title_in: ["Đại học Huế", "Đại học Thái Nguyên", "Đại học Đà Nẵng"], class: vio:DaiHocVung}
+  - {title_prefix: "Đại học Quốc gia", class: vio:DaiHocQuocGia}
+  - {title_prefix: "Đại học ", class: vio:DaiHoc}
+  - {title_prefix: "Trường Đại học", class: vio:TruongDaiHoc}
+  - {title_prefix: "Học viện", class: vio:HocVien}
+
+university_common: &university_common
+  web:              {parser: url, property: foaf:homepage, iri: true}
+  website:          {parser: url, property: foaf:homepage, iri: true}
+  khẩu hiệu:        {parser: text, property: dbo:motto, datatype: xsd:string}
+  motto:            {parser: text, property: dbo:motto, datatype: xsd:string}
+
+templates:
+
+  # ---------------------------------------------------------------- hành chính
+  Thông tin đơn vị hành chính Việt Nam:
+    class_rules:
+      - {source_category: "Thành phố trực thuộc trung ương (Việt Nam)", class: vio:ThanhPhoTrucThuocTrungUong}
+      - {source_category: "Tỉnh của Việt Nam", class: vio:Tinh}
+      - {source_category: "Tỉnh cũ Việt Nam", class: vio:Tinh}
+    properties:
+      dân số:           {parser: int, property: dbo:populationTotal, datatype: xsd:nonNegativeInteger}
+      thời điểm dân số: {parser: date, property: dbo:populationAsOf, datatype: xsd:date}   # cần ngày đầy đủ
+      diện tích:        {parser: area_m2, property: dbo:areaTotal, datatype: xsd:double}
+      vĩ độ:            {parser: float, property: geo:lat, datatype: xsd:float}
+      kinh độ:          {parser: float, property: geo:long, datatype: xsd:float}
+      thành lập:        {parser: date, property: dbo:foundingDate, datatype: xsd:date, year_property: dbo:foundingYear}
+      giải thể:         {parser: date, property: dbo:dissolutionDate, datatype: xsd:date, year_property: dbo:dissolutionYear}
+      mã hành chính:    {parser: code, property: vio:maDonViHanhChinh, datatype: xsd:string}
+      mã bưu chính:     {parser: code_list, property: dbo:postalCode, datatype: xsd:string}
+      mã điện thoại:    {parser: code_list, property: dbo:areaCode, datatype: xsd:string}
+      biển số xe:       {parser: code_list, property: dbo:vehicleCode, datatype: xsd:string}
+      tên cũ:           {parser: text_list, property: dbo:formerName, lang: vi}
+      chủ tịch ubnd:    {parser: first_link, property: dbo:leaderName, object: true}
+      tỉnh lỵ:          {parser: first_link, property: vio:trungTamHanhChinh, object: true, text_fallback: true}
+      web:              {parser: url, property: foaf:homepage, iri: true}
+    # mã địa lý: KHÔNG map sang dbo:isoCodeRegion vì domain của nó là dbo:Settlement
+    # (luật rdfs2 sẽ suy ra tỉnh là "khu dân cư"). Giữ ở tầng thô.
+
+  # ---------------------------------------------------------------- giáo dục đại học
+  Thông tin trường học:
+    class_rules: *university_rules
+    properties:
+      <<: *university_common
+      ngày thành lập:        {parser: date, property: dbo:foundingDate, datatype: xsd:date, year_property: dbo:foundingYear}
+      loại hình:             {parser: ownership, property: vio:loaiHinhSoHuu, object: true, vio_individual: true}
+      tên tiếng anh:         {parser: text, property: rdfs:label, lang: en}
+      viết tắt:              {parser: text, property: dbo:abbreviation, datatype: xsd:string}
+      tên cũ:                {parser: text_list, property: dbo:formerName, lang: vi}
+      mã trường:             {parser: code, property: vio:maTuyenSinh, datatype: xsd:string}
+      giảng viên:            {parser: int, property: dbo:facultySize, datatype: xsd:nonNegativeInteger}
+      nhân viên:             {parser: int, property: dbo:staff, datatype: xsd:nonNegativeInteger}
+      sinh viên:             {parser: int, property: dbo:numberOfStudents, datatype: xsd:nonNegativeInteger}
+      sinh viên đại học:     {parser: int, property: dbo:numberOfUndergraduateStudents, datatype: xsd:nonNegativeInteger}
+      sinh viên sau đại học: {parser: int, property: dbo:numberOfPostgraduateStudents, datatype: xsd:nonNegativeInteger}
+      nghiên cứu sinh:       {parser: int, property: dbo:numberOfDoctoralStudents, datatype: xsd:nonNegativeInteger}
+      tọa độ:                {parser: coord, property: geo}
+      hiệu trưởng:           {parser: first_link, property: dbo:rector, object: true}
+      giám đốc:              {parser: first_link, property: dbo:rector, object: true}
+      thành phố:             {parser: first_link, property: vio:truSoTai, object: true, text_fallback: true, target_class: vio:DonViHanhChinhVietNam}
+      tỉnh:                  {parser: first_link, property: vio:truSoTai, object: true, text_fallback: true, target_class: vio:DonViHanhChinhVietNam}
+      # "thành viên của" có khi là đại học, có khi là bộ chủ quản hoặc tập đoàn sở hữu:
+      # chọn thuộc tính theo loại đích (routes)
+      thành viên của:        {parser: links, object: true, text_fallback: true,
+                              routes: [{target_prefix: ["Đại học "], property: vio:laThanhVienCua},
+                                     {target_prefix: ["Bộ ", "Ủy ban", "Ban "], property: vio:coQuanChuQuan},
+                                     {target_prefix: ["Tập đoàn", "FPT"], property: dbo:owningOrganisation}]}
+      thuộc tổ chức:         {parser: links, object: true, text_fallback: true,
+                              routes: [{target_prefix: ["Đại học "], property: vio:laThanhVienCua},
+                                     {target_prefix: ["Bộ ", "Ủy ban", "Ban "], property: vio:coQuanChuQuan},
+                                     {target_prefix: ["Tập đoàn", "FPT"], property: dbo:owningOrganisation}]}
+      bộ chủ quản:           {parser: links, object: true, text_fallback: true,
+                              routes: [{target_prefix: ["Đại học "], property: vio:laThanhVienCua},
+                                     {target_prefix: ["Bộ ", "Ủy ban", "Ban "], property: vio:coQuanChuQuan},
+                                     {target_prefix: ["Tập đoàn", "FPT"], property: dbo:owningOrganisation}]}
+
+  Thông tin trường đại học:
+    class_rules: *university_rules
+    properties:
+      <<: *university_common
+      established:  {parser: date, property: dbo:foundingDate, datatype: xsd:date, year_property: dbo:foundingYear}
+      type:         {parser: ownership, property: vio:loaiHinhSoHuu, object: true, vio_individual: true}
+      other_name:   {parser: text, property: rdfs:label, lang: en}
+      coordinates:  {parser: coord, property: geo}
+
+  Infobox university:
+    class_rules: *university_rules
+    properties:
+      <<: *university_common
+      ngày thành lập: {parser: date, property: dbo:foundingDate, datatype: xsd:date, year_property: dbo:foundingYear}
+      established:    {parser: date, property: dbo:foundingDate, datatype: xsd:date, year_property: dbo:foundingYear}
+      loại hình:      {parser: ownership, property: vio:loaiHinhSoHuu, object: true, vio_individual: true}
+      type:           {parser: ownership, property: vio:loaiHinhSoHuu, object: true, vio_individual: true}
+      thành phố:      {parser: first_link, property: vio:truSoTai, object: true, target_class: vio:DonViHanhChinhVietNam}
+      city:           {parser: first_link, property: vio:truSoTai, object: true, text_fallback: true, target_class: vio:DonViHanhChinhVietNam}
+      staff:          {parser: int, property: dbo:staff, datatype: xsd:nonNegativeInteger}
+
+  # Học viện quân đội / công an dùng template đơn vị vũ trang, nhưng vẫn là cơ sở giáo dục đại học
+  Thông tin đơn vị quân sự Việt Nam:
+    class_rules: *university_rules
+    properties:
+      <<: *university_common
+      thành lập:   {parser: date, property: dbo:foundingDate, datatype: xsd:date, year_property: dbo:foundingYear}
+      giải thể:    {parser: date, property: dbo:dissolutionDate, datatype: xsd:date, year_property: dbo:dissolutionYear}
+      bộ phận của: {parser: links, property: vio:coQuanChuQuan, object: true, text_fallback: true, target_prefix: ["Bộ "]}
+      trực thuộc:  {parser: links, property: vio:coQuanChuQuan, object: true, text_fallback: true, target_prefix: ["Bộ "]}
+
+  Thông tin đơn vị công an nhân dân Việt Nam:
+    class_rules: *university_rules
+    properties:
+      <<: *university_common
+      thành lập:   {parser: date, property: dbo:foundingDate, datatype: xsd:date, year_property: dbo:foundingYear}
+      bộ phận của: {parser: links, property: vio:coQuanChuQuan, object: true, text_fallback: true, target_prefix: ["Bộ "]}
+      trực thuộc:  {parser: links, property: vio:coQuanChuQuan, object: true, text_fallback: true, target_prefix: ["Bộ "]}
+
+  # Không map: "Infobox" (template chung, dùng cho tỉnh thời Việt Nam Cộng hòa -> ngoài phạm vi,
+  # vì vio:DonViHanhChinhVietNam suy ra dbo:country dbr:Vietnam), "Thông tin nhân vật", "Thông tin
+  # bệnh viện"... Các bài này vẫn có dữ liệu chung (nhãn, tóm tắt, thể loại) và dữ liệu thô vip:.

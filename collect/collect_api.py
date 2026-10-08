@@ -8,6 +8,7 @@ trước). Đầu ra cùng định dạng với collect_articles.py, nên các b
   data/articles.jsonl.gz    {"id", "title", "text"}         -> bước 3
   data/langlinks.tsv.gz     tiêu đề tiếng Việt <TAB> tiêu đề tiếng Anh  -> bước 4
   data/wikidata.tsv.gz      tiêu đề tiếng Việt <TAB> mã Wikidata (Q...) -> bước 4
+  data/source_categories.tsv.gz  tiêu đề <TAB> thể loại nơi tìm thấy bài -> bước 3
   reports/collect_summary.json, reports/categories_visited.txt
 
 Cách chạy:
@@ -139,7 +140,7 @@ class Wiki:
 def crawl(wiki, roots, depth, log):
     """Duyệt thể loại theo chiều rộng, gom các bài viết.
     roots: danh sách (tên thể loại, độ sâu tối đa riêng hoặc None = dùng depth chung)."""
-    seen_cats, pages = set(), {}
+    seen_cats, pages, found_in = set(), {}, {}
     frontier = [(c, 0, depth if d is None else d) for c, d in roots]
     while frontier:
         cat, d, maxd = frontier.pop(0)
@@ -150,8 +151,10 @@ def crawl(wiki, roots, depth, log):
         log.write(f"{'  ' * d}{cat}  ({len(members)} bài, {len(subcats)} thể loại con)\n")
         for pid, title in members:
             pages.setdefault(pid, title)
+            found_in.setdefault(pid, set()).add(cat)
         if d < maxd:
             frontier += [(s, d + 1, maxd) for s in subcats]
+    crawl.found_in = found_in          # thể loại nơi tìm thấy mỗi bài (dùng ở bước 3)
     return pages, seen_cats
 
 
@@ -221,6 +224,12 @@ def main():
     with open(rep / "categories_visited.txt", "w", encoding="utf-8") as log:
         pages, cats = crawl(wiki, roots, args.depth, log)
     ids = sorted(pages)[: args.limit or None]
+    # Ghi lại bài nào được tìm thấy trong thể loại nào: bước 3 dùng để phân biệt
+    # tỉnh / thành phố trực thuộc trung ương / tỉnh cũ (cùng dùng một template infobox).
+    with gzip.open(out / "source_categories.tsv.gz", "wt", encoding="utf-8") as fsc:
+        for pid in ids:
+            for c in sorted(crawl.found_in.get(pid, ())):
+                fsc.write(f"{pages[pid]}\t{c}\n")
     print(f"{len(cats)} thể loại, {len(pages)} bài; sẽ tải {len(ids)} bài")
 
     # Trong lúc tải, ghi ra file văn bản thường (*.part) theo từng đợt, để nếu bị ngắt
