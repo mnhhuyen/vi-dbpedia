@@ -1,0 +1,64 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+<https://w3id.org/vi-dbpedia/ontology/dbo-vi-labels>
+    a owl:Ontology ;
+    rdfs:label "Nhãn tiếng Việt cho DBpedia Ontology"@vi , "Vietnamese labels for the DBpedia Ontology"@en .
+
+# Nhãn tiếng Việt cho các lớp và thuộc tính của DBpedia Ontology
+# được dùng trong phạm vi v0.1 (đơn vị hành chính + giáo dục đại học).
+# File này chỉ BỔ SUNG nhãn, không thay đổi định nghĩa của dbo:.
+
+### Lớp
+dbo:Place                            rdfs:label "địa điểm"@vi .
+dbo:PopulatedPlace                   rdfs:label "nơi có dân cư"@vi .
+dbo:Region                           rdfs:label "vùng"@vi .
+dbo:AdministrativeRegion             rdfs:label "vùng hành chính"@vi .
+dbo:GovernmentalAdministrativeRegion rdfs:label "đơn vị hành chính nhà nước"@vi .
+dbo:Province                         rdfs:label "tỉnh"@vi .
+dbo:District                         rdfs:label "quận huyện"@vi .
+dbo:Settlement                       rdfs:label "khu dân cư"@vi .
+dbo:City                             rdfs:label "thành phố"@vi .
+dbo:Town                             rdfs:label "thị trấn"@vi .
+dbo:Country                          rdfs:label "quốc gia"@vi .
+dbo:Agent                            rdfs:label "tác nhân"@vi .
+dbo:Organisation                     rdfs:label "tổ chức"@vi .
+dbo:EducationalInstitution           rdfs:label "cơ sở giáo dục"@vi .
+dbo:University                       rdfs:label "trường đại học"@vi .
+
+### Thuộc tính — đơn vị hành chính
+dbo:country                          rdfs:label "quốc gia"@vi .
+dbo:isPartOf                         rdfs:label "là một phần của"@vi .
+dbo:location                         rdfs:label "vị trí"@vi .
+dbo:populationTotal                  rdfs:label "tổng dân số"@vi .
+dbo:populationDensity                rdfs:label "mật độ dân số (người/km²)"@vi .
+dbo:areaTotal                        rdfs:label "tổng diện tích (m²)"@vi .
+dbo:postalCode                       rdfs:label "mã bưu chính"@vi .
+dbo:areaCode                         rdfs:label "mã vùng điện thoại"@vi .
+dbo:vehicleCode                      rdfs:label "biển số xe"@vi .
+dbo:leaderName                       rdfs:label "người đứng đầu"@vi .
+dbo:leaderTitle                      rdfs:label "chức danh người đứng đầu"@vi .
+dbo:foundingDate                     rdfs:label "ngày thành lập"@vi .
+dbo:foundingYear                     rdfs:label "năm thành lập"@vi .
+dbo:dissolutionDate                  rdfs:label "ngày giải thể"@vi .
+dbo:successor                        rdfs:label "kế nhiệm"@vi .
+dbo:predecessor                      rdfs:label "tiền nhiệm"@vi .
+
+### Thuộc tính — giáo dục đại học
+dbo:parentOrganisation               rdfs:label "tổ chức cấp trên"@vi .
+dbo:rector                           rdfs:label "hiệu trưởng"@vi .
+dbo:numberOfStudents                 rdfs:label "số sinh viên"@vi .
+dbo:numberOfUndergraduateStudents    rdfs:label "số sinh viên đại học"@vi .
+dbo:numberOfPostgraduateStudents     rdfs:label "số học viên sau đại học"@vi .
+dbo:numberOfDoctoralStudents         rdfs:label "số nghiên cứu sinh"@vi .
+dbo:facultySize                      rdfs:label "số giảng viên"@vi .
+dbo:staff                            rdfs:label "số nhân viên"@vi .
+dbo:campus                           rdfs:label "cơ sở"@vi .
+dbo:motto                            rdfs:label "khẩu hiệu"@vi .
+dbo:formerName                       rdfs:label "tên cũ"@vi .
+
+### Thuộc tính chung
+dbo:abstract                         rdfs:label "tóm tắt"@vi .
+dbo:thumbnail                        rdfs:label "ảnh đại diện"@vi .
+dbo:wikiPageWikiLink                 rdfs:label "liên kết tới trang Wikipedia khác"@vi .

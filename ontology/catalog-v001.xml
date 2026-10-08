@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Protégé tự đọc file này khi mở vio-ontology.ttl: các owl:imports
+     được chuyển hướng tới file cục bộ thay vì tải qua mạng. -->
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri name="http://dbpedia.org/ontology/" uri="dbo-patched-dl.ttl"/>
+    <uri name="https://w3id.org/vi-dbpedia/ontology/dbo-vi-labels" uri="dbo-vi-labels.ttl"/>
+</catalog>

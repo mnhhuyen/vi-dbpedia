@@ -1,0 +1,34 @@
+@prefix vio:  <https://w3id.org/vi-dbpedia/ontology/> .
+@prefix vir:  <https://w3id.org/vi-dbpedia/resource/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/vi-dbpedia/test/sample-abox>
+    a owl:Ontology ;
+    owl:imports <https://w3id.org/vi-dbpedia/ontology/> .
+
+# Dữ liệu MINH HOẠ để kiểm thử ontology, không phải dữ liệu trích xuất.
+# Mô tả theo hệ thống 3 cấp trước 2025.
+
+vir:Hà_Nội a vio:ThanhPhoTrucThuocTrungUong ;
+    rdfs:label "Hà Nội"@vi .
+
+vir:Cầu_Giấy a vio:Quan ;
+    rdfs:label "Cầu Giấy"@vi ;
+    vio:thuocDonViHanhChinh vir:Hà_Nội .
+
+vir:Dịch_Vọng_Hậu a vio:Phuong ;
+    rdfs:label "Dịch Vọng Hậu"@vi ;
+    vio:thuocDonViHanhChinh vir:Cầu_Giấy .
+
+vir:Đại_học_Quốc_gia_Hà_Nội a vio:DaiHocQuocGia ;
+    rdfs:label "Đại học Quốc gia Hà Nội"@vi ;
+    vio:loaiHinhSoHuu vio:CongLap .
+
+vir:Trường_Đại_học_Công_nghệ_ĐHQGHN a vio:TruongDaiHoc ;
+    rdfs:label "Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội"@vi ;
+    vio:laThanhVienCua vir:Đại_học_Quốc_gia_Hà_Nội ;
+    vio:truSoTai vir:Dịch_Vọng_Hậu ;
+    vio:maTuyenSinh "QHI" .

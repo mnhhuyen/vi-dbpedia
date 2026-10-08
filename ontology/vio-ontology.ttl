@@ -1,0 +1,358 @@
+@prefix vio:     <https://w3id.org/vi-dbpedia/ontology/> .
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vann:    <http://purl.org/vocab/vann/> .
+
+#################################################################
+#  Ontology header
+#################################################################
+
+<https://w3id.org/vi-dbpedia/ontology/>
+    a owl:Ontology ;
+    owl:imports <http://dbpedia.org/ontology/> ,
+                <https://w3id.org/vi-dbpedia/ontology/dbo-vi-labels> ;
+    owl:versionInfo "0.1.0" ;
+    dcterms:title "Ontology mở rộng cho DBpedia tiếng Việt"@vi ,
+                  "Vietnamese DBpedia Ontology Extension"@en ;
+    dcterms:description """Mở rộng DBpedia Ontology với các khái niệm đặc thù của Việt Nam.
+Phạm vi phiên bản 0.1: đơn vị hành chính và cơ sở giáo dục đại học.
+Mọi lớp mới đều được neo vào cây phân cấp của DBpedia Ontology (dbo:)."""@vi ,
+        """Extends the DBpedia Ontology with Vietnam-specific concepts.
+Scope of version 0.1: administrative units and higher education institutions.
+Every new class is anchored in the DBpedia Ontology (dbo:) hierarchy."""@en ;
+    vann:preferredNamespacePrefix "vio" ;
+    vann:preferredNamespaceUri "https://w3id.org/vi-dbpedia/ontology/" ;
+    dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> .
+
+
+#################################################################
+#  PHẦN A. ĐƠN VỊ HÀNH CHÍNH
+#
+#  Mô hình bao gồm cả hệ thống 3 cấp (trước 2025) và 2 cấp (từ 2025),
+#  vì Wikipedia tiếng Việt chứa bài viết về đơn vị của cả hai giai đoạn.
+#  Đơn vị đã giải thể được đánh dấu bằng dbo:dissolutionDate.
+#################################################################
+
+### A1. Lớp gốc
+
+vio:DonViHanhChinhVietNam
+    a owl:Class ;
+    rdfs:subClassOf dbo:GovernmentalAdministrativeRegion ;
+    # owl:hasValue: mọi đơn vị hành chính Việt Nam đều thuộc quốc gia Việt Nam.
+    # Reasoner tự suy ra triple  ?x dbo:country dbr:Vietnam  -> liên kết sẵn sang DBpedia tiếng Anh.
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty dbo:country ;
+        owl:hasValue dbr:Vietnam
+    ] ;
+    rdfs:label "đơn vị hành chính Việt Nam"@vi , "administrative unit of Vietnam"@en ;
+    rdfs:comment "Đơn vị hành chính lãnh thổ của Việt Nam ở bất kỳ cấp nào, hiện hành hoặc đã giải thể."@vi ,
+                 "A territorial administrative unit of Vietnam at any level, current or dissolved."@en .
+
+
+### A2. Ba cấp hành chính
+
+vio:DonViHanhChinhCapTinh
+    a owl:Class ;
+    rdfs:subClassOf vio:DonViHanhChinhVietNam ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:unionOf ( vio:Tinh vio:ThanhPhoTrucThuocTrungUong )
+    ] ;
+    rdfs:label "đơn vị hành chính cấp tỉnh"@vi , "province-level administrative unit"@en ;
+    rdfs:comment "Cấp hành chính cao nhất dưới cấp quốc gia: tỉnh hoặc thành phố trực thuộc trung ương."@vi ,
+                 "Highest administrative level below the nation: a province or a centrally-governed city."@en .
+
+vio:DonViHanhChinhCapHuyen
+    a owl:Class ;
+    rdfs:subClassOf vio:DonViHanhChinhVietNam , dbo:District ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:unionOf ( vio:Quan vio:Huyen vio:ThiXa vio:ThanhPhoCapHuyen )
+    ] ;
+    # Mỗi đơn vị cấp huyện luôn thuộc một đơn vị cấp tỉnh nào đó.
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty vio:thuocDonViHanhChinh ;
+        owl:someValuesFrom vio:DonViHanhChinhCapTinh
+    ] ;
+    rdfs:label "đơn vị hành chính cấp huyện"@vi , "district-level administrative unit"@en ;
+    rdfs:comment "Cấp hành chính trung gian, đã bãi bỏ từ ngày 01/07/2025 khi Việt Nam chuyển sang mô hình chính quyền địa phương 2 cấp."@vi ,
+                 "Intermediate administrative level, abolished on 1 July 2025 when Vietnam moved to a two-tier local government model."@en .
+
+vio:DonViHanhChinhCapXa
+    a owl:Class ;
+    rdfs:subClassOf vio:DonViHanhChinhVietNam ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:unionOf ( vio:Xa vio:Phuong vio:ThiTran vio:DacKhu )
+    ] ;
+    # Mỗi đơn vị cấp xã luôn (trực tiếp hoặc gián tiếp) thuộc một đơn vị cấp tỉnh.
+    # Vì vio:thuocDonViHanhChinh có tính bắc cầu, ràng buộc này đúng cho cả mô hình 3 cấp lẫn 2 cấp.
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty vio:thuocDonViHanhChinh ;
+        owl:someValuesFrom vio:DonViHanhChinhCapTinh
+    ] ;
+    rdfs:label "đơn vị hành chính cấp xã"@vi , "commune-level administrative unit"@en ;
+    rdfs:comment "Cấp hành chính cơ sở: xã, phường, thị trấn (trước 2025) hoặc đặc khu (từ 2025)."@vi ,
+                 "Grassroots administrative level: commune, ward, township (before 2025) or special zone (from 2025)."@en .
+
+[] a owl:AllDisjointClasses ;
+   owl:members ( vio:DonViHanhChinhCapTinh vio:DonViHanhChinhCapHuyen vio:DonViHanhChinhCapXa ) .
+
+
+### A3. Loại đơn vị cụ thể — cấp tỉnh
+
+vio:Tinh
+    a owl:Class ;
+    rdfs:subClassOf vio:DonViHanhChinhCapTinh , dbo:Province ;
+    rdfs:label "tỉnh"@vi , "province of Vietnam"@en .
+
+vio:ThanhPhoTrucThuocTrungUong
+    a owl:Class ;
+    rdfs:subClassOf vio:DonViHanhChinhCapTinh , dbo:City ;
+    rdfs:label "thành phố trực thuộc trung ương"@vi , "centrally-governed city"@en ;
+    rdfs:comment "Ví dụ: Hà Nội, Thành phố Hồ Chí Minh. Được xếp đồng thời vào dbo:City để tương thích với cách DBpedia tiếng Anh phân loại các thành phố này."@vi ,
+                 "E.g. Hanoi, Ho Chi Minh City. Also typed as dbo:City for compatibility with how English DBpedia classifies these cities."@en .
+
+[] a owl:AllDisjointClasses ;
+   owl:members ( vio:Tinh vio:ThanhPhoTrucThuocTrungUong ) .
+
+
+### A4. Loại đơn vị cụ thể — cấp huyện (đã bãi bỏ từ 2025)
+
+vio:Quan
+    a owl:Class ;
+    rdfs:subClassOf vio:DonViHanhChinhCapHuyen ;
+    rdfs:label "quận"@vi , "urban district"@en .
+
+vio:Huyen
+    a owl:Class ;
+    rdfs:subClassOf vio:DonViHanhChinhCapHuyen ;
+    rdfs:label "huyện"@vi , "rural district"@en .
+
+vio:ThiXa
+    a owl:Class ;
+    rdfs:subClassOf vio:DonViHanhChinhCapHuyen , dbo:Town ;
+    rdfs:label "thị xã"@vi , "district-level town"@en .
+
+vio:ThanhPhoCapHuyen
+    a owl:Class ;
+    rdfs:subClassOf vio:DonViHanhChinhCapHuyen , dbo:City ;
+    rdfs:label "thành phố cấp huyện"@vi , "district-level city"@en ;
+    rdfs:comment "Thành phố thuộc tỉnh hoặc thành phố thuộc thành phố trực thuộc trung ương (ví dụ: Thủ Đức)."@vi ,
+                 "A provincial city, or a city under a centrally-governed city (e.g. Thu Duc)."@en .
+
+[] a owl:AllDisjointClasses ;
+   owl:members ( vio:Quan vio:Huyen vio:ThiXa vio:ThanhPhoCapHuyen ) .
+
+
+### A5. Loại đơn vị cụ thể — cấp xã
+
+vio:Xa
+    a owl:Class ;
+    rdfs:subClassOf vio:DonViHanhChinhCapXa ;
+    rdfs:label "xã"@vi , "commune"@en .
+
+vio:Phuong
+    a owl:Class ;
+    rdfs:subClassOf vio:DonViHanhChinhCapXa ;
+    rdfs:label "phường"@vi , "ward"@en .
+
+vio:ThiTran
+    a owl:Class ;
+    rdfs:subClassOf vio:DonViHanhChinhCapXa , dbo:Town ;
+    rdfs:label "thị trấn"@vi , "township"@en ;
+    rdfs:comment "Loại đơn vị cấp xã đã bãi bỏ từ năm 2025."@vi ,
+                 "Commune-level unit type abolished in 2025."@en .
+
+vio:DacKhu
+    a owl:Class ;
+    rdfs:subClassOf vio:DonViHanhChinhCapXa ;
+    rdfs:label "đặc khu"@vi , "special zone"@en ;
+    rdfs:comment "Loại đơn vị cấp xã được thiết lập từ năm 2025, chủ yếu cho các huyện đảo trước đây."@vi ,
+                 "Commune-level unit type established in 2025, mainly for former island districts."@en .
+
+[] a owl:AllDisjointClasses ;
+   owl:members ( vio:Xa vio:Phuong vio:ThiTran vio:DacKhu ) .
+
+
+### A6. Thuộc tính của đơn vị hành chính
+
+vio:thuocDonViHanhChinh
+    a owl:ObjectProperty , owl:TransitiveProperty ;
+    rdfs:subPropertyOf dbo:isPartOf ;
+    rdfs:domain vio:DonViHanhChinhVietNam ;
+    rdfs:range  vio:DonViHanhChinhVietNam ;
+    rdfs:label "thuộc đơn vị hành chính"@vi , "administratively part of"@en ;
+    rdfs:comment """Đơn vị chủ thể trực thuộc đơn vị đối tượng. Có tính bắc cầu: xã thuộc huyện, huyện thuộc tỉnh => xã thuộc tỉnh.
+Cố ý KHÔNG khai báo functional: dữ liệu lịch sử có thể ghi nhận một đơn vị từng thuộc nhiều đơn vị cấp trên khác nhau qua các lần điều chỉnh địa giới."""@vi ,
+        "Transitive. Deliberately not functional, since historical data may record different parent units across boundary changes."@en .
+
+vio:coDonViTrucThuoc
+    a owl:ObjectProperty , owl:TransitiveProperty ;
+    owl:inverseOf vio:thuocDonViHanhChinh ;
+    rdfs:label "có đơn vị trực thuộc"@vi , "has administrative subdivision"@en .
+
+vio:duocSapNhapVao
+    a owl:ObjectProperty ;
+    rdfs:subPropertyOf dbo:successor ;
+    rdfs:domain vio:DonViHanhChinhVietNam ;
+    rdfs:range  vio:DonViHanhChinhVietNam ;
+    rdfs:label "được sáp nhập vào"@vi , "merged into"@en ;
+    rdfs:comment "Đơn vị chủ thể (đã giải thể) được sáp nhập vào đơn vị đối tượng. Không functional vì một đơn vị có thể bị chia tách vào nhiều đơn vị mới."@vi ,
+                 "The subject (dissolved) unit was merged into the object unit. Not functional, since a unit may be split across several new units."@en .
+
+vio:hinhThanhTuSapNhap
+    a owl:ObjectProperty ;
+    owl:inverseOf vio:duocSapNhapVao ;
+    rdfs:subPropertyOf dbo:predecessor ;
+    rdfs:label "hình thành từ sáp nhập"@vi , "formed by merging"@en .
+
+vio:trungTamHanhChinh
+    a owl:ObjectProperty ;
+    rdfs:domain vio:DonViHanhChinhVietNam ;
+    rdfs:range  vio:DonViHanhChinhVietNam ;
+    rdfs:label "trung tâm hành chính"@vi , "administrative centre"@en ;
+    rdfs:comment """Nơi đặt trụ sở cơ quan hành chính (tỉnh lỵ, huyện lỵ...).
+Không dùng dbo:capital vì dbo:capital có rdfs:range dbo:City: theo luật suy diễn rdfs3, mọi trung tâm hành chính sẽ bị suy ra là thành phố, điều này sai với các trung tâm đặt tại một phường hoặc thị trấn."""@vi ,
+        "Seat of the administrative bodies. dbo:capital is not reused because its range dbo:City would (via rule rdfs3) wrongly type every seat as a city."@en .
+
+vio:maDonViHanhChinh
+    a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:domain vio:DonViHanhChinhVietNam ;
+    rdfs:range  xsd:string ;
+    rdfs:label "mã đơn vị hành chính"@vi , "administrative unit code"@en ;
+    rdfs:comment "Mã số theo danh mục đơn vị hành chính Việt Nam. Functional: mỗi đơn vị có đúng một mã."@vi ,
+                 "Code in the official list of Vietnamese administrative units. Functional: one code per unit."@en .
+
+
+#################################################################
+#  PHẦN B. CƠ SỞ GIÁO DỤC ĐẠI HỌC
+#
+#  Theo Luật Giáo dục đại học, cơ sở giáo dục đại học ở Việt Nam
+#  gồm ba loại: đại học, trường đại học và học viện.
+#################################################################
+
+### B1. Lớp
+
+vio:CoSoGiaoDucDaiHoc
+    a owl:Class ;
+    rdfs:subClassOf dbo:University ;
+    rdfs:label "cơ sở giáo dục đại học"@vi , "higher education institution of Vietnam"@en .
+
+vio:DaiHoc
+    a owl:Class ;
+    rdfs:subClassOf vio:CoSoGiaoDucDaiHoc ;
+    rdfs:label "đại học"@vi , "multi-disciplinary university"@en ;
+    rdfs:comment "Cơ sở giáo dục đại học đa ngành, đa lĩnh vực, có các trường thành viên. Ví dụ: Đại học Quốc gia Hà Nội."@vi ,
+                 "Multi-disciplinary institution with member schools, e.g. Vietnam National University, Hanoi."@en .
+
+vio:DaiHocQuocGia
+    a owl:Class ;
+    rdfs:subClassOf vio:DaiHoc ;
+    rdfs:label "đại học quốc gia"@vi , "national university"@en .
+
+vio:DaiHocVung
+    a owl:Class ;
+    rdfs:subClassOf vio:DaiHoc ;
+    rdfs:label "đại học vùng"@vi , "regional university"@en .
+
+vio:TruongDaiHoc
+    a owl:Class ;
+    rdfs:subClassOf vio:CoSoGiaoDucDaiHoc ;
+    rdfs:label "trường đại học"@vi , "university"@en .
+
+vio:HocVien
+    a owl:Class ;
+    rdfs:subClassOf vio:CoSoGiaoDucDaiHoc ;
+    rdfs:label "học viện"@vi , "academy"@en .
+
+[] a owl:AllDisjointClasses ;
+   owl:members ( vio:DaiHoc vio:TruongDaiHoc vio:HocVien ) .
+
+[] a owl:AllDisjointClasses ;
+   owl:members ( vio:DaiHocQuocGia vio:DaiHocVung ) .
+
+
+### B2. Loại hình sở hữu (lớp liệt kê đóng bằng owl:oneOf)
+
+vio:LoaiHinhSoHuu
+    a owl:Class ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:oneOf ( vio:CongLap vio:TuThuc vio:CoVonDauTuNuocNgoai )
+    ] ;
+    rdfs:label "loại hình sở hữu"@vi , "ownership type"@en .
+
+vio:CongLap
+    a owl:NamedIndividual , vio:LoaiHinhSoHuu ;
+    rdfs:label "công lập"@vi , "public"@en .
+
+vio:TuThuc
+    a owl:NamedIndividual , vio:LoaiHinhSoHuu ;
+    rdfs:label "tư thục"@vi , "private"@en .
+
+vio:CoVonDauTuNuocNgoai
+    a owl:NamedIndividual , vio:LoaiHinhSoHuu ;
+    rdfs:label "có vốn đầu tư nước ngoài"@vi , "foreign-invested"@en .
+
+[] a owl:AllDifferent ;
+   owl:distinctMembers ( vio:CongLap vio:TuThuc vio:CoVonDauTuNuocNgoai ) .
+
+
+### B3. Thuộc tính của cơ sở giáo dục đại học
+
+vio:loaiHinhSoHuu
+    a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:domain vio:CoSoGiaoDucDaiHoc ;
+    rdfs:range  vio:LoaiHinhSoHuu ;
+    rdfs:label "loại hình sở hữu"@vi , "ownership type"@en .
+
+vio:laThanhVienCua
+    a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:subPropertyOf dbo:parentOrganisation ;
+    rdfs:domain vio:CoSoGiaoDucDaiHoc ;
+    rdfs:range  vio:DaiHoc ;
+    rdfs:label "là thành viên của"@vi , "member institution of"@en ;
+    rdfs:comment "Trường/khoa là thành viên của một đại học. Functional: mỗi trường thành viên thuộc tối đa một đại học."@vi ,
+                 "Functional: a member institution belongs to at most one multi-disciplinary university."@en .
+
+vio:coThanhVien
+    a owl:ObjectProperty ;
+    owl:inverseOf vio:laThanhVienCua ;
+    rdfs:label "có thành viên"@vi , "has member institution"@en .
+
+vio:truSoTai
+    a owl:ObjectProperty ;
+    rdfs:subPropertyOf dbo:location ;
+    rdfs:domain dbo:Organisation ;
+    rdfs:range  vio:DonViHanhChinhVietNam ;
+    # OWL 2 property chain: trụ sở tại X, X thuộc Y  =>  trụ sở tại Y.
+    # Nhờ đó chỉ cần ghi đơn vị nhỏ nhất (phường/xã), reasoner tự suy ra tỉnh/thành.
+    owl:propertyChainAxiom ( vio:truSoTai vio:thuocDonViHanhChinh ) ;
+    rdfs:label "trụ sở tại"@vi , "headquartered in"@en ;
+    rdfs:comment "Đơn vị hành chính nơi tổ chức đặt trụ sở chính. Nối hai nhóm lớp đơn vị hành chính và cơ sở giáo dục đại học."@vi ,
+                 "Administrative unit where the organisation is headquartered; connects the two class groups."@en .
+
+vio:maTuyenSinh
+    a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:domain vio:CoSoGiaoDucDaiHoc ;
+    rdfs:range  xsd:string ;
+    rdfs:label "mã tuyển sinh"@vi , "admission code"@en ;
+    rdfs:comment "Mã trường dùng trong tuyển sinh đại học (ví dụ: QHI)."@vi ,
+                 "Institution code used in national university admissions (e.g. QHI)."@en .
+
+vio:coQuanChuQuan
+    a owl:ObjectProperty ;
+    rdfs:domain vio:CoSoGiaoDucDaiHoc ;
+    rdfs:range  dbo:Organisation ;
+    rdfs:label "cơ quan chủ quản"@vi , "governing body"@en ;
+    rdfs:comment "Cơ quan quản lý trực tiếp, ví dụ Bộ Giáo dục và Đào tạo."@vi ,
+                 "Directly governing authority, e.g. the Ministry of Education and Training."@en .
