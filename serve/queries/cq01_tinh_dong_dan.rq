@@ -6,13 +6,14 @@ PREFIX dbr:  <http://dbpedia.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>
-SELECT ?ten ?danSo (ROUND(?dienTich / 1000000) AS ?dienTichKm2) ?matDo WHERE {
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+SELECT ?ten ?danSo (xsd:integer(ROUND(?dienTich / 1000000)) AS ?dienTichKm2) (xsd:decimal(?mD) AS ?matDo) WHERE {
   ?x a vio:DonViHanhChinhCapTinh ;
      rdfs:label ?ten ;
      dbo:populationTotal ?danSo .
   OPTIONAL { ?x dbo:areaTotal ?dienTich }
-  OPTIONAL { ?x dbo:populationDensity ?matDo }
-  FILTER NOT EXISTS { ?x dbo:dissolutionDate ?d }      # bỏ tỉnh đã giải thể
+  OPTIONAL { ?x dbo:populationDensity ?mD }
+  FILTER NOT EXISTS { ?x dbo:dissolutionDate|dbo:dissolutionYear ?d }      # bỏ tỉnh đã giải thể
   FILTER(LANG(?ten) = "vi")
 }
 ORDER BY DESC(?danSo)

@@ -9,8 +9,8 @@ PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>
 SELECT ?ten ?thanhLap ?giaiThe WHERE {
   ?x a vio:Tinh ;
      rdfs:label ?ten ;
-     dbo:dissolutionDate ?giaiThe .
-  OPTIONAL { ?x dbo:foundingDate ?thanhLap }
+     dbo:dissolutionDate|dbo:dissolutionYear ?giaiThe .
+  OPTIONAL { ?x dbo:foundingDate|dbo:foundingYear ?thanhLap }
   FILTER(LANG(?ten) = "vi")
 }
-ORDER BY ?giaiThe
+ORDER BY STR(?giaiThe)

@@ -12,6 +12,7 @@ SELECT ?ten ?loai WHERE {
      rdfs:label ?ten ;
      a ?loai .
   FILTER(?loai IN (vio:DaiHoc, vio:DaiHocQuocGia, vio:DaiHocVung, vio:TruongDaiHoc, vio:HocVien))
+  FILTER NOT EXISTS { ?t a ?hep . ?hep rdfs:subClassOf ?loai . FILTER(?hep != ?loai) }
   FILTER(LANG(?ten) = "vi")
 }
 ORDER BY ?loai ?ten

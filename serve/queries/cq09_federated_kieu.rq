@@ -9,7 +9,7 @@ PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>
 SELECT ?ten ?enResource (GROUP_CONCAT(DISTINCT STRAFTER(STR(?enType), "ontology/"); separator=", ") AS ?kieuTiengAnh) WHERE {
   ?x a vio:Tinh ; rdfs:label ?ten ; owl:sameAs ?enResource .
   FILTER(STRSTARTS(STR(?enResource), "http://dbpedia.org/resource/"))
-  FILTER NOT EXISTS { ?x dbo:dissolutionDate ?d }
+  FILTER NOT EXISTS { ?x dbo:dissolutionDate|dbo:dissolutionYear ?d }
   SERVICE <https://dbpedia.org/sparql> {
     ?enResource a ?enType .
     FILTER(STRSTARTS(STR(?enType), "http://dbpedia.org/ontology/"))

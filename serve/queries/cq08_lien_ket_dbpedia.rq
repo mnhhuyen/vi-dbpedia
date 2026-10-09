@@ -8,7 +8,7 @@ PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>
 SELECT ?ten ?dbpedia ?wikidata WHERE {
   ?x a vio:Tinh ; rdfs:label ?ten .
-  FILTER NOT EXISTS { ?x dbo:dissolutionDate ?d }
+  FILTER NOT EXISTS { ?x dbo:dissolutionDate|dbo:dissolutionYear ?d }
   OPTIONAL { ?x owl:sameAs ?dbpedia FILTER(STRSTARTS(STR(?dbpedia), "http://dbpedia.org/")) }
   OPTIONAL { ?x owl:sameAs ?wikidata FILTER(STRSTARTS(STR(?wikidata), "http://www.wikidata.org/")) }
   FILTER(LANG(?ten) = "vi")

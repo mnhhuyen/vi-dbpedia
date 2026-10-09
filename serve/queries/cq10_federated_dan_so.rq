@@ -10,7 +10,7 @@ SELECT ?ten ?danSoVi ?danSoEn (?danSoVi - ?danSoEn AS ?chenhLech) WHERE {
   ?x a vio:DonViHanhChinhCapTinh ; rdfs:label ?ten ;
      dbo:populationTotal ?danSoVi ; owl:sameAs ?en .
   FILTER(STRSTARTS(STR(?en), "http://dbpedia.org/resource/"))
-  FILTER NOT EXISTS { ?x dbo:dissolutionDate ?d }
+  FILTER NOT EXISTS { ?x dbo:dissolutionDate|dbo:dissolutionYear ?d }
   SERVICE <https://dbpedia.org/sparql> { ?en dbo:populationTotal ?danSoEn }
   FILTER(LANG(?ten) = "vi")
 }
