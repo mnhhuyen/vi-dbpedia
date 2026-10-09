@@ -349,6 +349,14 @@ vio:maTuyenSinh
     rdfs:comment "Mã trường dùng trong tuyển sinh đại học (ví dụ: QHI)."@vi ,
                  "Institution code used in national university admissions (e.g. QHI)."@en .
 
+vio:tenHieuTruong
+    a owl:DatatypeProperty ;
+    rdfs:domain vio:CoSoGiaoDucDaiHoc ;
+    rdfs:range  rdf:langString ;
+    rdfs:label "tên hiệu trưởng"@vi , "rector name"@en ;
+    rdfs:comment "Họ tên người đứng đầu (đã bỏ học hàm, học vị). Dùng khi infobox chỉ ghi tên, không liên kết tới bài về người đó; khi có liên kết thì dùng thêm dbo:rector."@vi ,
+                 "Name of the head of the institution (titles removed). Used when the infobox gives a plain name; dbo:rector is added when the person has an article."@en .
+
 vio:coQuanChuQuan
     a owl:ObjectProperty ;
     rdfs:domain vio:CoSoGiaoDucDaiHoc ;

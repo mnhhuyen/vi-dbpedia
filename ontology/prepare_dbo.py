@@ -20,6 +20,16 @@ Bản gốc (ontology--DEV_type_orig.owl) có hai loại vấn đề:
     Kết hợp với dbo:Agent owl:disjointWith dbo:Place, mọi tổ chức có vị trí
     đều trở thành mâu thuẫn. File output loại bỏ ba tiên đề này.
 
+(1b) LIÊN KẾT TƯƠNG ĐƯƠNG MƠ HỒ: nhiều thuộc tính/lớp dbo: khác nhau cùng được khai báo
+    owl:equivalentProperty / owl:equivalentClass với MỘT thuật ngữ bên ngoài (thường là
+    Wikidata). Vì "tương đương" có tính bắc cầu, các thuật ngữ dbo: đó bị suy ra là tương
+    đương NHAU. Ví dụ:
+      dbo:foundingDate ≡ wikidata:P571 ≡ dbo:formationDate (domain dbo:Organisation)
+        => mọi tỉnh có ngày thành lập bị suy ra là TỔ CHỨC, mâu thuẫn với dbo:Agent ⊥ dbo:Place.
+      dbo:foundingYear ≡ bag:oorspronkelijkBouwjaar ≡ dbo:yearOfConstruction (domain dbo:Place)
+        => mọi trường đại học có năm thành lập bị suy ra là ĐỊA ĐIỂM.
+    File output bỏ các liên kết tới những thuật ngữ bên ngoài bị dùng chung như vậy.
+
 (2) KIỂU DỮ LIỆU NGOÀI OWL 2: nhiều datatype property có range là kiểu riêng
     của DBpedia (dbt:hour, dbt:kilometre...) hoặc xsd:date, xsd:gYear,
     rdf:langString. Các reasoner OWL 2 DL như HermiT từ chối chạy.
@@ -62,6 +72,26 @@ def fix_dul_equivalences(g):
     return bad
 
 
+def fix_shared_external_equivalences(g):
+    """Bỏ owl:equivalentProperty/equivalentClass giữa thuật ngữ dbo: và một thuật ngữ bên ngoài
+    khi thuật ngữ bên ngoài đó được nối với từ 2 thuật ngữ dbo: trở lên."""
+    removed = []
+    for pred in (OWL.equivalentProperty, OWL.equivalentClass):
+        links = {}
+        for s, o in g.subject_objects(pred):
+            if str(s).startswith(DBO) and not str(o).startswith(DBO):
+                links.setdefault(o, []).append((s, o))
+            elif str(o).startswith(DBO) and not str(s).startswith(DBO):
+                links.setdefault(s, []).append((s, o))
+        for ext, pairs in links.items():
+            dbo_terms = {a if str(a).startswith(DBO) else b for a, b in pairs}
+            if len(dbo_terms) > 1:
+                for a, b in pairs:
+                    g.remove((a, pred, b))
+                    removed.append((a, pred, b))
+    return removed
+
+
 def strip_non_owl2_datatypes(g):
     """Bỏ rdfs:range của datatype property khi range không thuộc OWL 2 datatype map."""
     bad = [(p, d) for p, d in g.subject_objects(RDFS.range)
@@ -80,6 +110,10 @@ def main(src):
     print(f"Đã bỏ {len(removed)} tiên đề owl:equivalentProperty lỗi:")
     for s, o in removed:
         print(f"  - {s.n3(g.namespace_manager)} ≡ {o.n3(g.namespace_manager)}")
+    shared = fix_shared_external_equivalences(g)
+    print(f"\nĐã bỏ {len(shared)} liên kết tương đương tới thuật ngữ bên ngoài bị dùng chung, ví dụ:")
+    for a, p, b in shared[:6]:
+        print(f"  - {a.n3(g.namespace_manager)} {p.n3(g.namespace_manager)} {b.n3(g.namespace_manager)}")
     g.serialize(HERE / "dbo-patched.ttl", format="turtle")
     print(f"=> dbo-patched.ttl ({len(g)} triple, gốc {n0})")
 

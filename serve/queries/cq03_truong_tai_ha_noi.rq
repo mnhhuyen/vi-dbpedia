@@ -1,0 +1,17 @@
+# CQ3: Các cơ sở giáo dục đại học có trụ sở tại Hà Nội
+PREFIX vio:  <https://w3id.org/vi-dbpedia/ontology/>
+PREFIX vir:  <https://w3id.org/vi-dbpedia/resource/>
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX dbr:  <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT ?ten ?loai WHERE {
+  ?t a vio:CoSoGiaoDucDaiHoc ;
+     vio:truSoTai vir:Hà_Nội ;
+     rdfs:label ?ten ;
+     a ?loai .
+  FILTER(?loai IN (vio:DaiHoc, vio:DaiHocQuocGia, vio:DaiHocVung, vio:TruongDaiHoc, vio:HocVien))
+  FILTER(LANG(?ten) = "vi")
+}
+ORDER BY ?loai ?ten

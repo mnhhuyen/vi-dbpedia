@@ -1174,7 +1174,6 @@
         "American footballspeler"@nl,
         "امریکی فٹ بال کھلاڑی"@ur ;
     rdfs:subClassOf :GridironFootballPlayer ;
-    owl:equivalentClass wikidata:Q14128148 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyClass:AmericanFootballPlayer> .
 
 :AmericanFootballTeam a owl:Class ;
@@ -3216,7 +3215,6 @@
         "enzym"@nl,
         "خامرہ"@ur ;
     rdfs:subClassOf :Biomolecule ;
-    owl:equivalentClass wikidata:Q8047 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyClass:Enzyme> .
 
 <http://dbpedia.org/ontology/Escalator/diameter> a owl:DatatypeProperty ;
@@ -3972,7 +3970,6 @@
         "Hormonen zijn signaalstoffen die door endocriene klieren via de bloedbaan aan doelcellen of -organen worden afgegeven en fysiologische processen en gedrag reguleren"@nl,
         "ایک مادہ جو غدود سے نکل کر خون میں شامل ہوتا ہےاورگردش کے نظام کے ذریعے دور دراز کے اعضاء کو نشانہ بناتے ہیں تاکہ جسمانیات اور طرز عمل کو کنٹرول کریں"@ur ;
     rdfs:subClassOf :Biomolecule ;
-    owl:equivalentClass wikidata:Q8047 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyClass:Hormone> .
 
 :HorseRace a owl:Class ;
@@ -5882,7 +5879,6 @@
         "A racecourse is an alternate term for a horse racing track, found in countries such as the United Kingdom, Australia, Hong Kong, and the United Arab Emirates."@en,
         "ریس کورس ہارس ریسنگ ٹریک کے لیے ایک متبادل اصطلاح ہے، جو برطانیہ، آسٹریلیا، ہانگ کانگ اور متحدہ عرب امارات جیسے ممالک میں پائی جاتی ہے۔"@ur ;
     rdfs:subClassOf :RaceTrack ;
-    owl:equivalentClass wikidata:Q1777138 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyClass:Racecourse> .
 
 :RadioControlledRacingLeague a owl:Class ;
@@ -7765,7 +7761,6 @@
         "активност"@sr,
         "سرگرمی"@ur ;
     rdfs:domain :Person ;
-    owl:equivalentProperty wikidata:P106 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:activity> .
 
 :address a rdf:Property,
@@ -8272,8 +8267,7 @@
         "псевдоним"@ru,
         "алијас"@sr ;
     rdfs:range rdf:langString ;
-    owl:equivalentProperty <http://schema.org/alternateName>,
-        wikidata:P742 ;
+    owl:equivalentProperty <http://schema.org/alternateName> ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:alias> .
 
 :allcinemaId a rdf:Property,
@@ -8319,7 +8313,6 @@
     rdfs:domain :Person ;
     rdfs:range :EducationalInstitution ;
     rdfs:subPropertyOf dul:coparticipatesWith ;
-    owl:equivalentProperty wikidata:P69 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:almaMater> .
 
 :alongside a rdf:Property,
@@ -9995,9 +9988,7 @@
         "data urodzenia"@pl ;
     rdfs:domain :Animal ;
     rdfs:range xsd:date ;
-    owl:equivalentProperty <http://schema.org/birthDate>,
-        wikidata:P569,
-        <https://d-nb.info/standards/elementset/gnd#dateOfBirth> ;
+    owl:equivalentProperty <http://schema.org/birthDate> ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:birthDate> .
 
 :birthName a rdf:Property,
@@ -10050,8 +10041,6 @@
         "geboortejaar"@nl ;
     rdfs:domain :Person ;
     rdfs:range xsd:gYear ;
-    owl:equivalentProperty wikidata:P569,
-        <https://d-nb.info/standards/elementset/gnd#dateOfBirth> ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:birthYear> .
 
 :bishopric a rdf:Property,
@@ -10530,7 +10519,6 @@
         "builder"@en,
         "bouwer"@nl ;
     rdfs:subPropertyOf dul:coparticipatesWith ;
-    owl:equivalentProperty wikidata:P176 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:builder> .
 
 :buildingEndDate a rdf:Property,
@@ -10991,7 +10979,6 @@
         "przyczyna śmierci"@pl ;
     rdfs:domain :Person ;
     rdfs:range xsd:string ;
-    owl:equivalentProperty wikidata:P509 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:causeOfDeath> .
 
 :causedBy a rdf:Property,
@@ -11460,7 +11447,6 @@
         "burgerschap"@nl ;
     rdfs:domain :Person ;
     rdfs:subPropertyOf dul:sameSettingAs ;
-    owl:equivalentProperty wikidata:P27 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:citizenship> .
 
 :city a rdf:Property,
@@ -11475,7 +11461,6 @@
         "miasto"@pl ;
     rdfs:range :City ;
     rdfs:subPropertyOf dul:hasLocation ;
-    owl:equivalentProperty wikidata:P131 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:city> .
 
 :cityLink a rdf:Property,
@@ -12224,7 +12209,6 @@
     rdfs:domain :Work ;
     rdfs:range :Person ;
     rdfs:subPropertyOf dul:coparticipatesWith ;
-    owl:equivalentProperty wikidata:P86 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:composer> .
 
 :compressionRatio a rdf:Property,
@@ -12639,7 +12623,6 @@
     rdfs:comment "The county where the thing is located."@en ;
     rdfs:range :PopulatedPlace ;
     rdfs:subPropertyOf dul:hasLocation ;
-    owl:equivalentProperty wikidata:P131 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:county> .
 
 :countySeat a rdf:Property,
@@ -13338,7 +13321,6 @@
         "doodsoorzaak"@nl ;
     rdfs:domain :Person ;
     rdfs:subPropertyOf dul:coparticipatesWith ;
-    owl:equivalentProperty wikidata:P509 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:deathCause> .
 
 :deathDate a rdf:Property,
@@ -13354,8 +13336,7 @@
     rdfs:domain :Animal ;
     rdfs:range xsd:date ;
     owl:equivalentProperty <http://schema.org/deathDate>,
-        wikidata:P570,
-        <https://d-nb.info/standards/elementset/gnd#dateOfDeath> ;
+        wikidata:P570 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:deathDate> .
 
 :deathPlace a rdf:Property,
@@ -13386,7 +13367,6 @@
         "jaar van overlijden"@nl ;
     rdfs:domain :Person ;
     rdfs:range xsd:gYear ;
-    owl:equivalentProperty <https://d-nb.info/standards/elementset/gnd#dateOfDeath> ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:deathYear> .
 
 :deaths a rdf:Property,
@@ -14171,7 +14151,6 @@
     rdfs:domain :Place ;
     rdfs:range :PopulatedPlace ;
     rdfs:subPropertyOf dul:isPartOf ;
-    owl:equivalentProperty wikidata:P131 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:district> .
 
 :division a rdf:Property,
@@ -14578,7 +14557,6 @@
         "opleiding"@nl ;
     rdfs:domain :Person ;
     rdfs:subPropertyOf dul:sameSettingAs ;
-    owl:equivalentProperty wikidata:P69 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:education> .
 
 :educationPlace a rdf:Property,
@@ -16265,7 +16243,6 @@
         "est-ce la même chose que OntologyProperty:FoundingDate ?"@fr ;
     rdfs:domain :Organisation ;
     rdfs:range xsd:date ;
-    owl:equivalentProperty wikidata:P571 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:formationDate> .
 
 :formationYear a rdf:Property,
@@ -16418,7 +16395,6 @@
     rdfs:comment "Identifies the founder of the described entity. This can be a person or a organisation for instance."@en ;
     rdfs:range :Agent ;
     rdfs:subPropertyOf dul:coparticipatesWith ;
-    owl:equivalentProperty wikidata:P112 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:foundedBy> .
 
 :founder a rdf:Property,
@@ -16429,7 +16405,6 @@
     rdfs:comment "Ein Gründer oder Gründungsmitglied einer Organisation, Religion oder eines Ortes."@en ;
     rdfs:range :Person ;
     rdfs:subPropertyOf dul:sameSettingAs ;
-    owl:equivalentProperty wikidata:P112 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:founder> .
 
 :foundingDate a rdf:Property,
@@ -16442,8 +16417,7 @@
         "創立日"@ja,
         "data założenia"@pl ;
     rdfs:range xsd:date ;
-    owl:equivalentProperty <http://schema.org/foundingDate>,
-        wikidata:P571 ;
+    owl:equivalentProperty <http://schema.org/foundingDate> ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:foundingDate> .
 
 :foundingYear a rdf:Property,
@@ -16454,7 +16428,6 @@
         "año de fundación"@es,
         "oprichtingsjaar"@nl ;
     rdfs:range xsd:gYear ;
-    owl:equivalentProperty <http://bag.basisregistraties.overheid.nl/def/bag#oorspronkelijkBouwjaar> ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:foundingYear> .
 
 :fourthCommander a rdf:Property,
@@ -17292,7 +17265,6 @@
         "gross ($)"@en ;
     rdfs:domain :Film ;
     rdfs:range xsd:double ;
-    owl:equivalentProperty wikidata:P2139 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:gross> .
 
 :grossDomesticProduct a rdf:Property,
@@ -19916,8 +19888,7 @@
     rdfs:domain :Place ;
     rdfs:range :Place ;
     rdfs:subPropertyOf dul:hasLocation ;
-    owl:equivalentProperty <http://schema.org/containedIn>,
-        wikidata:P131 ;
+    owl:equivalentProperty <http://schema.org/containedIn> ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:locatedInArea> .
 
 :locationCity a rdf:Property,
@@ -20485,7 +20456,6 @@
         "manufacturer"@en ;
     rdfs:range :Organisation ;
     rdfs:subPropertyOf dul:coparticipatesWith ;
-    owl:equivalentProperty wikidata:P176 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:manufacturer> .
 
 :map a rdf:Property,
@@ -21641,7 +21611,6 @@
     rdfs:domain :Musical ;
     rdfs:range :Person ;
     rdfs:subPropertyOf dul:coparticipatesWith ;
-    owl:equivalentProperty wikidata:P86 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:musicBy> .
 
 :musicComposer a rdf:Property,
@@ -21701,7 +21670,6 @@
     rdfs:domain :Single ;
     rdfs:range :MusicalArtist ;
     rdfs:subPropertyOf dul:coparticipatesWith ;
-    owl:equivalentProperty wikidata:P175 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:musicalArtist> .
 
 :musicalBand a rdf:Property,
@@ -22033,8 +22001,7 @@
     rdfs:domain :Person ;
     rdfs:range :Country ;
     rdfs:subPropertyOf dul:hasLocation ;
-    owl:equivalentProperty <http://schema.org/nationality>,
-        wikidata:P27 ;
+    owl:equivalentProperty <http://schema.org/nationality> ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:nationality> .
 
 :nbRevPerMonth a rdf:Property,
@@ -23736,7 +23703,6 @@
         "beroep"@nl ;
     rdfs:range :PersonFunction ;
     rdfs:subPropertyOf dul:hasRole ;
-    owl:equivalentProperty wikidata:P106 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:occupation> .
 
 :oclc a rdf:Property,
@@ -26020,7 +25986,6 @@ Domain is unrestricted since Organization is Agent but City is Place. Range is u
         "minister-president"@nl ;
     rdfs:range :Person ;
     rdfs:subPropertyOf dul:sameSettingAs ;
-    owl:equivalentProperty wikidata:P6 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:primeMinister> .
 
 :primogenitor a rdf:Property,
@@ -26428,8 +26393,6 @@ Domain is unrestricted since Organization is Agent but City is Place. Range is u
     rdfs:domain :Place ;
     rdfs:range :Province ;
     rdfs:subPropertyOf dul:isPartOf ;
-    owl:equivalentProperty wikidata:P131,
-        <https://linkeddata.cultureelerfgoed.nl/vocab/def/ceo#heeftProvincie> ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:province> .
 
 :provinceIsoCode a rdf:Property,
@@ -26465,7 +26428,6 @@ Domain is unrestricted since Organization is Agent but City is Place. Range is u
         "pseudoniem"@nl ;
     rdfs:domain :Person ;
     rdfs:range rdf:langString ;
-    owl:equivalentProperty wikidata:P742 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:pseudonym> .
 
 :pubchem a rdf:Property,
@@ -26808,8 +26770,6 @@ Domain is unrestricted since Organization is Agent but City is Place. Range is u
     rdfs:domain :Place ;
     rdfs:range :Place ;
     rdfs:subPropertyOf dul:isPartOf ;
-    owl:equivalentProperty wikidata:P131,
-        <https://linkeddata.cultureelerfgoed.nl/vocab/def/ceo#heeftProvincie> ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:realm> .
 
 :rebuildDate a rdf:Property,
@@ -27469,7 +27429,6 @@ Domain is unrestricted since Organization is Agent but City is Place. Range is u
         "chiffre d'affaire ($)"@fr ;
     rdfs:domain :Organisation ;
     rdfs:range xsd:double ;
-    owl:equivalentProperty wikidata:P2139 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:revenue> .
 
 :revenueYear a rdf:Property,
@@ -28417,7 +28376,6 @@ http://rkd.nl/explore/artists/$1"""@en ;
     rdfs:domain :Place ;
     rdfs:range :PopulatedPlace ;
     rdfs:subPropertyOf dul:hasLocation ;
-    owl:equivalentProperty wikidata:P131 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:settlement> .
 
 :settlementAttached a rdf:Property,
@@ -30347,7 +30305,6 @@ http://www.idref.fr/$1"""@en ;
         "taoiseach"@ga ;
     rdfs:comment "head of government of Ireland"@en ;
     rdfs:range :Person ;
-    owl:equivalentProperty wikidata:P6 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:taoiseach> .
 
 :targetAirport a rdf:Property,
@@ -31012,7 +30969,6 @@ http://www.idref.fr/$1"""@en ;
     rdfs:domain :Artist ;
     rdfs:range :EducationalInstitution ;
     rdfs:subPropertyOf dul:coparticipatesWith ;
-    owl:equivalentProperty wikidata:P69 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:training> .
 
 :translatedMotto a rdf:Property,
@@ -32668,7 +32624,6 @@ http://vocab.getty.edu/ulan/$1"""@en ;
         "Година када је изградња нечега завршена."@sr ;
     rdfs:domain :Place ;
     rdfs:range xsd:gYear ;
-    owl:equivalentProperty <http://bag.basisregistraties.overheid.nl/def/bag#oorspronkelijkBouwjaar> ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:yearOfConstruction> .
 
 :yearOfElectrification a rdf:Property,
@@ -32747,7 +32702,6 @@ http://vocab.getty.edu/ulan/$1"""@en ;
     rdfs:domain :PopulatedPlace ;
     rdfs:range xsd:string ;
     rdfs:subPropertyOf :postalCode ;
-    owl:equivalentProperty wikidata:P281 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:zipCode> .
 
 :zodiacSign a rdf:Property,
@@ -34462,7 +34416,6 @@ xsd:time a rdfs:Datatype ;
     rdfs:subPropertyOf :code ;
     owl:equivalentProperty <http://bag.basisregistraties.overheid.nl/def/bag#postcode>,
         <http://www.geonames.org/ontology#postalCode>,
-        wikidata:P281,
         <https://linkeddata.cultureelerfgoed.nl/vocab/def/ceo#postcode> ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:postalCode> .
 
@@ -35178,8 +35131,7 @@ xsd:gYearMonth a rdfs:Datatype ;
     rdfs:domain :MusicalWork ;
     rdfs:range :Agent ;
     rdfs:subPropertyOf dul:coparticipatesWith ;
-    owl:equivalentProperty <http://schema.org/byArtist>,
-        wikidata:P175 ;
+    owl:equivalentProperty <http://schema.org/byArtist> ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:artist> .
 
 :champion a rdf:Property,
@@ -35675,7 +35627,6 @@ xsd:gYearMonth a rdfs:Datatype ;
         "racecircuit"@nl,
         "راستہ جس پر دوڑ لگائی جاتی ہیں۔"@ur ;
     rdfs:subClassOf :SportFacility ;
-    owl:equivalentClass wikidata:Q1777138 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyClass:RaceTrack> .
 
 :Religious a owl:Class ;
@@ -36217,7 +36168,6 @@ xsd:gYearMonth a rdfs:Datatype ;
         "regio"@nl,
         "علاقہ"@ur ;
     rdfs:subClassOf :PopulatedPlace ;
-    owl:equivalentClass wikidata:Q3455524 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyClass:Region> .
 
 :Royalty a owl:Class ;
@@ -36805,7 +36755,6 @@ xsd:anyURI a rdfs:Datatype ;
     rdfs:comment "Gradiron football, also called North American football, is a family of soccer team games played primarily in the United States and Canada."@en,
         "گریڈیرون فٹ بال ، جسے شمالی امریکی فٹ بال بھی کہا جاتا ہے ، فٹ بال ٹیم کھیلوں کا ایک خاندان ہے جو بنیادی طور پر ریاستہائے متحدہ اور کینیڈا میں کھیلا جاتا ہے"@ur ;
     rdfs:subClassOf :Athlete ;
-    owl:equivalentClass wikidata:Q14128148 ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyClass:GridironFootballPlayer> .
 
 :Openswarm a owl:Class ;
@@ -37226,8 +37175,7 @@ xsd:boolean a rdfs:Datatype ;
     rdfs:comment "A PopulatedPlace under the jurisdiction of an administrative body. This body may administer either a whole region or one or more adjacent Settlements (town administration)"@en,
         "(نتظامی علاقہ)انتظامی ادارے کے دائرہ اختیار میں ایک آبادی والی جگہ۔ یہ ادارہ یا تو ایک پورے علاقے یا ایک یا اس سے ملحقہ بستیوں کا انتظام کر سکتا ہے"@ur ;
     rdfs:subClassOf :Region ;
-    owl:equivalentClass <http://schema.org/AdministrativeArea>,
-        wikidata:Q3455524 ;
+    owl:equivalentClass <http://schema.org/AdministrativeArea> ;
     prov:wasDerivedFrom <http://mappings.dbpedia.org/index.php/OntologyClass:AdministrativeRegion> .
 
 :Airport a owl:Class ;

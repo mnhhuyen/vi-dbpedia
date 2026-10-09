@@ -1,0 +1,21 @@
+# CQ9 (federated, cần mạng): So sánh kiểu hai bên — tỉnh của ta là dbo:Province, bên DBpedia tiếng Anh là gì?
+PREFIX vio:  <https://w3id.org/vi-dbpedia/ontology/>
+PREFIX vir:  <https://w3id.org/vi-dbpedia/resource/>
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX dbr:  <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT ?ten ?enResource (GROUP_CONCAT(DISTINCT STRAFTER(STR(?enType), "ontology/"); separator=", ") AS ?kieuTiengAnh) WHERE {
+  ?x a vio:Tinh ; rdfs:label ?ten ; owl:sameAs ?enResource .
+  FILTER(STRSTARTS(STR(?enResource), "http://dbpedia.org/resource/"))
+  FILTER NOT EXISTS { ?x dbo:dissolutionDate ?d }
+  SERVICE <https://dbpedia.org/sparql> {
+    ?enResource a ?enType .
+    FILTER(STRSTARTS(STR(?enType), "http://dbpedia.org/ontology/"))
+  }
+  FILTER(LANG(?ten) = "vi")
+}
+GROUP BY ?ten ?enResource
+ORDER BY ?ten
+LIMIT 20

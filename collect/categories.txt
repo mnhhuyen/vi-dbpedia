@@ -1,0 +1,18 @@
+# Danh sách thể loại cần thu thập. Mỗi dòng:  Tên thể loại | độ sâu
+#   - không cần tiền tố "Thể loại:"
+#   - độ sâu 0: chỉ lấy bài nằm trực tiếp trong thể loại
+#     độ sâu 1: lấy thêm bài trong các thể loại con, v.v.
+#   - bỏ "| độ sâu" thì dùng giá trị --depth trên dòng lệnh (mặc định 1)
+#
+# Hai thể loại về tỉnh/thành phố dùng độ sâu 0: thể loại con của chúng là thể loại riêng
+# của từng tỉnh (ví dụ "Thái Nguyên"), chứa mọi bài liên quan tới tỉnh đó -> lạc đề.
+
+Tỉnh của Việt Nam | 0
+Tỉnh cũ Việt Nam | 0
+Thành phố trực thuộc trung ương (Việt Nam) | 0
+
+# Đại học Bách khoa Hà Nội | 0
+Trường đại học và cao đẳng Việt Nam theo địa phương | 1
+Đại học Việt Nam | 0
+Học viện Việt Nam | 1
+Đại học Quốc gia Việt Nam | 1

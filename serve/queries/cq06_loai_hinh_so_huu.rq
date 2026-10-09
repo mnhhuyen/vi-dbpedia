@@ -1,0 +1,15 @@
+# CQ6: Số cơ sở giáo dục đại học theo loại hình sở hữu
+PREFIX vio:  <https://w3id.org/vi-dbpedia/ontology/>
+PREFIX vir:  <https://w3id.org/vi-dbpedia/resource/>
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX dbr:  <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT ?loaiHinh (COUNT(?t) AS ?so) WHERE {
+  ?t vio:loaiHinhSoHuu ?l .
+  ?l rdfs:label ?loaiHinh .
+  FILTER(LANG(?loaiHinh) = "vi")
+}
+GROUP BY ?loaiHinh
+ORDER BY DESC(?so)

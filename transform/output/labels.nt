@@ -1,0 +1,496 @@
+<https://w3id.org/vi-dbpedia/resource/An_Giang> <http://www.w3.org/2000/01/rdf-schema#label> "An Giang"@vi .
+<https://w3id.org/vi-dbpedia/resource/An_Xuyên_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "An Xuyên (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Ba_Xuyên> <http://www.w3.org/2000/01/rdf-schema#label> "Ba Xuyên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Biên_Hòa_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Biên Hòa (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bà_Rịa_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Bà Rịa (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bà_Rịa_–_Vũng_Tàu> <http://www.w3.org/2000/01/rdf-schema#label> "Bà Rịa – Vũng Tàu"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bình_Dương_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Bình Dương (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bình_Long_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Bình Long (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bình_Phú_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Bình Phú (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bình_Phước_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Bình Phước (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bình_Thuận_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Bình Thuận (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bình_Trị> <http://www.w3.org/2000/01/rdf-schema#label> "Bình Trị"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bình_Trị_Thiên> <http://www.w3.org/2000/01/rdf-schema#label> "Bình Trị Thiên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bình_Tuy> <http://www.w3.org/2000/01/rdf-schema#label> "Bình Tuy"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bình_Định_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Bình Định (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bạc_Liêu_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Bạc Liêu (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bắc_Giang_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Bắc Giang (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bắc_Kạn_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Bắc Kạn (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bắc_Ninh> <http://www.w3.org/2000/01/rdf-schema#label> "Bắc Ninh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bắc_Thái> <http://www.w3.org/2000/01/rdf-schema#label> "Bắc Thái"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bến_Tre_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Bến Tre (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bệnh_viện_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Bệnh viện Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Bệnh_viện_Đại_học_Y_Dược,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Bệnh viện Đại học Y Dược, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Cao_Bằng> <http://www.w3.org/2000/01/rdf-schema#label> "Cao Bằng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Cao_Lạng> <http://www.w3.org/2000/01/rdf-schema#label> "Cao Lạng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Cao_đẳng_Kinh_tế_Đối_ngoại> <http://www.w3.org/2000/01/rdf-schema#label> "Cao đẳng Kinh tế Đối ngoại"@vi .
+<https://w3id.org/vi-dbpedia/resource/Cap_Saint_Jacques_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Cap Saint Jacques (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Châu_Đốc_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Châu Đốc (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Chương_Thiện> <http://www.w3.org/2000/01/rdf-schema#label> "Chương Thiện"@vi .
+<https://w3id.org/vi-dbpedia/resource/Chợ_Lớn_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Chợ Lớn (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Cà_Mau> <http://www.w3.org/2000/01/rdf-schema#label> "Cà Mau"@vi .
+<https://w3id.org/vi-dbpedia/resource/Côn_Sơn_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Côn Sơn (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Côn_Đảo_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Côn Đảo (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Công_viên_Công_nghệ_cao_và_Đổi_mới_sáng_tạo,_Đại_học_quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Công viên Công nghệ cao và Đổi mới sáng tạo, Đại học quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Cần_Thơ> <http://www.w3.org/2000/01/rdf-schema#label> "Cần Thơ"@vi .
+<https://w3id.org/vi-dbpedia/resource/Cần_Thơ_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Cần Thơ (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Cửu_Long_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Cửu Long (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Danh_sách_trường_cao_đẳng_tại_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Danh sách trường cao đẳng tại Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Danh_sách_trường_đại_học,_học_viện_và_cao_đẳng_tại_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Danh sách trường đại học, học viện và cao đẳng tại Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Danh_sách_trường_đại_học,_học_viện_và_cao_đẳng_tại_Khánh_Hoà> <http://www.w3.org/2000/01/rdf-schema#label> "Danh sách trường đại học, học viện và cao đẳng tại Khánh Hoà"@vi .
+<https://w3id.org/vi-dbpedia/resource/Danh_sách_trường_đại_học,_học_viện_và_cao_đẳng_tại_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Danh sách trường đại học, học viện và cao đẳng tại Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Danh_sách_trường_đại_học_tại_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Danh sách trường đại học tại Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Danh_sách_trường_đại_học_và_cao_đẳng_tại_Vĩnh_Long> <http://www.w3.org/2000/01/rdf-schema#label> "Danh sách trường đại học và cao đẳng tại Vĩnh Long"@vi .
+<https://w3id.org/vi-dbpedia/resource/Danh_sách_tỉnh_cũ_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Danh sách tỉnh cũ Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Gia_Lai> <http://www.w3.org/2000/01/rdf-schema#label> "Gia Lai"@vi .
+<https://w3id.org/vi-dbpedia/resource/Gia_Lai_–_Kon_Tum> <http://www.w3.org/2000/01/rdf-schema#label> "Gia Lai – Kon Tum"@vi .
+<https://w3id.org/vi-dbpedia/resource/Gia_Định> <http://www.w3.org/2000/01/rdf-schema#label> "Gia Định"@vi .
+<https://w3id.org/vi-dbpedia/resource/Gia_Định_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Gia Định (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Gò_Công_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Gò Công (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hoàng_Liên_Sơn_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Hoàng Liên Sơn (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Huế> <http://www.w3.org/2000/01/rdf-schema#label> "Huế"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hà_Bắc_(tỉnh_Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Hà Bắc (tỉnh Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hà_Giang> <http://www.w3.org/2000/01/rdf-schema#label> "Hà Giang"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hà_Nam_(tỉnh_Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Hà Nam (tỉnh Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hà_Nam_Ninh> <http://www.w3.org/2000/01/rdf-schema#label> "Hà Nam Ninh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hà_Nội_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Hà Nội (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hà_Sơn_Bình> <http://www.w3.org/2000/01/rdf-schema#label> "Hà Sơn Bình"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hà_Tiên_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Hà Tiên (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hà_Tuyên> <http://www.w3.org/2000/01/rdf-schema#label> "Hà Tuyên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hà_Tây_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Hà Tây (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hà_Tĩnh> <http://www.w3.org/2000/01/rdf-schema#label> "Hà Tĩnh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hà_Đông_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Hà Đông (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hòa_Bình_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Hòa Bình (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hưng_Hóa> <http://www.w3.org/2000/01/rdf-schema#label> "Hưng Hóa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hưng_Yên> <http://www.w3.org/2000/01/rdf-schema#label> "Hưng Yên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hải_Dương_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Hải Dương (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hải_Hưng_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Hải Hưng (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hải_Ninh_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Hải Ninh (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hải_Phòng> <http://www.w3.org/2000/01/rdf-schema#label> "Hải Phòng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hải_Phòng_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Hải Phòng (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hậu_Giang> <http://www.w3.org/2000/01/rdf-schema#label> "Hậu Giang"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hậu_Nghĩa_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Hậu Nghĩa (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_An_ninh_nhân_dân> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện An ninh nhân dân"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Báo_chí_và_Tuyên_truyền> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Báo chí và Tuyên truyền"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Chính_sách_và_Phát_triển> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Chính sách và Phát triển"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Chính_trị_(Quân_đội_nhân_dân_Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Chính trị (Quân đội nhân dân Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Chính_trị_Công_an_nhân_dân_(Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Chính trị Công an nhân dân (Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Chính_trị_Quốc_gia_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Chính trị Quốc gia Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Cán_bộ_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Cán bộ Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Công_nghệ_Bưu_chính_Viễn_thông> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Công nghệ Bưu chính Viễn thông"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Công_nghệ_Thông_tin_Bách_Khoa> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Công nghệ Thông tin Bách Khoa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Cảnh_sát_nhân_dân> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Cảnh sát nhân dân"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Dân_tộc> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Dân tộc"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Hàng_không_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Hàng không Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Hành_chính_và_Quản_trị_công> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Hành chính và Quản trị công"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Hải_quân_(Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Hải quân (Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Hậu_cần_(Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Hậu cần (Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Khoa_học_Quân_sự> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Khoa học Quân sự"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Khoa_học_và_Công_nghệ> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Khoa học và Công nghệ"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Kỹ_thuật_Mật_mã_(Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Kỹ thuật Mật mã (Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Kỹ_thuật_Quân_sự> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Kỹ thuật Quân sự"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Kỹ_thuật_và_Công_nghệ_An_ninh> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Kỹ thuật và Công nghệ An ninh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Múa_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Múa Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Ngoại_giao_(Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Ngoại giao (Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Ngân_hàng_(Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Ngân hàng (Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Nông_nghiệp_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Nông nghiệp Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Phật_giáo_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Phật giáo Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Phụ_nữ_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Phụ nữ Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Quân_y_(Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Quân y (Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Quản_lý_giáo_dục> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Quản lý giáo dục"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Quốc gia Hành chánh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_phòng_(Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Quốc phòng (Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Thanh thiếu niên Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Tài_chính_(Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Tài chính (Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Tư_pháp_(Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Tư pháp (Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Y_–_Dược_học_cổ_truyền_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Y – Dược học cổ truyền Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Âm_nhạc_Huế> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Âm nhạc Huế"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Âm_nhạc_Quốc_gia_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Học viện Âm nhạc Quốc gia Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hồng_Gai_(đặc_khu)> <http://www.w3.org/2000/01/rdf-schema#label> "Hồng Gai (đặc khu)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Hồng_Quảng> <http://www.w3.org/2000/01/rdf-schema#label> "Hồng Quảng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Khoa_Quốc_tế_Pháp_ngữ,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Khoa Quốc tế Pháp ngữ, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Khánh_Hòa> <http://www.w3.org/2000/01/rdf-schema#label> "Khánh Hòa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Kiên_Giang> <http://www.w3.org/2000/01/rdf-schema#label> "Kiên Giang"@vi .
+<https://w3id.org/vi-dbpedia/resource/Kiến_An_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Kiến An (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Kiến_Hòa> <http://www.w3.org/2000/01/rdf-schema#label> "Kiến Hòa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Kiến_Phong> <http://www.w3.org/2000/01/rdf-schema#label> "Kiến Phong"@vi .
+<https://w3id.org/vi-dbpedia/resource/Kiến_Tường_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Kiến Tường (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Kon_Tum_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Kon Tum (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Ký_túc_xá_Mễ_Trì> <http://www.w3.org/2000/01/rdf-schema#label> "Ký túc xá Mễ Trì"@vi .
+<https://w3id.org/vi-dbpedia/resource/Ký_túc_xá_Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Ký túc xá Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Lai_Châu> <http://www.w3.org/2000/01/rdf-schema#label> "Lai Châu"@vi .
+<https://w3id.org/vi-dbpedia/resource/Liên_tỉnh_ủy_Hải_Phòng_–_Kiến_An> <http://www.w3.org/2000/01/rdf-schema#label> "Liên tỉnh ủy Hải Phòng – Kiến An"@vi .
+<https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Long An (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Long_Châu_Hà> <http://www.w3.org/2000/01/rdf-schema#label> "Long Châu Hà"@vi .
+<https://w3id.org/vi-dbpedia/resource/Long_Châu_Hậu> <http://www.w3.org/2000/01/rdf-schema#label> "Long Châu Hậu"@vi .
+<https://w3id.org/vi-dbpedia/resource/Long_Châu_Sa> <http://www.w3.org/2000/01/rdf-schema#label> "Long Châu Sa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Long_Châu_Tiền> <http://www.w3.org/2000/01/rdf-schema#label> "Long Châu Tiền"@vi .
+<https://w3id.org/vi-dbpedia/resource/Long_Khánh_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Long Khánh (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Long_Xuyên_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Long Xuyên (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Lào_Cai> <http://www.w3.org/2000/01/rdf-schema#label> "Lào Cai"@vi .
+<https://w3id.org/vi-dbpedia/resource/Lâm_Viên_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Lâm Viên (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Lâm_Đồng> <http://www.w3.org/2000/01/rdf-schema#label> "Lâm Đồng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Lê_Văn_Lân> <http://www.w3.org/2000/01/rdf-schema#label> "Lê Văn Lân"@vi .
+<https://w3id.org/vi-dbpedia/resource/Lạng_Sơn> <http://www.w3.org/2000/01/rdf-schema#label> "Lạng Sơn"@vi .
+<https://w3id.org/vi-dbpedia/resource/Lục_Nam_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Lục Nam (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Minh_Hải_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Minh Hải (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Mộc_Hóa_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Mộc Hóa (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Mỹ_Tho_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Mỹ Tho (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Nam_Hà_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Nam Hà (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Nam_Kỳ_Lục_tỉnh> <http://www.w3.org/2000/01/rdf-schema#label> "Nam Kỳ Lục tỉnh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Nam_Định_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Nam Định (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Nghĩa_Bình> <http://www.w3.org/2000/01/rdf-schema#label> "Nghĩa Bình"@vi .
+<https://w3id.org/vi-dbpedia/resource/Nghĩa_Lộ_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Nghĩa Lộ (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Nghệ_An> <http://www.w3.org/2000/01/rdf-schema#label> "Nghệ An"@vi .
+<https://w3id.org/vi-dbpedia/resource/Nghệ_Tĩnh> <http://www.w3.org/2000/01/rdf-schema#label> "Nghệ Tĩnh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Nguyễn_Bá_Cảnh> <http://www.w3.org/2000/01/rdf-schema#label> "Nguyễn Bá Cảnh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Nguyễn_Hữu_Dư> <http://www.w3.org/2000/01/rdf-schema#label> "Nguyễn Hữu Dư"@vi .
+<https://w3id.org/vi-dbpedia/resource/Nguyễn_Thị_Thanh_Mai> <http://www.w3.org/2000/01/rdf-schema#label> "Nguyễn Thị Thanh Mai"@vi .
+<https://w3id.org/vi-dbpedia/resource/Nhạc_viện_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Nhạc viện Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Ninh_Bình> <http://www.w3.org/2000/01/rdf-schema#label> "Ninh Bình"@vi .
+<https://w3id.org/vi-dbpedia/resource/Ninh_Thuận> <http://www.w3.org/2000/01/rdf-schema#label> "Ninh Thuận"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phan_Quốc_Khánh> <http://www.w3.org/2000/01/rdf-schema#label> "Phan Quốc Khánh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phan_Rang_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Phan Rang (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phong_Dinh_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Phong Dinh (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phong_Thạnh_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Phong Thạnh (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phân_hiệu_Long_An,_Trường_Đại_học_Sư_phạm_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Phân hiệu Long An, Trường Đại học Sư phạm Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phân_hiệu_Trường_Đại_học_Giao_thông_Vận_tải_tại_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Phân hiệu Trường Đại học Giao thông Vận tải tại Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phân_hiệu_Trường_Đại_học_Tài_nguyên_và_Môi_trường_Hà_Nội_tại_Thanh_Hóa> <http://www.w3.org/2000/01/rdf-schema#label> "Phân hiệu Trường Đại học Tài nguyên và Môi trường Hà Nội tại Thanh Hóa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phân_hiệu_Đại_học_Kinh_tế_Thành_phố_Hồ_Chí_Minh_tại_Vĩnh_Long> <http://www.w3.org/2000/01/rdf-schema#label> "Phân hiệu Đại học Kinh tế Thành phố Hồ Chí Minh tại Vĩnh Long"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phân_hiệu_Đại_học_Đà_Nẵng_tại_Kon_Tum> <http://www.w3.org/2000/01/rdf-schema#label> "Phân hiệu Đại học Đà Nẵng tại Kon Tum"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phù_Lỗ_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Phù Lỗ (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phú_Bổn> <http://www.w3.org/2000/01/rdf-schema#label> "Phú Bổn"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phú_Khánh> <http://www.w3.org/2000/01/rdf-schema#label> "Phú Khánh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phú_Thọ> <http://www.w3.org/2000/01/rdf-schema#label> "Phú Thọ"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phú_Yên_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Phú Yên (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phúc_Yên_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Phúc Yên (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phước_Long_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Phước Long (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phước_Thành_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Phước Thành (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Phước_Tuy> <http://www.w3.org/2000/01/rdf-schema#label> "Phước Tuy"@vi .
+<https://w3id.org/vi-dbpedia/resource/Plei_Ku_Der> <http://www.w3.org/2000/01/rdf-schema#label> "Plei Ku Der"@vi .
+<https://w3id.org/vi-dbpedia/resource/Pleiku_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Pleiku (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Quảng_Bình_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Quảng Bình (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Quảng_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Quảng Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Quảng_Nam_–_Đà_Nẵng> <http://www.w3.org/2000/01/rdf-schema#label> "Quảng Nam – Đà Nẵng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Quảng_Ngãi> <http://www.w3.org/2000/01/rdf-schema#label> "Quảng Ngãi"@vi .
+<https://w3id.org/vi-dbpedia/resource/Quảng_Ninh> <http://www.w3.org/2000/01/rdf-schema#label> "Quảng Ninh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Quảng_Trị> <http://www.w3.org/2000/01/rdf-schema#label> "Quảng Trị"@vi .
+<https://w3id.org/vi-dbpedia/resource/Quảng_Tín_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Quảng Tín (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Quảng_Yên_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Quảng Yên (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Quảng_Đà_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Quảng Đà (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Quảng_Đức_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Quảng Đức (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Rạch_Giá_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Rạch Giá (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Sa_Đéc_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Sa Đéc (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Sóc_Trăng_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Sóc Trăng (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Sông_Bé_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Sông Bé (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Sơn_La> <http://www.w3.org/2000/01/rdf-schema#label> "Sơn La"@vi .
+<https://w3id.org/vi-dbpedia/resource/Sơn_Tây_(tỉnh_Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Sơn Tây (tỉnh Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Tam_Cần> <http://www.w3.org/2000/01/rdf-schema#label> "Tam Cần"@vi .
+<https://w3id.org/vi-dbpedia/resource/Thanh_Hóa> <http://www.w3.org/2000/01/rdf-schema#label> "Thanh Hóa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Thuận_Hải> <http://www.w3.org/2000/01/rdf-schema#label> "Thuận Hải"@vi .
+<https://w3id.org/vi-dbpedia/resource/Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Thành_phố_trực_thuộc_trung_ương_(Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Thành phố trực thuộc trung ương (Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Thái_Bình_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Thái Bình (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Thái_Nguyên> <http://www.w3.org/2000/01/rdf-schema#label> "Thái Nguyên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Thủ_Biên> <http://www.w3.org/2000/01/rdf-schema#label> "Thủ Biên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Thủ_Dầu_Một_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Thủ Dầu Một (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Thừa_Thiên> <http://www.w3.org/2000/01/rdf-schema#label> "Thừa Thiên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Thừa_Thiên_Huế> <http://www.w3.org/2000/01/rdf-schema#label> "Thừa Thiên Huế"@vi .
+<https://w3id.org/vi-dbpedia/resource/Tiền_Giang> <http://www.w3.org/2000/01/rdf-schema#label> "Tiền Giang"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trà_Vinh_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Trà Vinh (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_An_ninh_nhân_dân_I> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng An ninh nhân dân I"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Bến_Tre> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Bến Tre"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Công_nghiệp_Huế> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Công nghiệp Huế"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Công_nghiệp_Nam_Định> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Công nghiệp Nam Định"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Công_nghiệp_Quốc_phòng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Công nghiệp Quốc phòng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Công_nghệ_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Công nghệ Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Công_nghệ_Thông_tin_Đà_Nẵng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Công nghệ Thông tin Đà Nẵng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Công_nghệ_Viettronics> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Công nghệ Viettronics"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Công_nghệ_và_Thương_mại_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Công nghệ và Thương mại Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Công_thương_Miền_Trung> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Công thương Miền Trung"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Công_thương_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Công thương Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Cơ_giới_Ninh_Bình> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Cơ giới Ninh Bình"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Cơ_điện_và_Nông_nghiệp_Nam_Bộ> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Cơ điện và Nông nghiệp Nam Bộ"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Cảnh_sát_nhân_dân_I> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Cảnh sát nhân dân I"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Cảnh_sát_nhân_dân_II> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Cảnh sát nhân dân II"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Cộng_đồng_Đồng_Tháp> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Cộng đồng Đồng Tháp"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Dược_Trung_ương_Hải_Dương> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Dược Trung ương Hải Dương"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Huế> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Huế"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Hòa_Bình_Xuân_Lộc> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Hòa Bình Xuân Lộc"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Kinh_tế_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Kinh tế Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Kinh_tế_–_Kế_hoạch_Đà_Nẵng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Kinh tế – Kế hoạch Đà Nẵng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Kinh_tế_–_Kỹ_thuật_Bạc_Liêu> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Kinh tế – Kỹ thuật Bạc Liêu"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Kinh_tế_–_Kỹ_thuật_Trung_ương> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Kinh tế – Kỹ thuật Trung ương"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Kỹ_thuật_Cao_Thắng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Kỹ thuật Cao Thắng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Kỹ_thuật_Công_nghiệp_Việt_Nam-Hàn_Quốc> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Kỹ thuật Công nghiệp Việt Nam-Hàn Quốc"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Kỹ_thuật_Công_nghệ_–_Bách_khoa> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Kỹ thuật Công nghệ – Bách khoa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Lý_Tự_Trọng_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Lý Tự Trọng Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Ngoại_ngữ_và_Công_nghệ_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Ngoại ngữ và Công nghệ Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Ngoại_ngữ_–_Công_nghệ_Việt_Nhật> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Ngoại ngữ – Công nghệ Việt Nhật"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Nông_Lâm_Thanh_Hóa> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Nông Lâm Thanh Hóa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Phát_thanh_-_Truyền_hình_I> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Phát thanh - Truyền hình I"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Phát_thanh_-_Truyền_hình_II> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Phát thanh - Truyền hình II"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Văn_hóa_Nghệ_thuật_Cần_Thơ> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Văn hóa Nghệ thuật Cần Thơ"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Văn_hóa_Nghệ_thuật_Thái_Bình> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Văn hóa Nghệ thuật Thái Bình"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Y_tế_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Y tế Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Y_tế_Hà_Đông> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Y tế Hà Đông"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Y_tế_Lâm_Đồng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Y tế Lâm Đồng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Y_tế_Ninh_Bình> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Y tế Ninh Bình"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Y_tế_Thanh_Hóa> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Y tế Thanh Hóa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Y_tế_Thái_Bình> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Y tế Thái Bình"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Y_tế_Đồng_Tháp> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Y tế Đồng Tháp"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_nghề_Công_nghiệp_Thanh_Hóa> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng nghề Công nghiệp Thanh Hóa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_nghề_Cơ_điện_Xây_dựng_Tam_Điệp> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng nghề Cơ điện Xây dựng Tam Điệp"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_nghề_LILAMA-1> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng nghề LILAMA-1"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_nghề_Vĩnh_Long> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng nghề Vĩnh Long"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Điện_lực_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Điện lực Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Điện_tử_–_Điện_lạnh_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Điện tử – Điện lạnh Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Cao_đẳng_Đà_Lạt> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Cao đẳng Đà Lạt"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Du_lịch,_Đại_học_Huế> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Du lịch, Đại học Huế"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Khoa_học_liên_ngành_và_Nghệ_thuật,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Khoa học liên ngành và Nghệ thuật, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Phổ_thông_Năng_khiếu,_Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Phổ thông Năng khiếu, Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Quân_sự_Quân_khu_7> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Quân sự Quân khu 7"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Quản_trị_và_Kinh_doanh,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Quản trị và Kinh doanh, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Quốc_tế,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Quốc tế, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Sĩ_quan_Chính_trị_–_Đại_học_Chính_trị> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Sĩ quan Chính trị – Đại học Chính trị"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Sĩ_quan_Công_binh_–_Đại_học_Ngô_Quyền> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Sĩ quan Công binh – Đại học Ngô Quyền"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Sĩ_quan_Không_quân_(Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Sĩ quan Không quân (Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Sĩ_quan_Pháo_binh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Sĩ quan Pháo binh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Sĩ_quan_Phòng_hóa> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Sĩ quan Phòng hóa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Sĩ_quan_Thông_tin_–_Đại_học_Thông_tin_Liên_lạc> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Sĩ quan Thông tin – Đại học Thông tin Liên lạc"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Sĩ_quan_Tăng_–_Thiết_giáp> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Sĩ quan Tăng – Thiết giáp"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Sĩ_quan_Đặc_công> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Sĩ quan Đặc công"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Trung_Học_Cơ_Sở_Ngoại_Ngữ,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Trung Học Cơ Sở Ngoại Ngữ, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Trung_học_phổ_thông_Khoa_học_Giáo_dục,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Trung học phổ thông Khoa học Giáo dục, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Trung_học_phổ_thông_chuyên_Khoa_học_Tự_nhiên,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Trung học phổ thông chuyên Khoa học Tự nhiên, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Trung_học_phổ_thông_chuyên_Khoa_học_Xã_hội_và_Nhân_văn,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Trung học phổ thông chuyên Khoa học Xã hội và Nhân văn, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_An_Giang,_Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học An Giang, Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_An_ninh_nhân_dân_(Thành_phố_Hồ_Chí_Minh)> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học An ninh nhân dân (Thành phố Hồ Chí Minh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Bà_Rịa_–_Vũng_Tàu> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Bà Rịa – Vũng Tàu"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Bách_khoa,_Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Bách khoa, Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Bách_khoa,_Đại_học_Đà_Nẵng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Bách khoa, Đại học Đà Nẵng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Bình_Dương> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Bình Dương"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Bạc_Liêu> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Bạc Liêu"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_Thương_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công Thương Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghiệp_Quảng_Ninh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghiệp Quảng Ninh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghiệp_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghiệp Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghiệp_Vinh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghiệp Vinh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghiệp_Việt_Trì> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghiệp Việt Trì"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghiệp_Việt_–_Hung> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghiệp Việt – Hung"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghiệp_và_Thương_mại_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghiệp và Thương mại Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghệ,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghệ_Giao_thông_vận_tải> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghệ Giao thông vận tải"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghệ_Kỹ_thuật_Hưng_Yên> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghệ Kỹ thuật Hưng Yên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghệ_Kỹ_thuật_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghệ Kỹ thuật Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghệ_Kỹ_thuật_Vinh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghệ Kỹ thuật Vinh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghệ_Kỹ_thuật_Vĩnh_Long> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghệ Kỹ thuật Vĩnh Long"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghệ_Sài_Gòn> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghệ Sài Gòn"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghệ_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghệ Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghệ_Thông_tin,_Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghệ Thông tin, Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghệ_Thông_tin_và_Truyền_thông_Việt_–_Hàn,_Đại_học_Đà_Nẵng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghệ Thông tin và Truyền thông Việt – Hàn, Đại học Đà Nẵng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghệ_Vạn_Xuân> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghệ Vạn Xuân"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghệ_thông_tin_và_Truyền_thông,_Đại_học_Thái_Nguyên> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghệ thông tin và Truyền thông, Đại học Thái Nguyên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_nghệ_Đồng_Nai> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công nghệ Đồng Nai"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Công_đoàn> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Công đoàn"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Cảnh_sát_nhân_dân_(Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Cảnh sát nhân dân (Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Cửu_Long> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Cửu Long"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Dược_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Dược Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Dầu_khí_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Dầu khí Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_FPT> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học FPT"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Fulbright_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Fulbright Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Gia_Định> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Gia Định"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Giao_thông_Vận_tải> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Giao thông Vận tải"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Giao_thông_vận_tải_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Giao thông vận tải Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Giáo_dục,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Giáo dục, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Hoa_Lư> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Hoa Lư"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Hoa_Sen> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Hoa Sen"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Hà_Tĩnh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Hà Tĩnh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Hàng_hải_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Hàng hải Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Hòa_Bình> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Hòa Bình"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Hùng_Vương> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Hùng Vương"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Hùng_Vương_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Hùng Vương Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Hải_Phòng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Hải Phòng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Hồng_Đức> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Hồng Đức"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Khoa_học,_Đại_học_Huế> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Khoa học, Đại học Huế"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Khoa_học,_Đại_học_Thái_Nguyên> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Khoa học, Đại học Thái Nguyên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Khoa_học_Sức_khỏe,_Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Khoa học Sức khỏe, Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Khoa_học_Tự_nhiên,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Khoa_học_Xã_hội_và_Nhân_văn,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Khoa_học_Xã_hội_và_Nhân_văn,_Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Khoa_học_và_Công_nghệ_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Khoa học và Công nghệ Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Khánh_Hòa> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Khánh Hòa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kinh_Bắc> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kinh Bắc"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kinh_doanh_và_Công_nghệ_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kinh doanh và Công nghệ Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kinh_tế,_Đại_học_Huế> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kinh tế, Đại học Huế"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kinh_tế,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kinh tế, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kinh_tế,_Đại_học_Đà_Nẵng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kinh tế, Đại học Đà Nẵng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kinh_tế_Công_nghiệp_Long_An> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kinh tế Công nghiệp Long An"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kinh_tế_và_Quản_trị_kinh_doanh,_Đại_học_Thái_Nguyên> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kinh tế và Quản trị kinh doanh, Đại học Thái Nguyên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kinh_tế_–_Kỹ_thuật_Công_nghiệp> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kinh tế – Kỹ thuật Công nghiệp"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kinh_tế_–_Luật,_Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kinh tế – Luật, Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kinh_tế_–_Tài_chính_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kinh tế – Tài chính Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kiên_Giang> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kiên Giang"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kiến_trúc_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kiến trúc Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kiến_trúc_Đà_Nẵng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kiến trúc Đà Nẵng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kiểm_sát> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kiểm sát"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kỹ_thuật_Công_nghiệp,_Đại_học_Thái_Nguyên> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kỹ thuật Công nghiệp, Đại học Thái Nguyên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kỹ_thuật_Y_Dược_Đà_Nẵng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kỹ thuật Y Dược Đà Nẵng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kỹ_thuật_Y_tế_Hải_Dương> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kỹ thuật Y tế Hải Dương"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Kỹ_thuật_–_Công_nghệ_Cần_Thơ> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Kỹ thuật – Công nghệ Cần Thơ"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Lao_động_-_Xã_hội_cơ_sở_2,_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Lao động - Xã hội cơ sở 2, Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Lao_động_–_Xã_hội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Lao động – Xã hội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Luật,_Đại_học_Huế> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Luật, Đại học Huế"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Luật_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Luật Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Lương_Thế_Vinh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Lương Thế Vinh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Lạc_Hồng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Lạc Hồng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Mỏ_–_Địa_chất> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Mỏ – Địa chất"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Mở_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Mở Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Mở_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Mở Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Mỹ_thuật_Công_nghiệp> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Mỹ thuật Công nghiệp"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Mỹ_thuật_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Mỹ thuật Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Mỹ_thuật_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Mỹ thuật Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Nam_Cần_Thơ> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Nam Cần Thơ"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Nghệ_An> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Nghệ An"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Nghệ_thuật,_Đại_học_Huế> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Nghệ thuật, Đại học Huế"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Ngoại_ngữ,_Đại_học_Huế> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Ngoại ngữ, Đại học Huế"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Ngoại_ngữ,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Ngoại ngữ, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Ngoại_ngữ,_Đại_học_Đà_Nẵng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Ngoại ngữ, Đại học Đà Nẵng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Ngoại_thương> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Ngoại thương"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Nguyễn_Trãi> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Nguyễn Trãi"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Nguyễn_Tất_Thành> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Nguyễn Tất Thành"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Ngân_hàng_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Ngân hàng Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Nha_Trang> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Nha Trang"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Nông_Lâm,_Đại_học_Huế> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Nông Lâm, Đại học Huế"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Nông_Lâm,_Đại_học_Thái_Nguyên> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Nông Lâm, Đại học Thái Nguyên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Nông_Lâm_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Nông Lâm Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Nội_vụ_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Nội vụ Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Phan_Thiết> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Phan Thiết"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Phú_Xuân> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Phú Xuân"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Phú_Yên> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Phú Yên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Phương_Đông_(Việt_Nam)> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Phương Đông (Việt Nam)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Phạm_Văn_Đồng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Phạm Văn Đồng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Quang_Trung> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Quang Trung"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Quy_Nhơn> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Quy Nhơn"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Quản_lý_và_Công_nghệ_Hải_Phòng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Quản lý và Công nghệ Hải Phòng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Quảng_Bình> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Quảng Bình"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Quảng_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Quảng Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Quốc_gia_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Quốc gia Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Quốc_tế,_Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Quốc tế, Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Quốc_tế_Bắc_Hà> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Quốc tế Bắc Hà"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Quốc_tế_Hồng_Bàng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Quốc tế Hồng Bàng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Quốc_tế_RMIT_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Quốc tế RMIT Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Răng_Hàm_Mặt> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Răng Hàm Mặt"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Sao_Đỏ> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Sao Đỏ"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Sài_Gòn> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Sài Gòn"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Sân_khấu_–_Điện_ảnh_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Sân khấu – Điện ảnh Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Sân_khấu_–_Điện_ảnh_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Sân khấu – Điện ảnh Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Sư_phạm,_Đại_học_Huế> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Sư phạm, Đại học Huế"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Sư_phạm,_Đại_học_Thái_Nguyên> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Sư phạm, Đại học Thái Nguyên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Sư_phạm,_Đại_học_Đà_Nẵng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Sư phạm, Đại học Đà Nẵng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Sư_phạm_Hà_Nội_2> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Sư phạm Hà Nội 2"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Sư_phạm_Kỹ_thuật,_Đại_học_Đà_Nẵng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Sư phạm Kỹ thuật, Đại học Đà Nẵng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Sư_phạm_Kỹ_thuật_Nam_Định> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Sư phạm Kỹ thuật Nam Định"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Sư_phạm_Nghệ_thuật_Trung_ương> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Sư phạm Nghệ thuật Trung ương"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Sư_phạm_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Sư phạm Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Sư_phạm_Thể_dục_Thể_thao_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Sư phạm Thể dục Thể thao Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Sư_phạm_Thể_dục_Thể_thao_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Sư phạm Thể dục Thể thao Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Thành_Đô> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Thành Đô"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Thái_Bình> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Thái Bình"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Thái_Bình_Dương> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Thái Bình Dương"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Thăng_Long> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Thăng Long"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Thương_mại> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Thương mại"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Thể_dục_Thể_thao_Bắc_Ninh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Thể dục Thể thao Bắc Ninh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Thể_dục_Thể_thao_Đà_Nẵng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Thể dục Thể thao Đà Nẵng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Thể_dục_thể_thao_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Thể dục thể thao Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Thủ_Dầu_Một> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Thủ Dầu Một"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Thủy_lợi> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Thủy lợi"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Tiền_Giang> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Tiền Giang"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Trần_Đại_Nghĩa> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Trần Đại Nghĩa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Tài_chính_–_Marketing> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Tài chính – Marketing"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Tài_chính_–_Marketing_phân_hiệu_Quảng_Ngãi> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Tài chính – Marketing phân hiệu Quảng Ngãi"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Tài_chính_–_Quản_trị_kinh_doanh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Tài chính – Quản trị kinh doanh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Tài_nguyên_và_Môi_trường_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Tài nguyên và Môi trường Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Tài_nguyên_và_Môi_trường_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Tài nguyên và Môi trường Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Tân_Tạo> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Tân Tạo"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Tây_Bắc> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Tây Bắc"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Tây_Nguyên> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Tây Nguyên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Tây_Đô> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Tây Đô"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Tôn_Đức_Thắng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Tôn Đức Thắng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Tổng_hợp_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Tổng hợp Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_VinUni> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học VinUni"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Vinh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Vinh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Việt_Nhật,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Việt Nhật, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Việt_Đức> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Việt Đức"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Võ_Trường_Toản> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Võ Trường Toản"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Văn_Hiến> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Văn Hiến"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Văn_Lang> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Văn Lang"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Văn_hóa,_Thể_thao_và_Du_lịch_Thanh_Hóa> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Văn hóa, Thể thao và Du lịch Thanh Hóa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Văn_hóa_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Văn hóa Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Văn_hóa_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Văn hóa Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Văn_hóa_–_Nghệ_thuật_Quân_đội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Văn hóa – Nghệ thuật Quân đội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Xây_dựng_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Xây dựng Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Xây_dựng_Miền_Trung> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Xây dựng Miền Trung"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Xây_dựng_Miền_Tây> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Xây dựng Miền Tây"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Y_Dược,_Đại_học_Huế> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Y Dược, Đại học Huế"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Y_Dược,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Y Dược, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Y_Dược,_Đại_học_Thái_Nguyên> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Y Dược, Đại học Thái Nguyên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Y_Dược_Cần_Thơ> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Y Dược Cần Thơ"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Y_Dược_Hải_Phòng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Y Dược Hải Phòng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Y_Dược_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Y Dược Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Y_Dược_Thái_Bình> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Y Dược Thái Bình"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Y_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Y Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Y_khoa_Phạm_Ngọc_Thạch> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Y khoa Phạm Ngọc Thạch"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Y_khoa_Vinh> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Y khoa Vinh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Y_tế_Công_cộng> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Y tế Công cộng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Yersin_Đà_Lạt> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Yersin Đà Lạt"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Điều_dưỡng_Nam_Định> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Điều dưỡng Nam Định"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Điện_lực> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Điện lực"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Đà_Lạt> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Đà Lạt"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Đông_Á> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Đông Á"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Đông_Đô> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Đông Đô"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Đại_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Đại Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Đồng_Nai> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Đồng Nai"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Đại_học_Đồng_Tháp> <http://www.w3.org/2000/01/rdf-schema#label> "Trường Đại học Đồng Tháp"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trần_Chí_Đáo> <http://www.w3.org/2000/01/rdf-schema#label> "Trần Chí Đáo"@vi .
+<https://w3id.org/vi-dbpedia/resource/Tuyên_Quang> <http://www.w3.org/2000/01/rdf-schema#label> "Tuyên Quang"@vi .
+<https://w3id.org/vi-dbpedia/resource/Tuyên_Đức> <http://www.w3.org/2000/01/rdf-schema#label> "Tuyên Đức"@vi .
+<https://w3id.org/vi-dbpedia/resource/Tân_An_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Tân An (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Tân_Bình_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Tân Bình (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Tây_Ninh> <http://www.w3.org/2000/01/rdf-schema#label> "Tây Ninh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Tập_đoàn_Giáo_dục_EQuest> <http://www.w3.org/2000/01/rdf-schema#label> "Tập đoàn Giáo dục EQuest"@vi .
+<https://w3id.org/vi-dbpedia/resource/Tỉnh_(Việt_Nam_Cộng_hòa)> <http://www.w3.org/2000/01/rdf-schema#label> "Tỉnh (Việt Nam Cộng hòa)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Viện_Công_nghệ_Thông_tin,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Viện Công nghệ Thông tin, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Viện_Hồ_Chí_Minh_và_các_lãnh_tụ_của_Đảng> <http://www.w3.org/2000/01/rdf-schema#label> "Viện Hồ Chí Minh và các lãnh tụ của Đảng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Viện_Trần_Nhân_Tông,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Viện Trần Nhân Tông, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Viện_Vi_sinh_vật_và_Công_nghệ_sinh_học,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Viện Vi sinh vật và Công nghệ sinh học, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Viện_Việt_Nam_học_và_Khoa_học_phát_triển,_Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Viện Việt Nam học và Khoa học phát triển, Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Viện_đại_học_cộng_đồng_Duyên_hải> <http://www.w3.org/2000/01/rdf-schema#label> "Viện đại học cộng đồng Duyên hải"@vi .
+<https://w3id.org/vi-dbpedia/resource/Vĩnh_Bình_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Vĩnh Bình (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Vĩnh_Linh_(đặc_khu)> <http://www.w3.org/2000/01/rdf-schema#label> "Vĩnh Linh (đặc khu)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Vĩnh_Long> <http://www.w3.org/2000/01/rdf-schema#label> "Vĩnh Long"@vi .
+<https://w3id.org/vi-dbpedia/resource/Vĩnh_Phú_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Vĩnh Phú (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Vĩnh_Phúc_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Vĩnh Phúc (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Vĩnh_Trà> <http://www.w3.org/2000/01/rdf-schema#label> "Vĩnh Trà"@vi .
+<https://w3id.org/vi-dbpedia/resource/Vĩnh_Yên_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Vĩnh Yên (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Vũng_Tàu_–_Côn_Đảo> <http://www.w3.org/2000/01/rdf-schema#label> "Vũng Tàu – Côn Đảo"@vi .
+<https://w3id.org/vi-dbpedia/resource/Yên_Bái_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Yên Bái (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Ái_Châu> <http://www.w3.org/2000/01/rdf-schema#label> "Ái Châu"@vi .
+<https://w3id.org/vi-dbpedia/resource/Điện_Biên> <http://www.w3.org/2000/01/rdf-schema#label> "Điện Biên"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đà_Nẵng> <http://www.w3.org/2000/01/rdf-schema#label> "Đà Nẵng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đại_học_Công_nghiệp_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Đại học Công nghiệp Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đại_học_Duy_Tân> <http://www.w3.org/2000/01/rdf-schema#label> "Đại học Duy Tân"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đại_học_Huế> <http://www.w3.org/2000/01/rdf-schema#label> "Đại học Huế"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đại_học_Kinh_tế_Quốc_dân> <http://www.w3.org/2000/01/rdf-schema#label> "Đại học Kinh tế Quốc dân"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đại_học_Kinh_tế_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Đại học Kinh tế Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đại_học_Phenikaa> <http://www.w3.org/2000/01/rdf-schema#label> "Đại học Phenikaa"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đại_học_Quốc_gia_Hà_Nội> <http://www.w3.org/2000/01/rdf-schema#label> "Đại học Quốc gia Hà Nội"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh> <http://www.w3.org/2000/01/rdf-schema#label> "Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đại_học_Đà_Nẵng> <http://www.w3.org/2000/01/rdf-schema#label> "Đại học Đà Nẵng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đắk_Lắk> <http://www.w3.org/2000/01/rdf-schema#label> "Đắk Lắk"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đắk_Nông_(tỉnh)> <http://www.w3.org/2000/01/rdf-schema#label> "Đắk Nông (tỉnh)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Định_Tường> <http://www.w3.org/2000/01/rdf-schema#label> "Định Tường"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đồng_Nai> <http://www.w3.org/2000/01/rdf-schema#label> "Đồng Nai"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đồng_Nai_Thượng> <http://www.w3.org/2000/01/rdf-schema#label> "Đồng Nai Thượng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đồng_Tháp> <http://www.w3.org/2000/01/rdf-schema#label> "Đồng Tháp"@vi .
