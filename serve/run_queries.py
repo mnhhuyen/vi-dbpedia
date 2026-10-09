@@ -44,7 +44,10 @@ def local_dataset():
     files = {
         "ontology": [ROOT / "ontology" / f for f in ("vio-ontology.ttl", "dbo-vi-labels.ttl")],
         "data": [p for p in (ROOT / "transform" / "output").glob("*.nt") if p.name != "page-links.nt"],
-        "links": [ROOT / "link" / "output" / "sameas-dbpedia.validated.nt", ROOT / "link" / "output" / "sameas-wikidata.nt"],
+        "links": [next((p for p in (ROOT / "link" / "output" / n for n in
+                                    ("sameas-dbpedia.final.nt", "sameas-dbpedia.validated.nt")) if p.exists()),
+                       ROOT / "link" / "output" / "sameas-dbpedia.nt"),
+                  ROOT / "link" / "output" / "sameas-wikidata.nt"],
         "inferred": [HERE / "output" / "inferred.nt"],
     }
     for name, fs in files.items():
@@ -96,8 +99,10 @@ def main():
         out.append("")
     rep = HERE / "reports"
     rep.mkdir(exist_ok=True)
-    (rep / "queries.md").write_text("\n".join(out), encoding="utf-8")
-    print(f"\nĐã ghi {rep / 'queries.md'}")
+    # --local ghi file riêng: không ghi đè kết quả từ Fuseki (có phần federated)
+    name = "queries_local.md" if args.local else "queries.md"
+    (rep / name).write_text("\n".join(out), encoding="utf-8")
+    print(f"\nĐã ghi {rep / name}")
 
 
 if __name__ == "__main__":

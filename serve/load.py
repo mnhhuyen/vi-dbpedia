@@ -26,11 +26,13 @@ TYPES = {".ttl": "text/turtle; charset=utf-8", ".nt": "application/n-triples; ch
 
 def plan():
     t, l = ROOT / "transform" / "output", ROOT / "link" / "output"
-    validated = l / "sameas-dbpedia.validated.nt"
+    # ưu tiên: final (đã kiểm tra + liên kết mới từ match.py) > validated > chưa kiểm tra
+    dbpedia = next(p for p in (l / "sameas-dbpedia.final.nt", l / "sameas-dbpedia.validated.nt",
+                               l / "sameas-dbpedia.nt") if p.exists() or p.name == "sameas-dbpedia.nt")
     return {
         "ontology": [ROOT / "ontology" / f for f in ("vio-ontology.ttl", "dbo-patched.ttl", "dbo-vi-labels.ttl")],
         "data": sorted(p for p in t.glob("*.nt")),
-        "links": [validated if validated.exists() else l / "sameas-dbpedia.nt", l / "sameas-wikidata.nt"],
+        "links": [dbpedia, l / "sameas-wikidata.nt"],
         "inferred": [HERE / "output" / "inferred.nt"],
         "void": [t / "void.ttl"],
     }

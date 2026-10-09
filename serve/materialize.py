@@ -32,6 +32,12 @@ ROOT = HERE.parent
 RESOURCE_NS = "https://w3id.org/vi-dbpedia/resource/"
 
 
+def write_sorted_nt(g, path):
+    """Ghi N-Triples theo thứ tự dòng cố định (chạy lại cho ra đúng file cũ)."""
+    lines = sorted(l for l in g.serialize(format="nt").splitlines() if l.strip())
+    Path(path).write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--transform-output", default=str(ROOT / "transform" / "output"))
@@ -89,7 +95,7 @@ def main():
         inferred.add((s, p, o))
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
-    inferred.serialize(out, format="nt", encoding="utf-8")
+    write_sorted_nt(inferred, out)
 
     types = sum(1 for _ in inferred.triples((None, RDF.type, None)))
     print(f"Ghi {len(inferred):,} triple suy ra vào {out} ({types:,} kiểu, {len(inferred) - types:,} quan hệ/thuộc tính)")
