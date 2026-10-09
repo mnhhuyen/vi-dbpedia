@@ -243,6 +243,8 @@ def home_stats():
         _, by_graph = STORE.select("SELECT ?g (COUNT(*) AS ?n) WHERE { GRAPH ?g { ?s ?p ?o } } GROUP BY ?g")
         _, by_class = STORE.select(f"""SELECT ?c (COUNT(DISTINCT ?s) AS ?n) WHERE {{
             GRAPH <{G}data> {{ ?s a ?c }} FILTER(STRSTARTS(STR(?c), "{BASE}ontology/")) }} GROUP BY ?c ORDER BY DESC(?n)""")
+        # mỗi dòng là một (thực thể, nhãn); 116 trường có thêm nhãn @en nên số dòng > số thực thể.
+        # Giữ cả nhãn @en để tìm kiếm được theo tên tiếng Anh; khi đếm thì đếm thực thể khác nhau.
         _, labels = STORE.select(f"""SELECT ?s ?l (SAMPLE(?c) AS ?t) WHERE {{ GRAPH <{G}data> {{
             ?s <{RDFS_LABEL}> ?l ; <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> ?w
             OPTIONAL {{ ?s a ?c }} }} }} GROUP BY ?s ?l""")
@@ -590,7 +592,7 @@ def home():
 <p class="lede">Trích xuất từ Wikipedia tiếng Việt, mô tả bằng DBpedia Ontology và phần mở rộng vio:,
 liên kết sang DBpedia tiếng Anh và Wikidata.</p>
 <form class="search" action="/search" role="search"><input name="q" placeholder="Tìm theo tên, không cần dấu: ha noi, bach khoa…" aria-label="Tìm thực thể"><button>Tìm</button></form>
-<div class="facts"><span><b>{num(len(labels))}</b>bài viết</span><span><b>{num(total)}</b>triple</span>
+<div class="facts"><span><b>{num(len({s for s, _, _ in labels}))}</b>bài viết</span><span><b>{num(total)}</b>triple</span>
 <span><b>{num(graphs.get('inferred', 0))}</b>triple do reasoner suy ra</span><span><b>{num(graphs.get('links', 0))}</b>liên kết sang DBpedia, Wikidata</span></div>
 <div class="grid"><div><h2>Theo lớp</h2><ul class="cols">{cls}</ul></div>
 <aside><section><h3>Thử xem</h3><ul>{samples}</ul></section>
