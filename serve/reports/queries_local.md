@@ -25,38 +25,37 @@ Nguồn: rdflib (cục bộ)
 
 `queries/cq02_tinh_da_giai_the.rq`
 
-56 dòng.
+63 dòng.
 
 | ten | thanhLap | giaiThe |
 |---|---|---|
 | Bình Trị | 1890-05-03 | 1896-01-23 |
-| Hưng Hóa |  | 1903-05-05 |
+| Hưng Hóa | 1831 | 1903-05-05 |
 | Vĩnh Yên (tỉnh) | 1890-10-20 | 1950-02-12 |
 | Long Xuyên (tỉnh) | 1900-01-01 | 1956-10-22 |
 | Kiến An (tỉnh) | 1887-09-11 | 1962-10-27 |
-| Quảng Yên (tỉnh) |  | 1963-10-30 |
+| Hải Ninh (tỉnh) | 1906 | 1963 |
+| Quảng Yên (tỉnh) | 1831 | 1963-10-30 |
 | Hà Đông (tỉnh) | 1902-05-03 | 1965-04-21 |
-| Sơn Tây (tỉnh Việt Nam) |  | 1965-04-21 |
-| Gia Định (tỉnh) |  | 1975-05-03 |
+| Sơn Tây (tỉnh Việt Nam) | 1466 | 1965-04-21 |
+| Nam Hà (tỉnh) | 1965 | 1975 |
+| Gia Định (tỉnh) | 1833 | 1975-05-03 |
 | Nghĩa Lộ (tỉnh) | 1962-10-27 | 1975-12-27 |
 | Cao Lạng | 1975-12-27 | 1978-12-29 |
-| Bình Trị Thiên | 1976-02-24 | 1989-06-30 |
-| Gia Lai – Kon Tum | 1975-09-20 | 1991-08-12 |
-| Hoàng Liên Sơn (tỉnh) | 1975-12-27 | 1991-08-12 |
-| Hà Nam Ninh | 1975-12-27 | 1991-08-12 |
-| … (41 dòng nữa) | | |
+| Nghĩa Bình | 1975 | 1989 |
+| Phú Khánh | 1975 | 1989 |
+| … (48 dòng nữa) | | |
 
 ## CQ3: Các cơ sở giáo dục đại học có trụ sở tại Hà Nội
 
 `queries/cq03_truong_tai_ha_noi.rq`
 
-53 dòng.
+52 dòng.
 
 | ten | loai |
 |---|---|
 | Đại học Kinh tế Quốc dân | vio:DaiHoc |
 | Đại học Phenikaa | vio:DaiHoc |
-| Đại học Quốc gia Hà Nội | vio:DaiHoc |
 | Đại học Quốc gia Hà Nội | vio:DaiHocQuocGia |
 | Học viện Báo chí và Tuyên truyền | vio:HocVien |
 | Học viện Chính sách và Phát triển | vio:HocVien |
@@ -69,7 +68,8 @@ Nguồn: rdflib (cục bộ)
 | Học viện Tài chính (Việt Nam) | vio:HocVien |
 | Học viện Tư pháp (Việt Nam) | vio:HocVien |
 | Học viện Y – Dược học cổ truyền Việt Nam | vio:HocVien |
-| … (38 dòng nữa) | |
+| Học viện Âm nhạc Quốc gia Việt Nam | vio:HocVien |
+| … (37 dòng nữa) | |
 
 ## CQ4: Các trường thành viên của mỗi đại học quốc gia / đại học vùng (vio:coThanhVien được suy ra từ nghịch đảo)
 
@@ -139,26 +139,26 @@ Nguồn: rdflib (cục bộ)
 
 `queries/cq08_lien_ket_dbpedia.rq`
 
-32 dòng.
+25 dòng.
 
 | ten | dbpedia | wikidata |
 |---|---|---|
 | An Giang | dbr:An_Giang_province | wd:Q36592 |
-| Bắc Thái |  | wd:Q1925306 |
 | Cao Bằng | dbr:Cao_Bằng_province | wd:Q36865 |
 | Cà Mau | dbr:Cà_Mau_province | wd:Q33354 |
 | Gia Lai | dbr:Gia_Lai_province | wd:Q36662 |
 | Hà Tĩnh | dbr:Hà_Tĩnh_province | wd:Q33351 |
 | Hưng Yên | dbr:Hưng_Yên_province | wd:Q36235 |
-| Hải Hưng (tỉnh) | dbr:Hải_Hưng_province | wd:Q2107381 |
-| Hải Ninh (tỉnh) |  | wd:Q10771661 |
 | Khánh Hòa | dbr:Khánh_Hòa_province | wd:Q33369 |
 | Lai Châu | dbr:Lai_Châu_province | wd:Q36409 |
 | Lào Cai | dbr:Lào_Cai_province | wd:Q36446 |
 | Lâm Đồng | dbr:Lâm_Đồng_province | wd:Q36721 |
 | Lạng Sơn | dbr:Lạng_Sơn_province | wd:Q33403 |
-| Nam Hà (tỉnh) |  | wd:Q10797051 |
-| … (17 dòng nữa) | | |
+| Nghệ An | dbr:Nghệ_An_province | wd:Q36587 |
+| Ninh Bình | dbr:Ninh_Bình_province | wd:Q36900 |
+| Phú Thọ | dbr:Phú_Thọ_province | wd:Q36610 |
+| Quảng Ngãi | dbr:Quảng_Ngãi_province | wd:Q33304 |
+| … (10 dòng nữa) | | |
 
 ## CQ9 (federated, cần mạng): So sánh kiểu hai bên — tỉnh của ta là dbo:Province, bên DBpedia tiếng Anh là gì?
 
