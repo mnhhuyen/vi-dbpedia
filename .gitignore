@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Fuseki: cơ sở dữ liệu TDB2 và thư mục chạy — sinh lại bằng start_fuseki.sh + load.py
+serve/databases/
+serve/run/
+
+# File gộp tạm cho Silk (link/silk/README.md)
+transform/output/all.nt
