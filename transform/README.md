@@ -29,7 +29,7 @@ python transform.py --articles tests/sample-articles.jsonl.gz \
 | File | Vai trò |
 |---|---|
 | `mappings.yaml` | **Bảng mapping** infobox → ontology. Sửa file này để thêm/bớt tham số, không cần sửa code |
-| `parsers.py` | Chuẩn hoá giá trị tiếng Việt: số "1.234,5", diện tích km² → m², ngày "2/7/1976", template ngày, liên kết... |
+| `parsers.py` | Chuẩn hoá giá trị tiếng Việt: số "1.234,5", diện tích km² → m², ngày "2/7/1976", template ngày, liên kết, tên người bỏ học hàm ("PGS.TS. Nguyễn Văn A" → "Nguyễn Văn A")... |
 | `transform.py` | Đọc bài viết, phân loại, sinh triple, ghi các bộ dữ liệu |
 | `check_quality.py` | Kiểm tra loại trừ, functional, kiểu dữ liệu |
 

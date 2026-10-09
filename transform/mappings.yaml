@@ -25,6 +25,9 @@
 #   routes       : chọn thuộc tính theo tiêu đề của đích (luật đầu tiên khớp); không khớp -> bỏ
 #   text_fallback: nếu không có liên kết, nối chữ thường với một bài đã biết (tiêu đề bài
 #                  hoặc chữ hiển thị của liên kết ở các bài khác)
+#   Một tham số có thể map sang nhiều thuộc tính: viết danh sách các mapping.
+#
+# no_infobox_rules: luật phân lớp cho bài KHÔNG có infobox nào trong bảng (chỉ sinh rdf:type)
 
 base: "https://w3id.org/vi-dbpedia/"
 
@@ -44,6 +47,8 @@ skip_raw_params: [logo, ghi chú logo, hình, image, cỡ hình, logo_size, capt
 university_rules: &university_rules
   - {title_contains: "phân hiệu", class: null}          # phân hiệu không phải cơ sở độc lập
   - {title_prefix: "Trường Cao đẳng", class: null}
+  # Trường sĩ quan mang tên kép "Trường Sĩ quan X – Đại học Y" là trường đại học
+  - {title_prefix: "Trường Sĩ quan", title_contains: "đại học", class: vio:TruongDaiHoc}
   - {title_in: ["Đại học Huế", "Đại học Thái Nguyên", "Đại học Đà Nẵng"], class: vio:DaiHocVung}
   - {title_prefix: "Đại học Quốc gia", class: vio:DaiHocQuocGia}
   - {title_prefix: "Đại học ", class: vio:DaiHoc}
@@ -101,8 +106,12 @@ templates:
       sinh viên sau đại học: {parser: int, property: dbo:numberOfPostgraduateStudents, datatype: xsd:nonNegativeInteger}
       nghiên cứu sinh:       {parser: int, property: dbo:numberOfDoctoralStudents, datatype: xsd:nonNegativeInteger}
       tọa độ:                {parser: coord, property: geo}
-      hiệu trưởng:           {parser: first_link, property: dbo:rector, object: true}
-      giám đốc:              {parser: first_link, property: dbo:rector, object: true}
+      # Phần lớn giá trị là tên viết thường kèm học hàm ("PGS.TS. Nguyễn Văn A"), không có liên kết:
+      # luôn ghi tên (literal), chỉ ghi dbo:rector khi có liên kết tới bài về người đó
+      hiệu trưởng:           &rector
+        - {parser: person_name, property: vio:tenHieuTruong, lang: vi}
+        - {parser: person_link, property: dbo:rector, object: true}
+      giám đốc:              *rector
       thành phố:             {parser: first_link, property: vio:truSoTai, object: true, text_fallback: true, target_class: vio:DonViHanhChinhVietNam}
       tỉnh:                  {parser: first_link, property: vio:truSoTai, object: true, text_fallback: true, target_class: vio:DonViHanhChinhVietNam}
       # "thành viên của" có khi là đại học, có khi là bộ chủ quản hoặc tập đoàn sở hữu:
@@ -151,6 +160,12 @@ templates:
       bộ phận của: {parser: links, property: vio:coQuanChuQuan, object: true, text_fallback: true, target_prefix: ["Bộ "]}
       trực thuộc:  {parser: links, property: vio:coQuanChuQuan, object: true, text_fallback: true, target_prefix: ["Bộ "]}
 
+  Infobox military unit:
+    class_rules: *university_rules
+    properties:
+      <<: *university_common
+      established: {parser: date, property: dbo:foundingDate, datatype: xsd:date, year_property: dbo:foundingYear}
+
   Thông tin đơn vị công an nhân dân Việt Nam:
     class_rules: *university_rules
     properties:
@@ -158,6 +173,11 @@ templates:
       thành lập:   {parser: date, property: dbo:foundingDate, datatype: xsd:date, year_property: dbo:foundingYear}
       bộ phận của: {parser: links, property: vio:coQuanChuQuan, object: true, text_fallback: true, target_prefix: ["Bộ "]}
       trực thuộc:  {parser: links, property: vio:coQuanChuQuan, object: true, text_fallback: true, target_prefix: ["Bộ "]}
+
+no_infobox_rules:
+  - {title_contains: "phân hiệu", class: null}
+  - {title_prefix: "Trường Đại học", class: vio:TruongDaiHoc}
+  - {title_prefix: "Học viện", class: vio:HocVien}
 
   # Không map: "Infobox" (template chung, dùng cho tỉnh thời Việt Nam Cộng hòa -> ngoài phạm vi,
   # vì vio:DonViHanhChinhVietNam suy ra dbo:country dbr:Vietnam), "Thông tin nhân vật", "Thông tin

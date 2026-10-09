@@ -78,6 +78,22 @@ TITLE_WORDS = {  # liên kết trỏ tới học hàm/học vị, không phải 
 }
 
 
+# Học hàm, học vị, danh hiệu, chức danh đứng trước tên người: "PGS.TS.KTS.", "NGND,", "Đại tá"...
+HONORIFIC_RE = re.compile(
+    r"^(?:(?:g\.?s|p\.?g\.?s|t\.?s|tskh|th\.?s|kts|bs|bsck(?:ii|i|1|2)?|gvcc|ksvcc|ks|cn|ds|"
+    r"ngnd|ngưt|ngut|nsưt|nsnd|ttnd|ttưt|"
+    r"phó giáo sư(?: \(việt nam\))?|giáo sư|tiến sĩ khoa học|tiến sĩ|thạc sĩ|cử nhân|bác sĩ|kỹ sư|"
+    r"nhà giáo nhân dân|nhà giáo ưu tú|thầy thuốc nhân dân|thầy thuốc ưu tú|nghệ sĩ ưu tú|"
+    r"nhà thơ|nhà báo|đại tá|thượng tá|thiếu tướng|trung tướng|hòa thượng|giuse|bà)"
+    r"(?![a-zà-ỹđ])[\s.,:\-]*)+", re.I)
+
+
+def _is_honorific(s):
+    s = s.strip()
+    m = HONORIFIC_RE.match(s)
+    return bool(s) and m is not None and m.end() == len(s)
+
+
 def link_targets(wikitext):
     """Đích của các liên kết nội bộ [[Đích|chữ]], bỏ liên kết tới tập tin và học vị."""
     code = mwparserfromhell.parse(pre_clean(wikitext))
@@ -86,7 +102,7 @@ def link_targets(wikitext):
         target = nfc(str(l.title).split("#")[0].strip())
         if not target or re.match(r"(?i)(tập tin|hình|file|image|thể loại|category)\s*:", target):
             continue
-        if target.lower() in TITLE_WORDS:
+        if target.lower() in TITLE_WORDS or _is_honorific(target):
             continue
         out.append(target[:1].upper() + target[1:])
     return out
@@ -261,6 +277,33 @@ def parse_first_link(wikitext):
     return link_targets(wikitext)[:1]
 
 
+NAME_WORD = r"[A-ZÀ-ỸĐ][a-zà-ỹđA-ZÀ-ỸĐ]*"
+
+
+def parse_person_name(wikitext):
+    """Tên người, bỏ học hàm/học vị/danh hiệu và ghi chú:
+    'PGS.TS.KTS. Phạm Trọng Thuật' -> 'Phạm Trọng Thuật';
+    '[[Giáo sư|GS]]. [[Tiến sĩ|TS]]. [[Nguyễn Hữu Tú]]' -> 'Nguyễn Hữu Tú';
+    'TS. Đoàn Hoài Sơn<br>Quyền Hiệu trưởng' -> 'Đoàn Hoài Sơn'."""
+    text = to_text(wikitext).replace("­", "")              # bỏ dấu gạch nối mềm
+    for line in text.split("\n"):
+        line = re.sub(r"\(.*?\)|\(.*$", "", line).strip(" .,;:-–")
+        line = HONORIFIC_RE.sub("", line).strip(" .,;:-–")
+        line = re.sub(r"(?i)[\s.,]+(tiến sĩ|ts)$", "", line)       # 'Nguyễn Văn Khải Tiến sĩ'
+        if re.fullmatch(rf"{NAME_WORD}(?: {NAME_WORD}){{1,5}}", line):
+            return [line]
+    return []
+
+
+def parse_person_link(wikitext):
+    """Liên kết tới bài về người: chỉ nhận liên kết có đích trùng tên đã tách được,
+    để bỏ liên kết tới học hàm ('[[GS. TS.]]'), cấp bậc ('[[Đại tá Quân đội...|Đại tá]]')
+    hay đích viết dính học vị ('[[PGS.TS.Lê Tuấn Anh]]')."""
+    name = parse_person_name(wikitext)
+    links = [t.replace("­", "") for t in link_targets(wikitext)]
+    return [t for t in links if name and t == name[0]][:1]
+
+
 def parse_ownership(wikitext):
     """Loại hình -> một trong ba cá thể của vio:LoaiHinhSoHuu."""
     t = to_text(wikitext).lower() + " " + " ".join(link_targets(wikitext)).lower()
@@ -277,5 +320,6 @@ PARSERS = {
     "int": parse_int, "area_m2": parse_area_m2, "float": parse_decimal_point, "coord": parse_coord,
     "date": parse_date, "text": parse_text, "text_list": parse_text_list, "code": parse_code,
     "code_list": parse_code_list, "url": parse_url, "links": parse_links,
-    "first_link": parse_first_link, "ownership": parse_ownership,
+    "first_link": parse_first_link, "ownership": parse_ownership, "person_name": parse_person_name,
+    "person_link": parse_person_link,
 }

@@ -20,7 +20,7 @@
         <https://w3id.org/vi-dbpedia/void/mappingbased-objects>,
         <https://w3id.org/vi-dbpedia/void/page-links>,
         <https://w3id.org/vi-dbpedia/void/provenance> ;
-    void:triples 56554 ;
+    void:triples 56748 ;
     void:uriSpace "https://w3id.org/vi-dbpedia/resource/" ;
     void:vocabulary <http://dbpedia.org/ontology/>,
         dcterms:,
@@ -43,11 +43,11 @@
 
 <https://w3id.org/vi-dbpedia/void/infobox-properties> a void:Dataset ;
     void:dataDump <https://w3id.org/vi-dbpedia/dumps/infobox-properties.nt> ;
-    void:triples 8226 .
+    void:triples 8221 .
 
 <https://w3id.org/vi-dbpedia/void/instance-types> a void:Dataset ;
     void:dataDump <https://w3id.org/vi-dbpedia/dumps/instance-types.nt> ;
-    void:triples 321 .
+    void:triples 332 .
 
 <https://w3id.org/vi-dbpedia/void/labels> a void:Dataset ;
     void:dataDump <https://w3id.org/vi-dbpedia/dumps/labels.nt> ;
@@ -55,11 +55,11 @@
 
 <https://w3id.org/vi-dbpedia/void/mappingbased-literals> a void:Dataset ;
     void:dataDump <https://w3id.org/vi-dbpedia/dumps/mappingbased-literals.nt> ;
-    void:triples 1987 .
+    void:triples 2178 .
 
 <https://w3id.org/vi-dbpedia/void/mappingbased-objects> a void:Dataset ;
     void:dataDump <https://w3id.org/vi-dbpedia/dumps/mappingbased-objects.nt> ;
-    void:triples 865 .
+    void:triples 862 .
 
 <https://w3id.org/vi-dbpedia/void/page-links> a void:Dataset ;
     void:dataDump <https://w3id.org/vi-dbpedia/dumps/page-links.nt> ;

@@ -93,6 +93,12 @@ def wiki_url(title):
     return URIRef(WIKI + _iri_escape(nfc(title).replace(" ", "_")))
 
 
+def write_sorted_nt(g, path):
+    """Ghi N-Triples theo thứ tự dòng cố định, để chạy lại cho ra đúng file cũ (diff git gọn)."""
+    lines = sorted(l for l in g.serialize(format="nt").splitlines() if l.strip())
+    Path(path).write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
+
+
 # ---------------------------------------------------------------------------
 # Trích xuất từ wikitext
 # ---------------------------------------------------------------------------
@@ -216,30 +222,38 @@ class Mapper:
         self.prefixes = {k: Namespace(v) for k, v in cfg["prefixes"].items()}
         self.templates = {norm_template(k): v for k, v in cfg["templates"].items()}
         self.skip_raw = {norm_param(p) for p in cfg.get("skip_raw_params", [])}
+        self.no_infobox_rules = cfg.get("no_infobox_rules", [])
 
     def iri(self, qname):
         p, local = qname.split(":", 1)
         return self.prefixes[p][local]
 
-    def classify(self, title, source_cats, boxes):
-        """Lớp của bài theo luật đầu tiên khớp, xét lần lượt từng infobox có trong mappings."""
+    def _match(self, rules, title, source_cats):
         low = title.lower()
-        for name, _ in boxes:
-            spec = self.templates.get(name)
-            if not spec:
-                continue
-            for rule in spec.get("class_rules", []):
-                ok = True
-                if "source_category" in rule:
-                    ok &= rule["source_category"] in source_cats
-                if "title_in" in rule:
-                    ok &= title in rule["title_in"]
-                if "title_prefix" in rule:
-                    ok &= low.startswith(rule["title_prefix"].lower())
-                if "title_contains" in rule:
-                    ok &= rule["title_contains"].lower() in low
-                if ok:
-                    return name, (self.iri(rule["class"]) if rule["class"] else None)
+        for rule in rules:
+            ok = True
+            if "source_category" in rule:
+                ok &= rule["source_category"] in source_cats
+            if "title_in" in rule:
+                ok &= title in rule["title_in"]
+            if "title_prefix" in rule:
+                ok &= low.startswith(rule["title_prefix"].lower())
+            if "title_contains" in rule:
+                ok &= rule["title_contains"].lower() in low
+            if ok:
+                return True, (self.iri(rule["class"]) if rule["class"] else None)
+        return False, None
+
+    def classify(self, title, source_cats, boxes):
+        """Lớp của bài theo luật đầu tiên khớp, xét lần lượt từng infobox có trong mappings.
+        Bài không có infobox nào trong bảng: xét no_infobox_rules (chỉ gán lớp, template = None)."""
+        mapped = [name for name, _ in boxes if name in self.templates]
+        for name in mapped:
+            hit, cls = self._match(self.templates[name].get("class_rules", []), title, source_cats)
+            if hit:
+                return name, cls
+        if not mapped:
+            return None, self._match(self.no_infobox_rules, title, source_cats)[1]
         return None, None
 
 
@@ -309,6 +323,67 @@ def main():
     class_count = Counter()
     failures = defaultdict(list)                # ví dụ giá trị không đọc được
 
+    no_infobox = 0                              # bài gán lớp theo no_infobox_rules
+
+    def emit(s, raw, param, m, values):
+        """Sinh triple cho một mapping của một tham số. Trả về True nếu sinh được ít nhất một triple."""
+        vals = PARSERS[m["parser"]](raw)
+        if not vals and m.get("text_fallback"):
+            # Không có liên kết: thử nối chữ thường với một bài đã biết
+            # thử cả cụm trước ("Bộ Văn hoá, Thể thao và Du lịch"), rồi mới tách theo dấu phẩy
+            whole = resolver.resolve(to_text(raw))
+            vals = [whole] if whole else list(dict.fromkeys(
+                r for r in (resolver.resolve(t) for t in PARSERS["text_list"](raw)) if r))
+        emitted = False
+        for v in vals:
+            if m.get("property") == "geo":
+                # làm tròn 6 chữ số (~0,1 m): tránh sai số dấu phẩy động làm kết quả đổi giữa các lần chạy
+                G["geo-coordinates"].add((s, GEO.lat, Literal(round(v[0], 6), datatype=XSD.float)))
+                G["geo-coordinates"].add((s, GEO.long, Literal(round(v[1], 6), datatype=XSD.float)))
+                emitted = True
+                continue
+            prop = mapper.iri(m["property"]) if "property" in m else None
+            if m.get("object"):
+                if m.get("vio_individual"):
+                    G["mappingbased-objects"].add((s, prop, VIO[v]))
+                    emitted = True
+                    continue
+                target = nfc(v)
+                if "routes" in m:                     # chọn thuộc tính theo loại đích
+                    prop = next((mapper.iri(r["property"]) for r in m["routes"]
+                                 if any(target.startswith(x) for x in r["target_prefix"])), None)
+                    if prop is None:
+                        rejected[(param, "route")] += 1
+                        continue
+                if "target_prefix" in m and not any(target.startswith(x) for x in m["target_prefix"]):
+                    rejected[(m.get("property", param), "prefix")] += 1
+                    continue
+                if "target_class" in m and mapper.iri(m["target_class"]) not in typed.get(target, set()):
+                    rejected[(m.get("property", param), "class")] += 1
+                    continue
+                G["mappingbased-objects"].add((s, prop, namer.resource(target)))
+                emitted = True
+            elif m.get("iri"):
+                G["mappingbased-objects"].add((s, prop, URIRef(_iri_escape(v))))
+                emitted = True
+            elif m["parser"] == "date":
+                lex, kind = v
+                if kind == "date":
+                    G["mappingbased-literals"].add((s, prop, Literal(lex, datatype=XSD.date)))
+                elif m.get("year_property"):          # chỉ đọc được năm -> thuộc tính năm
+                    G["mappingbased-literals"].add((s, mapper.iri(m["year_property"]),
+                                                    Literal(lex, datatype=XSD.gYear)))
+                else:                                  # ví dụ populationAsOf cần ngày đầy đủ
+                    continue
+                emitted = True
+            else:
+                dtype = mapper.iri(m["datatype"]) if m.get("datatype") else None
+                lit = Literal(v, lang=m["lang"]) if m.get("lang") else Literal(v, datatype=dtype)
+                G["mappingbased-literals"].add((s, prop, lit))
+                values[m["property"]] = v
+                emitted = True
+        return emitted
+
     for a in articles:
         s = namer.resource(a["title"])
         G["labels"].add((s, RDFS.label, Literal(a["title"], lang="vi")))
@@ -343,75 +418,23 @@ def main():
             continue
         G["instance-types"].add((s, RDF.type, a["cls"]))
         class_count[a["cls"]] += 1
+        if a["mapped_template"] is None:          # gán lớp theo no_infobox_rules: không có tham số
+            no_infobox += 1
+            continue
         spec = mapper.templates[a["mapped_template"]]
         params = dict(a["boxes"])[a["mapped_template"]]
         values = {}
-        for param, m in (spec.get("properties") or {}).items():
+        for param, ms in (spec.get("properties") or {}).items():
             raw = params.get(norm_param(param), "")
             if not raw.strip():
                 continue
             key = (a["mapped_template"], param)
             cov_has[key] += 1
-            vals = PARSERS[m["parser"]](raw)
-            if not vals and m.get("text_fallback"):
-                # Không có liên kết: thử nối chữ thường với một bài đã biết
-                # thử cả cụm trước ("Bộ Văn hoá, Thể thao và Du lịch"), rồi mới tách theo dấu phẩy
-                whole = resolver.resolve(to_text(raw))
-                vals = [whole] if whole else list(dict.fromkeys(
-                    r for r in (resolver.resolve(t) for t in PARSERS["text_list"](raw)) if r))
-            if not vals:
-                if len(failures[key]) < 3:
-                    failures[key].append(to_text(raw)[:60])
-                continue
-            emitted = False
-            for v in vals:
-                if m.get("property") == "geo":
-                    G["geo-coordinates"].add((s, GEO.lat, Literal(v[0], datatype=XSD.float)))
-                    G["geo-coordinates"].add((s, GEO.long, Literal(v[1], datatype=XSD.float)))
-                    emitted = True
-                    continue
-                prop = mapper.iri(m["property"]) if "property" in m else None
-                if m.get("object"):
-                    if m.get("vio_individual"):
-                        G["mappingbased-objects"].add((s, prop, VIO[v]))
-                        emitted = True
-                        continue
-                    target = nfc(v)
-                    if "routes" in m:                     # chọn thuộc tính theo loại đích
-                        prop = next((mapper.iri(r["property"]) for r in m["routes"]
-                                     if any(target.startswith(x) for x in r["target_prefix"])), None)
-                        if prop is None:
-                            rejected[(param, "route")] += 1
-                            continue
-                    if "target_prefix" in m and not any(target.startswith(x) for x in m["target_prefix"]):
-                        rejected[(m.get("property", param), "prefix")] += 1
-                        continue
-                    if "target_class" in m and mapper.iri(m["target_class"]) not in typed.get(target, set()):
-                        rejected[(m.get("property", param), "class")] += 1
-                        continue
-                    G["mappingbased-objects"].add((s, prop, namer.resource(target)))
-                    emitted = True
-                elif m.get("iri"):
-                    G["mappingbased-objects"].add((s, prop, URIRef(_iri_escape(v))))
-                    emitted = True
-                elif m["parser"] == "date":
-                    lex, kind = v
-                    if kind == "date":
-                        G["mappingbased-literals"].add((s, prop, Literal(lex, datatype=XSD.date)))
-                    elif m.get("year_property"):          # chỉ đọc được năm -> thuộc tính năm
-                        G["mappingbased-literals"].add((s, mapper.iri(m["year_property"]),
-                                                        Literal(lex, datatype=XSD.gYear)))
-                    else:                                  # ví dụ populationAsOf cần ngày đầy đủ
-                        continue
-                    emitted = True
-                else:
-                    dtype = mapper.iri(m["datatype"]) if m.get("datatype") else None
-                    lit = Literal(v, lang=m["lang"]) if m.get("lang") else Literal(v, datatype=dtype)
-                    G["mappingbased-literals"].add((s, prop, lit))
-                    values[m["property"]] = v
-                    emitted = True
-            if emitted:
+            # list, không dùng generator: any() dừng sớm sẽ bỏ qua các mapping sau
+            if any([emit(s, raw, param, m, values) for m in (ms if isinstance(ms, list) else [ms])]):
                 cov_ok[key] += 1
+            elif len(failures[key]) < 3:
+                failures[key].append(to_text(raw)[:60])
 
         # Thuộc tính suy ra: mật độ dân số = dân số / diện tích (km²)
         if "dbo:populationTotal" in values and values.get("dbo:areaTotal"):
@@ -423,7 +446,7 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     total = 0
     for n, g in G.items():
-        g.serialize(out / f"{n}.nt", format="nt", encoding="utf-8")
+        write_sorted_nt(g, out / f"{n}.nt")
         total += len(g)
 
     # VoID: mô tả bộ dữ liệu
@@ -454,7 +477,8 @@ def main():
     short = lambda u: str(u).replace(str(VIO), "vio:").replace(str(DBO), "dbo:")
     md = ["# Kết quả chuyển đổi sang RDF", "",
           f"- Số bài: **{len(articles):,}**",
-          f"- Số bài được gán lớp (tầng mapping): **{sum(class_count.values()):,}**",
+          f"- Số bài được gán lớp (tầng mapping): **{sum(class_count.values()):,}** "
+          f"(trong đó {no_infobox} bài không có infobox, gán lớp theo tiêu đề)",
           f"- Tổng số triple: **{total:,}**", "",
           "## Số triple theo bộ dữ liệu", "", "| Bộ dữ liệu | Số triple |", "|---|---|",
           *[f"| {n} | {len(g):,} |" for n, g in G.items()], "",

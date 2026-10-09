@@ -289,7 +289,9 @@ def main():
         counts[n] = len(lines)
         p.unlink()
 
-    stats = {"categories": len(cats), "articles": counts["articles.jsonl"],
+    # Ngày thu thập: Wikipedia thay đổi liên tục, báo cáo cần ghi rõ để kết quả tái lập được
+    stats = {"collected_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+             "categories": len(cats), "articles": counts["articles.jsonl"],
              "with_en_link": counts["langlinks.tsv"], "with_wikidata": counts["wikidata.tsv"],
              "missing_text_this_run": missing}
     stats["root_categories"] = [{"category": c, "depth": args.depth if d is None else d} for c, d in roots]

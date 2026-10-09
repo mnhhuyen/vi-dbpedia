@@ -19,8 +19,8 @@ Phạm vi: **đơn vị hành chính** và **cơ sở giáo dục đại học**
 
 ```bash
 pip install rdflib owlready2          # owlready2 cần Java để chạy HermiT
-python prepare_dbo.py ontology--DEV_type_orig.owl
-python validate.py --dbo ontology--DEV_type_orig.owl
+python prepare_dbo.py "ontology--DEV_type=orig.owl"
+python validate.py --dbo "ontology--DEV_type=orig.owl"
 ```
 
 ## Mở trong Protégé
