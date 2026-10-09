@@ -29,7 +29,7 @@ from rdflib.namespace import OWL, RDF
 
 HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE.parent / "transform"))
-from transform import Namer, _iri_escape  # noqa: E402  (dùng chung quy tắc sinh URI với bước 3)
+from transform import Namer, _iri_escape, write_sorted_nt  # noqa: E402  (dùng chung quy tắc sinh URI với bước 3)
 from parsers import nfc  # noqa: E402
 
 DBR = "http://dbpedia.org/resource/"
@@ -88,8 +88,8 @@ def main():
 
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
-    g_db.serialize(out / "sameas-dbpedia.nt", format="nt", encoding="utf-8")
-    g_wd.serialize(out / "sameas-wikidata.nt", format="nt", encoding="utf-8")
+    write_sorted_nt(g_db, out / "sameas-dbpedia.nt")
+    write_sorted_nt(g_wd, out / "sameas-wikidata.nt")
 
     # Báo cáo độ phủ
     has_db, has_wd = set(g_db.subjects()), set(g_wd.subjects())

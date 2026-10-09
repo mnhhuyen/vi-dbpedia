@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Luật liên kết cho Silk Link Discovery Framework (Silk Single Machine, định dạng LSL).
+  Cùng luật với link/match.py (bản Python dùng để chạy và đánh giá, vì máy chưa có Java).
+
+  Chạy (cần Java 8+ và silk.jar, xem link/silk/README.md):
+      java -DconfigFile=linkspec.xml -jar silk.jar
+
+  Khác biệt so với match.py (Silk không có sẵn):
+    - bảng dịch thuật ngữ Việt -> Anh chỉ có một phần (regexReplace), match.py có đầy đủ;
+    - trọng số tên chính / tên chuyển hướng / tên cũ, phạt xung đột địa danh;
+    - ghép 1-1: Silk chỉ có Filter limit="1" theo phía nguồn.
+-->
+<Silk>
+  <Prefixes>
+    <Prefix id="rdf"  namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix id="owl"  namespace="http://www.w3.org/2002/07/owl#"/>
+    <Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/"/>
+    <Prefix id="geo"  namespace="http://www.w3.org/2003/01/geo/wgs84_pos#"/>
+    <Prefix id="dbo"  namespace="http://dbpedia.org/ontology/"/>
+    <Prefix id="dbp"  namespace="http://dbpedia.org/property/"/>
+    <Prefix id="dct"  namespace="http://purl.org/dc/terms/"/>
+    <Prefix id="vio"  namespace="https://w3id.org/vi-dbpedia/ontology/"/>
+  </Prefixes>
+
+  <DataSources>
+    <!-- Nguồn: dữ liệu bước 3 (gộp các file .nt thành một file trước khi chạy, xem README) -->
+    <DataSource id="vi" type="file">
+      <Param name="file" value="../../transform/output/all.nt"/>
+      <Param name="format" value="N-TRIPLE"/>
+    </DataSource>
+    <!-- Đích: DBpedia tiếng Anh -->
+    <DataSource id="dbpedia" type="sparqlEndpoint">
+      <Param name="endpointURI" value="https://dbpedia.org/sparql"/>
+      <Param name="retryCount" value="5"/>
+      <Param name="retryPause" value="2000"/>
+      <Param name="pageSize" value="1000"/>
+    </DataSource>
+  </DataSources>
+
+  <Interlinks>
+
+    <!-- ===================== Tỉnh / thành phố trực thuộc trung ương ===================== -->
+    <Interlink id="tinh">
+      <LinkType>owl:sameAs</LinkType>
+      <SourceDataset dataSource="vi" var="a">
+        <RestrictTo>{ ?a rdf:type vio:Tinh } UNION { ?a rdf:type vio:ThanhPhoTrucThuocTrungUong }</RestrictTo>
+      </SourceDataset>
+      <TargetDataset dataSource="dbpedia" var="b">
+        <RestrictTo>
+          { ?b dct:subject &lt;http://dbpedia.org/resource/Category:Provinces_of_Vietnam&gt; }
+          UNION { ?b dct:subject &lt;http://dbpedia.org/resource/Category:Former_provinces_of_Vietnam&gt; }
+          UNION { ?b dct:subject &lt;http://dbpedia.org/resource/Category:Municipalities_of_Vietnam&gt; }
+        </RestrictTo>
+      </TargetDataset>
+      <LinkageRule>
+        <Aggregate type="average">
+          <!-- name (trọng số 6): bỏ dấu, chữ thường, bỏ "tỉnh"/"province" và phần trong ngoặc -->
+          <Compare metric="levenshteinDistance" threshold="2" weight="6">
+            <TransformInput function="regexReplace">
+              <TransformInput function="lowerCase">
+                <TransformInput function="normalizeChars">
+                  <Input path="?a/rdfs:label"/>
+                </TransformInput>
+              </TransformInput>
+              <Param name="regex" value="\(.*\)|\btinh\b|\bthanh pho\b|\s+"/>
+              <Param name="replace" value=""/>
+            </TransformInput>
+            <TransformInput function="regexReplace">
+              <TransformInput function="lowerCase">
+                <TransformInput function="normalizeChars">
+                  <Input path="?b/rdfs:label[@lang = 'en']"/>
+                </TransformInput>
+              </TransformInput>
+              <Param name="regex" value="\(.*\)|\bprovince\b|\bcity\b|\s+"/>
+              <Param name="replace" value=""/>
+            </TransformInput>
+          </Compare>
+          <!-- geo (trọng số 1): ≤ 15 km là khớp hoàn toàn -->
+          <Compare metric="wgs84" threshold="150" weight="1" required="false">
+            <TransformInput function="concat">
+              <Input path="?a/geo:lat"/><Input path="?a/geo:long"/>
+              <Param name="glue" value=" "/>
+            </TransformInput>
+            <TransformInput function="concat">
+              <Input path="?b/geo:lat"/><Input path="?b/geo:long"/>
+              <Param name="glue" value=" "/>
+            </TransformInput>
+            <Param name="unit" value="km"/>
+          </Compare>
+        </Aggregate>
+      </LinkageRule>
+      <Filter threshold="0.75" limit="1"/>
+      <Outputs>
+        <Output type="file" minConfidence="0.75">
+          <Param name="file" value="../output/sameas-dbpedia.silk-tinh.nt"/>
+          <Param name="format" value="ntriples"/>
+        </Output>
+      </Outputs>
+    </Interlink>
+
+    <!-- ===================== Cơ sở giáo dục đại học ===================== -->
+    <Interlink id="truong">
+      <LinkType>owl:sameAs</LinkType>
+      <SourceDataset dataSource="vi" var="a">
+        <RestrictTo>
+          { ?a rdf:type vio:TruongDaiHoc } UNION { ?a rdf:type vio:HocVien } UNION { ?a rdf:type vio:DaiHoc }
+          UNION { ?a rdf:type vio:DaiHocQuocGia } UNION { ?a rdf:type vio:DaiHocVung }
+        </RestrictTo>
+      </SourceDataset>
+      <TargetDataset dataSource="dbpedia" var="b">
+        <RestrictTo>
+          { ?b dct:subject/&lt;http://www.w3.org/2004/02/skos/core#broader&gt;{0,3}
+               &lt;http://dbpedia.org/resource/Category:Universities_and_colleges_in_Vietnam&gt; }
+          UNION { ?b rdf:type dbo:EducationalInstitution ; dbo:country &lt;http://dbpedia.org/resource/Vietnam&gt; }
+        </RestrictTo>
+      </TargetDataset>
+      <LinkageRule>
+        <Aggregate type="average">
+          <!-- name (trọng số 6): lấy max của (tên tiếng Anh trong infobox ~ nhãn tiếng Anh) và
+               (tên tiếng Việt ~ dbp:nativeName); so theo tập từ (jaccard) để không phụ thuộc thứ tự -->
+          <Aggregate type="max" weight="6">
+            <Compare metric="jaccard" threshold="0.5">
+              <TransformInput function="tokenize">
+                <TransformInput function="lowerCase">
+                  <TransformInput function="regexReplace">
+                    <Input path="?a/rdfs:label[@lang = 'en']"/>
+                    <Param name="regex" value="(?i)\b(the|of|and|in|university|academy|institute|college|vietnam)\b|[^\p{L}\p{N} ]"/>
+                    <Param name="replace" value=" "/>
+                  </TransformInput>
+                </TransformInput>
+              </TransformInput>
+              <TransformInput function="tokenize">
+                <TransformInput function="lowerCase">
+                  <TransformInput function="regexReplace">
+                    <Input path="?b/rdfs:label[@lang = 'en']"/>
+                    <Param name="regex" value="(?i)\b(the|of|and|in|university|academy|institute|college|vietnam)\b|[^\p{L}\p{N} ]"/>
+                    <Param name="replace" value=" "/>
+                  </TransformInput>
+                </TransformInput>
+              </TransformInput>
+            </Compare>
+            <Compare metric="levenshteinDistance" threshold="3">
+              <TransformInput function="lowerCase">
+                <TransformInput function="normalizeChars"><Input path="?a/rdfs:label[@lang = 'vi']"/></TransformInput>
+              </TransformInput>
+              <TransformInput function="lowerCase">
+                <TransformInput function="normalizeChars"><Input path="?b/dbp:nativeName"/></TransformInput>
+              </TransformInput>
+            </Compare>
+          </Aggregate>
+          <!-- homepage (trọng số 2.5): trùng tên miền -->
+          <Compare metric="equality" weight="2.5" required="false">
+            <TransformInput function="regexReplace">
+              <Input path="?a/foaf:homepage"/>
+              <Param name="regex" value="^https?://(www\d?\.)?|/.*$"/>
+              <Param name="replace" value=""/>
+            </TransformInput>
+            <TransformInput function="regexReplace">
+              <Input path="?b/foaf:homepage"/>
+              <Param name="regex" value="^https?://(www\d?\.)?|/.*$"/>
+              <Param name="replace" value=""/>
+            </TransformInput>
+          </Compare>
+          <!-- year (trọng số 0.5): năm thành lập lệch ≤ 1 -->
+          <Compare metric="num" threshold="1" weight="0.5" required="false">
+            <Input path="?a/dbo:foundingYear"/>
+            <Input path="?b/dbo:foundingYear"/>
+          </Compare>
+        </Aggregate>
+      </LinkageRule>
+      <Filter threshold="0.75" limit="1"/>
+      <Outputs>
+        <Output type="file" minConfidence="0.75">
+          <Param name="file" value="../output/sameas-dbpedia.silk-truong.nt"/>
+          <Param name="format" value="ntriples"/>
+        </Output>
+      </Outputs>
+    </Interlink>
+
+  </Interlinks>
+</Silk>

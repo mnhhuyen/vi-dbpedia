@@ -1,0 +1,8558 @@
+{
+ "fetched": "2026-10-09",
+ "candidates": {
+  "http://dbpedia.org/resource/Six_Provinces_of_Southern_Vietnam": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Six Provinces of Southern Vietnam"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://namkyluctinh.org/"
+   ],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Nam Kỳ Lục tỉnh"
+   ]
+  },
+  "http://dbpedia.org/resource/Lai_Châu_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Lai Châu",
+    "Lai Châu province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.laichau.gov.vn"
+   ],
+   "geo": [
+    22.0,
+    103.0
+   ],
+   "years": [],
+   "redirects": [
+    "Lai Chau Province",
+    "Lai Chau province",
+    "Lai Châu Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Municipalities_of_Vietnam": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Municipalities of Vietnam"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Centrally governed city of Vietnam",
+    "Direct-controlled municipality of Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/Quảng_Trị_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Quảng Trị",
+    "Quảng Trị province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    16.75,
+    107.0
+   ],
+   "years": [],
+   "redirects": [
+    "Quang Tri Province",
+    "Quang Tri Provinces",
+    "Quang Tri province",
+    "Quangtri Province",
+    "Quảng Trị Province",
+    "Quảng Trị Provinces"
+   ]
+  },
+  "http://dbpedia.org/resource/Sơn_La_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Sơn La province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.sonla.gov.vn/",
+    "https://www.sonla.dcs.vn%7CSonla.dcs.vn",
+    "https://www.sonla.gov.vn%7CSonla.gov.vn"
+   ],
+   "geo": [
+    21.16666603088379,
+    104.0
+   ],
+   "years": [],
+   "redirects": [
+    "Son La Province",
+    "Son La Province, Vietnam",
+    "Son La province",
+    "Sơn La Province",
+    "Sơn La Province, Vietnam",
+    "山羅"
+   ]
+  },
+  "http://dbpedia.org/resource/Bắc_Ninh_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Bắc Ninh province",
+    "Tỉnh Bắc Ninh"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.bacninh.gov.vn/",
+    "http://www.bacninh.gov.vn/web/en/home-page",
+    "https://www.bacninh.dcs.vn%7CBacninh.dcs.vn",
+    "https://www.bacninh.gov.vn%7CBacninh.gov.vn"
+   ],
+   "geo": [
+    21.08333396911621,
+    106.1666641235352
+   ],
+   "years": [],
+   "redirects": [
+    "Bac Ninh Province",
+    "Bac Ninh province",
+    "Băc Ninh Province",
+    "Bắc Ninh Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Ninh_Bình_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Ninh Bình",
+    "Ninh Bình province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.ninhbinh.gov.vn/"
+   ],
+   "geo": [
+    20.25,
+    105.8333358764648
+   ],
+   "years": [],
+   "redirects": [
+    "Ninh Binh",
+    "Ninh Binh Province",
+    "Ninh Binh province",
+    "Ninh Bình Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Quảng_Ngãi_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Quảng Ngãi",
+    "Quảng Ngãi province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    15.0,
+    108.6666641235352
+   ],
+   "years": [],
+   "redirects": [
+    "Quang Nai Province",
+    "Quang Ngai Province",
+    "Quang Ngai province",
+    "Quảng Ngãi Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Đồng_Nai_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Tỉnh Đồng Nai",
+    "Đồng Nai",
+    "Đồng Nai province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.dongnai.gov.vn/"
+   ],
+   "geo": [
+    11.11666679382324,
+    107.1833343505859
+   ],
+   "years": [],
+   "redirects": [
+    "Dong Nai Province",
+    "Dong Nai province",
+    "Dongnaï Province",
+    "Ðồng Nai",
+    "Ðồng Nai Province",
+    "Đồng Nai Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Khánh_Hòa_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Khánh Hòa",
+    "Khánh Hòa province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.khanhhoa.gov.vn/"
+   ],
+   "geo": [
+    12.25,
+    109.1999969482422
+   ],
+   "years": [],
+   "redirects": [
+    "Kauthara",
+    "Khanh Hoa",
+    "Khanh Hoa Province",
+    "Khanh Hoa Province, Vietnam",
+    "Khanh Hoa province",
+    "Khánh Hòa Province",
+    "Khánh Hòa Province, Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/An_Giang_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "An Giang",
+    "An Giang province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://angiang.gov.vn/en"
+   ],
+   "geo": [
+    10.5,
+    105.1666641235352
+   ],
+   "years": [],
+   "redirects": [
+    "An Giang Province",
+    "An giang Province",
+    "An-giang",
+    "Châu Đốc Province",
+    "Châu Đốc province"
+   ]
+  },
+  "http://dbpedia.org/resource/Cà_Mau_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Cà Mau",
+    "Cà Mau province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.camau.gov.vn/"
+   ],
+   "geo": [
+    9.083333015441895,
+    105.0833358764648
+   ],
+   "years": [],
+   "redirects": [
+    "Ca Ma Province",
+    "Ca Ma Province, Vietnam",
+    "Ca Mau Province",
+    "Ca Mau province",
+    "Cau Mau",
+    "Cà Ma Province",
+    "Cà Ma Province, Vietnam",
+    "Cà Mau Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Gia_Lai_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Gia Lai province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://gialai.gov.vn/"
+   ],
+   "geo": [
+    13.75,
+    108.25
+   ],
+   "years": [],
+   "redirects": [
+    "Gia Lai",
+    "Gia Lai Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Hà_Tĩnh_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Hà Tĩnh",
+    "Hà Tĩnh province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hatinh.gov.vn/"
+   ],
+   "geo": [
+    18.33333396911621,
+    105.9000015258789
+   ],
+   "years": [],
+   "redirects": [
+    "Ha Tinh Province",
+    "Ha Tinh Province, Vietnam",
+    "Ha Tinh province",
+    "Hà Tĩnh Province",
+    "Hà Tĩnh Province, Vietnam",
+    "河靜"
+   ]
+  },
+  "http://dbpedia.org/resource/Lào_Cai_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Lào Cai",
+    "Lào Cai province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.laocai.gov.vn/"
+   ],
+   "geo": [
+    22.33333396911621,
+    104.0
+   ],
+   "years": [],
+   "redirects": [
+    "Demographics of Lào Cai province",
+    "Lao Cai Province",
+    "Lao Cai province",
+    "Lao-Kay Province",
+    "Lào Cai Province",
+    "Lào-Kay Province",
+    "Tỉnh Lào Cai"
+   ]
+  },
+  "http://dbpedia.org/resource/Lâm_Đồng_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Lâm Đồng",
+    "Lâm Đồng province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.lamdong.gov.vn/"
+   ],
+   "geo": [
+    11.94999980926514,
+    108.4333343505859
+   ],
+   "years": [],
+   "redirects": [
+    "Lam Dong",
+    "Lam Dong Province",
+    "Lam Dong Province, Vietnam",
+    "Lam Dong province",
+    "Lâm Ðồng",
+    "Lâm Ðồng Province",
+    "Lâm Ðồng Province, Vietnam",
+    "Lâm Đồng Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Lạng_Sơn_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Lạng Sơn province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.langson.gov.vn/",
+    "https://www.langson.dcs.vn%7CLangson.dcs.vn",
+    "https://www.langson.gov.vn%7CLangson.gov.vn"
+   ],
+   "geo": [
+    21.75,
+    106.5
+   ],
+   "years": [],
+   "redirects": [
+    "Lang Son Province",
+    "Lang Son province",
+    "Lạng Sơn Province",
+    "諒山"
+   ]
+  },
+  "http://dbpedia.org/resource/Nghệ_An_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Nghệ An",
+    "Nghệ An province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.nghean.gov.vn/"
+   ],
+   "geo": [
+    19.33333396911621,
+    104.8333358764648
+   ],
+   "years": [],
+   "redirects": [
+    "Nghe An",
+    "Nghe An Province",
+    "Nghe An Province, Vietnam",
+    "Nghe An province",
+    "Nghe-an",
+    "Nghệ An Province",
+    "Nghệ An Province, Vietnam",
+    "乂安"
+   ]
+  },
+  "http://dbpedia.org/resource/Provinces_of_Vietnam": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Provinces and municipalities of Vietnam",
+    "Provinces of Vietnam",
+    "Tỉnh và thành phố trực thuộc trung ương Việt Nam"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Historical provinces of Vietnam",
+    "People's Committee (Vietnam)",
+    "People's Council (Vietnam)",
+    "Province (Vietnam)",
+    "Province of Vietnam",
+    "Provinces of vietnam",
+    "Tinh",
+    "Tỉnh",
+    "UBND",
+    "Uỷ Ban Nhân Dân",
+    "Vietnamese Provinces"
+   ]
+  },
+  "http://dbpedia.org/resource/Quảng_Ninh_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Quảng Ninh",
+    "Quảng Ninh province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://quangninh.gov.vn/en-US/Pages/Home.aspx%7Cquangninh.gov.vn"
+   ],
+   "geo": [
+    21.25,
+    107.3333358764648
+   ],
+   "years": [],
+   "redirects": [
+    "Hải Ninh Province",
+    "Quang Ninh",
+    "Quang Ninh Province",
+    "Quang Ninh province",
+    "Quang Yen Province",
+    "Quảng Ninh Province",
+    "Quảng Yên Province",
+    "Quảng Yên province"
+   ]
+  },
+  "http://dbpedia.org/resource/Thái_Nguyên_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Thái Nguyên",
+    "Thái Nguyên province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.thainguyen.gov.vn/"
+   ],
+   "geo": [
+    21.66666603088379,
+    105.8333358764648
+   ],
+   "years": [],
+   "redirects": [
+    "Thai Nguyen Province",
+    "Thai Nguyen Province, Vietnam",
+    "Thai Nguyen province",
+    "Thái Nguyên Province",
+    "Thái Nguyên Province, Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/Tuyên_Quang_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Tuyên Quang",
+    "Tuyên Quang province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.tuyenquang.gov.vn/"
+   ],
+   "geo": [
+    22.11666679382324,
+    105.25
+   ],
+   "years": [],
+   "redirects": [
+    "Tuyen Quang Province",
+    "Tuyen Quang Province, Vietnam",
+    "Tuyen Quang province",
+    "Tuyên Quang Province",
+    "Tuyên Quang Province, Vietnam",
+    "宣光"
+   ]
+  },
+  "http://dbpedia.org/resource/Vĩnh_Long_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Vĩnh Long province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.16666698455811,
+    106.0
+   ],
+   "years": [],
+   "redirects": [
+    "Vinh Long Province",
+    "Vinh Long province",
+    "Vĩnh Long Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Đồng_Tháp_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Đồng Tháp",
+    "Đồng Tháp province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://dongthap.gov.vn/"
+   ],
+   "geo": [
+    10.66666698455811,
+    105.6666641235352
+   ],
+   "years": [],
+   "redirects": [
+    "Dong Thap",
+    "Dong Thap Province",
+    "Dong Thap Province, Vietnam",
+    "Dong Thap province",
+    "Kien Phong Province",
+    "Kiến Phong Province",
+    "Kiến Phong province",
+    "Ðồng Tháp",
+    "Ðồng Tháp Province",
+    "Ðồng Tháp Province, Vietnam",
+    "Đong Tháp",
+    "Đồng Tháp Province"
+   ]
+  },
+  "http://dbpedia.org/resource/ISO_3166-2:VN": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "ISO 3166-2:VN"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Đắk_Lắk_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Đắk Lắk",
+    "Đắk Lắk province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.daklak.gov.vn"
+   ],
+   "geo": [
+    12.66666698455811,
+    108.0500030517578
+   ],
+   "years": [],
+   "redirects": [
+    "Dac Lac",
+    "Dac Lac Province",
+    "Dac Lac province",
+    "Dac Lak",
+    "Dac Lak Province",
+    "Dac Lak Province, Vietnam",
+    "Dak Lak",
+    "Dak Lak Province",
+    "Dak Lak province",
+    "Daklak",
+    "Darlac",
+    "Darlac Province",
+    "Ðắc Lắk",
+    "Ðắc Lắk Province",
+    "Ðắc Lắk Province, Vietnam",
+    "Đăk Lăk",
+    "Đắc Lắc",
+    "Đắc Lắc Province",
+    "Đắk Lắk Province",
+    "Đắk Lắk, Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/Cao_Bằng_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Cao Bằng",
+    "Cao Bằng province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.caobang.gov.vn/"
+   ],
+   "geo": [
+    22.66666603088379,
+    106.0
+   ],
+   "years": [],
+   "redirects": [
+    "Cao Bang Province",
+    "Cao Bang province",
+    "Cao Bình",
+    "Cao Bằng Province",
+    "Tỉnh Cao Bằng"
+   ]
+  },
+  "http://dbpedia.org/resource/Hưng_Yên_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Hưng Yên province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://hungyen.dcs.vn%7CHungyen.dcs.vn",
+    "http://hungyen.gov.vn/en-us/Pages/Default.aspx%7CHungyen.gov.vn",
+    "http://hungyen.gov.vn/en-us/Pages/Default.aspx%7Chungyen.gov.vn"
+   ],
+   "geo": [
+    20.83333396911621,
+    106.0833358764648
+   ],
+   "years": [],
+   "redirects": [
+    "Hung Yen Province",
+    "Hung Yen Province, Vietnam",
+    "Hung Yen province",
+    "Hưng Yên Province",
+    "Hưng Yên Province, Vietnam",
+    "興安"
+   ]
+  },
+  "http://dbpedia.org/resource/Phú_Thọ_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Phú Thọ",
+    "Phú Thọ province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.phutho.gov.vn/"
+   ],
+   "geo": [
+    21.33333396911621,
+    105.1666641235352
+   ],
+   "years": [],
+   "redirects": [
+    "Phu Tho Province",
+    "Phu Tho Province, Vietnam",
+    "Phu Tho province",
+    "Phu To",
+    "Phu To Province",
+    "Phú Thọ Province",
+    "Phú Thọ Province, Vietnam",
+    "富壽"
+   ]
+  },
+  "http://dbpedia.org/resource/Thanh_Hóa_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Thanh Hóa province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.thanhhoa.gov.vn/"
+   ],
+   "geo": [
+    20.0,
+    105.5
+   ],
+   "years": [],
+   "redirects": [
+    "Thanh Hoa Province",
+    "Thanh Hoa Province, Vietnam",
+    "Thanh Hoa province",
+    "Thanh Hoá Province",
+    "Thanh Hoá province",
+    "Thanh Hóa Province",
+    "Thanh Hóa Province, Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/Tây_Ninh_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Tây Ninh",
+    "Tây Ninh province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.tayninh.gov.vn/"
+   ],
+   "geo": [
+    11.33333301544189,
+    106.1666641235352
+   ],
+   "years": [],
+   "redirects": [
+    "Gò Dầu Province",
+    "Tay Ninh Province",
+    "Tay Ninh province",
+    "Tayninh Province",
+    "Tây Ninh Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Điện_Biên_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Điện Biên",
+    "Điện Biên province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.dienbien.gov.vn"
+   ],
+   "geo": [
+    21.38333320617676,
+    103.0166702270508
+   ],
+   "years": [],
+   "redirects": [
+    "Dien Bien",
+    "Dien Bien Province",
+    "Dien Bien province",
+    "Tỉnh Điện Biên",
+    "Điện Biên Province",
+    "奠邊"
+   ]
+  },
+  "http://dbpedia.org/resource/Provincial_Municipal_Courts_of_Vietnam": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Provincial Municipal Courts of Vietnam"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Provincial municipal courts of vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/Bình_Trị_Thiên": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Bình Trị Thiên",
+    "Bình Trị Thiên Province",
+    "Tỉnh Bình Trị Thiên"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Binh Tri Thien",
+    "Bình Trị thiên"
+   ]
+  },
+  "http://dbpedia.org/resource/Cửu_Long_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Cửu Long province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Cuu Long Province",
+    "Cuu Long province",
+    "Cửu Long Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Hà_Sơn_Bình_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Hà Sơn Bình province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Ha Son Binh"
+   ]
+  },
+  "http://dbpedia.org/resource/Minh_Hải_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Minh Hải province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Minh Hai Province",
+    "Minh Hai province",
+    "Minh Hải Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Quảng_Bình_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Quảng Bình",
+    "Quảng Bình province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.quangbinh.gov.vn/3cms/%3Fcmd=170&lang=en%7C2=www.quangbinh.gov.vn"
+   ],
+   "geo": [
+    17.5,
+    106.3333358764648
+   ],
+   "years": [],
+   "redirects": [
+    "Quang Binh",
+    "Quang Binh Province",
+    "Quang Binh Province, Vietnam",
+    "Quang Binh province",
+    "Quảng Bình Province",
+    "Quảng Bình Province, Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/Bình_Dương_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Bình Dương",
+    "Bình Dương province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.binhduong.gov.vn/"
+   ],
+   "geo": [
+    11.16666698455811,
+    106.6666641235352
+   ],
+   "years": [],
+   "redirects": [
+    "Binh Duong",
+    "Binh Duong Province",
+    "Binh Duong province",
+    "Bình Duong",
+    "Bình Dương Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Phú_Yên_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Phú Yên",
+    "Phú Yên province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.phuyen.gov.vn/"
+   ],
+   "geo": [
+    13.16666698455811,
+    109.1666641235352
+   ],
+   "years": [],
+   "redirects": [
+    "Phu Yen",
+    "Phu Yen Province",
+    "Phu Yen Province, Vietnam",
+    "Phu Yen province",
+    "Phy Yen Province",
+    "Phú Yên Province",
+    "Phú Yên Province, Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/Quảng_Nam_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Quảng Nam province",
+    "Tỉnh Quảng Nam"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.quangnam.gov.vn/"
+   ],
+   "geo": [
+    15.55000019073486,
+    108.0500030517578
+   ],
+   "years": [],
+   "redirects": [
+    "Quang Nam",
+    "Quang Nam Province",
+    "Quang Nam province",
+    "Quang Nam-Da Nang",
+    "Quang Nam-Da Nang Tinh",
+    "Quang Nam-Da Nang Tinh, Vietnam",
+    "Quang Nam-Da Nang province",
+    "Quảng Nam",
+    "Quảng Nam Province",
+    "Quảng Nam-Da Nang",
+    "Quảng Nam-Ðà Nẵng",
+    "Quảng Nam-Ðà Nẵng Tỉnh",
+    "Quảng Nam-Ðà Nẵng Tỉnh, Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/Ninh_Thuận_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Ninh Thuận",
+    "Ninh Thuận province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.ninhthuan.gov.vn/"
+   ],
+   "geo": [
+    11.75,
+    108.8333358764648
+   ],
+   "years": [],
+   "redirects": [
+    "Nin Thuan",
+    "Ninh Thuan",
+    "Ninh Thuan Province",
+    "Ninh Thuan Province, Vietnam",
+    "Ninh Thuan province",
+    "Ninh Thuận Province",
+    "Ninh Thuận Province, Vietnam",
+    "寧順"
+   ]
+  },
+  "http://dbpedia.org/resource/Bà_Rịa–Vũng_Tàu_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Bà Rịa - Vũng Tàu province",
+    "Bà Rịa – Vũng Tàu",
+    "Bà Rịa–Vũng Tàu province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://baria-vungtau.dcs.vn%7CBaria-Vungtau.dcs.vn",
+    "https://baria-vungtau.gov.vn%7CBaria-Vungtau.gov.vn"
+   ],
+   "geo": [
+    10.58333301544189,
+    107.25
+   ],
+   "years": [],
+   "redirects": [
+    "Ba Ria - Vung Tau",
+    "Ba Ria Vung Tau",
+    "Ba Ria-Vung Tau",
+    "Ba Ria-Vung Tau Province",
+    "Ba Ria-Vung Tau province",
+    "Ba Ria–Vung Tau Province",
+    "Ba Ria–Vung Tau province",
+    "Bà Rịa-Vũng Tàu",
+    "Bà Rịa-Vũng Tàu Province",
+    "Bà Rịa-Vũng Tàu province",
+    "Bà Rịa–Vũng Tàu",
+    "Bà Rịa–Vũng Tàu Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Bình_Thuận_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Bình Thuận province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.binhthuan.gov.vn/",
+    "https://binhthuan.gov.vn/"
+   ],
+   "geo": [
+    10.93333339691162,
+    108.0999984741211
+   ],
+   "years": [],
+   "redirects": [
+    "Binh Thuan Province",
+    "Binh Thuan province",
+    "Binh Thuan, Vietnam",
+    "Bình Thuận Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Bến_Tre_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Bến Tre province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.bentre.gov.vn"
+   ],
+   "geo": [
+    10.16666698455811,
+    106.5
+   ],
+   "years": [],
+   "redirects": [
+    "Ben Tre Province",
+    "Ben Tre province",
+    "Bến Tre Province",
+    "Kien Hoa Province",
+    "Kiến Hòa Province",
+    "Kiến Hòa province"
+   ]
+  },
+  "http://dbpedia.org/resource/Long_An_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Long An",
+    "Long An province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://eng.longan.gov.vn/"
+   ],
+   "geo": [
+    10.66666698455811,
+    106.1666641235352
+   ],
+   "years": [],
+   "redirects": [
+    "Long An Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Sóc_Trăng_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Sóc Trăng",
+    "Sóc Trăng province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.soctrang.gov.vn/"
+   ],
+   "geo": [
+    9.666666984558105,
+    105.8333358764648
+   ],
+   "years": [],
+   "redirects": [
+    "Soc Trang Province",
+    "Soc Trang province",
+    "Sóc Trăng Province",
+    "月江"
+   ]
+  },
+  "http://dbpedia.org/resource/Tiền_Giang_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Tiền Giang",
+    "Tiền Giang province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://tiengiang.gov.vn/"
+   ],
+   "geo": [
+    10.41666698455811,
+    106.1666641235352
+   ],
+   "years": [],
+   "redirects": [
+    "Dinh Tuong Province",
+    "Tien Giang",
+    "Tien Giang Province",
+    "Tien Giang Province, Vietnam",
+    "Tien Giang province",
+    "Tiền Giang Province",
+    "Tiền Giang Province, Vietnam",
+    "前江"
+   ]
+  },
+  "http://dbpedia.org/resource/Vĩnh_Phúc_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Vĩnh Phúc",
+    "Vĩnh Phúc province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.vinhphuc.gov.vn/"
+   ],
+   "geo": [
+    21.29999923706055,
+    105.5999984741211
+   ],
+   "years": [],
+   "redirects": [
+    "Vinh Phu",
+    "Vinh Phu Province",
+    "Vinh Phu Tinh",
+    "Vinh Phu Tinh, Vietnam",
+    "Vinh Phu province",
+    "Vinh Phuc",
+    "Vinh Phuc Province",
+    "Vinh Phuc Province, Vietnam",
+    "Vinh Phuc province",
+    "Vĩnh Phú",
+    "Vĩnh Phú Province",
+    "Vĩnh Phú Tỉnh",
+    "Vĩnh Phú Tỉnh, Vietnam",
+    "Vĩnh Phúc Province",
+    "Vĩnh Phúc Province, Vietnam",
+    "永福"
+   ]
+  },
+  "http://dbpedia.org/resource/Yên_Bái_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Yên Bái",
+    "Yên Bái province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://yenbai.gov.vn/"
+   ],
+   "geo": [
+    21.5,
+    104.6666641235352
+   ],
+   "years": [],
+   "redirects": [
+    "Ten Bai",
+    "Yeb Bai Province",
+    "Yen Bai Province",
+    "Yen Bai Province, Vietnam",
+    "Yen Bai province",
+    "Yên Bái Province",
+    "Yên Bái Province, Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/Bắc_Giang_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Bắc Giang province",
+    "Tỉnh Bắc Giang"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.bacgiang.gov.vn/default.aspx%3F1.2",
+    "https://bacgiang.dcs.vn%7CBacgiang.dcs.vn",
+    "https://bacgiang.gov.vn%7CBacgiang.gov.vn"
+   ],
+   "geo": [
+    21.33333396911621,
+    106.3333358764648
+   ],
+   "years": [],
+   "redirects": [
+    "Bac Giang Province",
+    "Bac Giang province",
+    "Bắc Giang Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Bình_Phước_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Bình Phước",
+    "Bình Phước province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.binhphuoc.gov.vn/"
+   ],
+   "geo": [
+    11.75,
+    106.9166641235352
+   ],
+   "years": [],
+   "redirects": [
+    "Binh Phuoc",
+    "Binh Phuoc Province",
+    "Binh Phuoc province",
+    "Bình Phưóc",
+    "Bình Phước Province",
+    "平福"
+   ]
+  },
+  "http://dbpedia.org/resource/Bình_Định_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Bình Định",
+    "Bình Định province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.binhdinh.gov.vn/"
+   ],
+   "geo": [
+    14.16666698455811,
+    109.0
+   ],
+   "years": [],
+   "redirects": [
+    "Binh Dinh",
+    "Binh Dinh Province",
+    "Binh Dinh province",
+    "Bình Định Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Bạc_Liêu_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Bạc Liêu",
+    "Bạc Liêu province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    9.25,
+    105.75
+   ],
+   "years": [],
+   "redirects": [
+    "Bac Lieu Province",
+    "Bac Lieu province",
+    "Bạc Liêu Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Bắc_Kạn_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Bắc Kạn",
+    "Bắc Kạn province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.backan.gov.vn/"
+   ],
+   "geo": [
+    22.16666603088379,
+    105.8333358764648
+   ],
+   "years": [],
+   "redirects": [
+    "Bac Can Province",
+    "Bac Kan Province",
+    "Bac Kan province",
+    "Ban Can Province",
+    "Bắc Kạn Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Hà_Giang_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Hà Giang",
+    "Hà Giang province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hagiang.gov.vn/"
+   ],
+   "geo": [
+    22.75,
+    105.0
+   ],
+   "years": [],
+   "redirects": [
+    "Ha Giang Province",
+    "Ha Giang province",
+    "Hà Giang Province",
+    "Tỉnh Hà Giang",
+    "河江"
+   ]
+  },
+  "http://dbpedia.org/resource/Hà_Nam_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Hà Nam province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hanam.gov.vn/"
+   ],
+   "geo": [
+    20.58333396911621,
+    106.0
+   ],
+   "years": [],
+   "redirects": [
+    "Ha Nam",
+    "Ha Nam Province",
+    "Ha Nam Province, Vietnam",
+    "Ha Nam province",
+    "Hà Nam",
+    "Hà Nam Province",
+    "Hà Nam Province, Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/Hòa_Bình_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Hòa Bình",
+    "Hòa Bình province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hoabinh.gov.vn/"
+   ],
+   "geo": [
+    20.33333396911621,
+    105.25
+   ],
+   "years": [],
+   "redirects": [
+    "Hoa Binh Province",
+    "Hoa Binh Province, Vietnam",
+    "Hoa Binh province",
+    "Hòa Binh Province",
+    "Hòa Bình Province",
+    "Hòa Bình Province, Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/Hải_Dương_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Hải Dương",
+    "Hải Dương province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://vpubnd.haiduong.gov.vn/",
+    "http://www.haiduong.gov.vn/"
+   ],
+   "geo": [
+    20.91666603088379,
+    106.3333358764648
+   ],
+   "years": [],
+   "redirects": [
+    "Hai Duong Province",
+    "Hai Duong Province, Vietnam",
+    "Hai Duong province",
+    "Hải Dương Province",
+    "Hải Dương Province, Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/Hậu_Giang_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Hậu Giang",
+    "Hậu Giang province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.haugiang.gov.vn/"
+   ],
+   "geo": [
+    9.783333778381348,
+    105.466667175293
+   ],
+   "years": [],
+   "redirects": [
+    "Hau Giang",
+    "Hau Giang Province",
+    "Hau Giang province",
+    "Hậu Giang Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Kiên_Giang_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Kiên Giang",
+    "Kiên Giang province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.kiengiang.gov.vn/"
+   ],
+   "geo": [
+    10.0,
+    105.1666641235352
+   ],
+   "years": [],
+   "redirects": [
+    "Kien Giang",
+    "Kien Giang Province",
+    "Kien Giang province",
+    "Kiên Giang Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Kon_Tum_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Kon Tum",
+    "Kon Tum province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.kontum.gov.vn/"
+   ],
+   "geo": [
+    14.75,
+    107.9166641235352
+   ],
+   "years": [],
+   "redirects": [
+    "Kon Tum Province",
+    "Kontum Province",
+    "Kontum province",
+    "崑嵩"
+   ]
+  },
+  "http://dbpedia.org/resource/Nam_Định_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Nam Định province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://namdinh.dcs.vn%7CNamdinh.dcs.vn",
+    "https://namdinh.gov.vn%7CNamdinh.gov.vn",
+    "https://namdinh.gov.vn/"
+   ],
+   "geo": [
+    20.25,
+    106.25
+   ],
+   "years": [],
+   "redirects": [
+    "Nam Dinh Province",
+    "Nam Dinh Province, Vietnam",
+    "Nam Dinh province",
+    "Nam Ðịnh Province",
+    "Nam Ðịnh Province, Vietnam",
+    "Nam Ðịnh province",
+    "Nam Định Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Thái_Bình_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Thái Bình province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.thaibinh.gov.vn/"
+   ],
+   "geo": [
+    20.5,
+    106.3333358764648
+   ],
+   "years": [
+    "1890-03-21"
+   ],
+   "redirects": [
+    "Thai Binh Province",
+    "Thai Binh province",
+    "Thái Binh Province",
+    "Thái Bình Province",
+    "Tinh Thai Binh"
+   ]
+  },
+  "http://dbpedia.org/resource/Trà_Vinh_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Trà Vinh",
+    "Trà Vinh province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.travinh.gov.vn/"
+   ],
+   "geo": [
+    9.833333015441895,
+    106.25
+   ],
+   "years": [],
+   "redirects": [
+    "Tra Vinh Province",
+    "Tra Vinh province",
+    "Travinh",
+    "Trà Vinh Province",
+    "茶榮"
+   ]
+  },
+  "http://dbpedia.org/resource/Đăk_Nông_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Đăk Nông",
+    "Đăk Nông province",
+    "Đắk Nông",
+    "Đắk Nông province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://daknong.gov.vn/",
+    "http://www.daknong.gov.vn/"
+   ],
+   "geo": [
+    11.98333358764648,
+    107.6999969482422
+   ],
+   "years": [],
+   "redirects": [
+    "Dac Nong",
+    "Dak Nong",
+    "Dak Nong Province",
+    "Dak Nong province",
+    "Ðắc Nông",
+    "Ðắk Nông",
+    "Đắc Nông",
+    "Đắk Nong Province",
+    "Đắk Nông Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Hà_Tây_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Hà Tây province",
+    "Tỉnh Hà Tây"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    20.83333396911621,
+    105.6666641235352
+   ],
+   "years": [],
+   "redirects": [
+    "Ha Tay",
+    "Ha Tay Province",
+    "Ha Tay province",
+    "Hà Tây",
+    "Hà Tây Province",
+    "Hà Đông Province",
+    "Sơn Tây Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Hải_Hưng_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Hải Hưng Province",
+    "Hải Hưng province",
+    "Tỉnh Hải Hưng"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Hai Hung Province",
+    "Hai Hung province"
+   ]
+  },
+  "http://dbpedia.org/resource/Sông_Bé_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Sông Bé province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Song Be",
+    "Song Be Province",
+    "Song Be Tinh",
+    "Song Be province",
+    "Sông Bé",
+    "Sông Bé Province",
+    "Sông Bé Tỉnh",
+    "Sông Bé Tỉnh, Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/Tây_Thành_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Tây Thành Province",
+    "Tây Thành province",
+    "Vietnamese Cambodia"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Trấn Tây Thành"
+   ]
+  },
+  "http://dbpedia.org/resource/Hà_Bắc_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Hà Bắc province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Ha Bac Province",
+    "Hà Bắc",
+    "Hà Bắc Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Hưng_Hóa_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Hưng Hóa",
+    "Hưng Hóa province",
+    "Tỉnh Hưng Hóa",
+    "Tỉnh Hưng Hóa (省興化)"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Hưng Hóa Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Cao_Lang_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Cao Lang province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Cao Lang Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Nghệ_Tĩnh_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Nghệ Tĩnh province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Nghe Tinh Province",
+    "Nghệ Tĩnh",
+    "Nghệ Tĩnh Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Ái_Châu_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Ái Châu province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Ai Chau",
+    "Ai Prefecture",
+    "Ai Zhou",
+    "Aizhou",
+    "Ái Châu",
+    "Ái Châu Province",
+    "Ái Prefecture"
+   ]
+  },
+  "http://dbpedia.org/resource/Đắk_Lắk_province__Đắk_Lắk__1": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Đắk Lắk",
+    "Đắk Lắk province  Đắk Lắk  1"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.daklak.gov.vn"
+   ],
+   "geo": [
+    12.66666698455811,
+    108.0500030517578
+   ],
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Phước_Tuy_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Phước Tuy province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Phuoc Tuy",
+    "Phuoc Tuy Province",
+    "Phuoc Tuy province",
+    "Phước Tuy",
+    "Phước Tuy Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Chương_Thiện_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Chương Thiện province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Chuong Thien Province",
+    "Chương Thiện",
+    "Chương Thiện Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Long_Khánh_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Long Khánh province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Long Khanh Province",
+    "Long Khanh province",
+    "Long Khánh Province"
+   ]
+  },
+  "http://dbpedia.org/resource/An_Xuyên_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "An Xuyên province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    9.231499671936035,
+    105.1803970336914
+   ],
+   "years": [],
+   "redirects": [
+    "An Xuyen Province",
+    "An Xuyen province",
+    "An Xuyên Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Phước_Thành_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Phước Thành province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Phuoc Thanh",
+    "Phuoc Thanh Province",
+    "Phuoc Thanh province",
+    "Phước Thành",
+    "Phước Thành Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Sa_Đéc_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Sa Đéc province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.31999969482422,
+    105.7300033569336
+   ],
+   "years": [],
+   "redirects": [
+    "Sa Dec Province",
+    "Sa Dec province",
+    "Sa Đéc Province",
+    "Sadec Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Hậu_Nghĩa_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Hậu Nghĩa province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Hau Nghia",
+    "Hau Nghia Province",
+    "Hau Nghia province",
+    "Hậu Nghĩa Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Pleiku_(Province)": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Pleiku (Province)",
+    "Pleiku province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Định_Tường_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Định Tường province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Dinh Tuong",
+    "Định Tường",
+    "Định Tường Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Gò_Công_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Gò Công province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Go Cong Province",
+    "Gò Công Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Quảng_Tín_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Quảng Tín province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Quang Tin",
+    "Quang Tin Province",
+    "Quang Tin province",
+    "Quảng Tín",
+    "Quảng Tín Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Phước_Long_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Phước Long province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Phuoc Long Province",
+    "Phuoc Long province",
+    "Phước Long Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Biên_Hòa_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Biên Hòa province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Bien Hoa Province",
+    "Bien Hoa province",
+    "Biên Hoà Province",
+    "Biên Hòa (province)",
+    "Biên Hòa Province",
+    "Biênhoà Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Bình_Long_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Bình Long province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    11.69400024414062,
+    106.6009979248047
+   ],
+   "years": [],
+   "redirects": [
+    "Binh Long Province",
+    "Binh Long province",
+    "Bình Long Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Province_of_Gia_Định": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Gia Định",
+    "Province of Gia Định",
+    "Tỉnh Gia Định"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Gia Định Province",
+    "Gia Định province"
+   ]
+  },
+  "http://dbpedia.org/resource/Phú_Bổn_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Phú Bổn province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Bình_Tuy_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Bình Tuy province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Binh Tuy Province",
+    "Binh Tuy province",
+    "Bình Tuy Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Vĩnh_Bình_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "Vĩnh Bình province"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Vinh Binh Province",
+    "Vinh Binh province",
+    "Vĩnh Bình Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Da_Nang": {
+   "block": "place",
+   "kinds": [
+    "province",
+    "city"
+   ],
+   "names": [
+    "City of Danang",
+    "Da Nang",
+    "Đà Nẵng"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.danang.gov.vn"
+   ],
+   "geo": [
+    16.06944465637207,
+    108.2097244262695
+   ],
+   "years": [],
+   "redirects": [
+    "Cuisine of Da Nang",
+    "Da Nang, Vietnam",
+    "Da nang",
+    "Da-Nang",
+    "Danang",
+    "Danang, Vietnam",
+    "Geography of Da Nang",
+    "History of Da Nang",
+    "History of Danang",
+    "Names of Da Nang",
+    "Thanh pho Da Nang",
+    "Tourane",
+    "Ðà Nang",
+    "Ðà Nẵng",
+    "沱灢"
+   ]
+  },
+  "http://dbpedia.org/resource/Haiphong": {
+   "block": "place",
+   "kinds": [
+    "province",
+    "city"
+   ],
+   "names": [
+    "City of Haiphong",
+    "Haiphong",
+    "Hải Phòng"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.haiphong.gov.vn/",
+    "https://en.haiphong.gov.vn/"
+   ],
+   "geo": [
+    20.86513900756836,
+    106.6838302612305
+   ],
+   "years": [],
+   "redirects": [
+    "Cuisine of Haiphong",
+    "Hai Phong",
+    "Hai Phong Province",
+    "Hai Phong, Vietnam",
+    "Hai Phòng",
+    "Hai-Phong",
+    "Haiphong, Vietnam",
+    "Haipong",
+    "Haïphong",
+    "History of Haiphong",
+    "Hải Phòng City",
+    "Hải Phòng Province",
+    "List of people from Haiphong",
+    "Thanh pho Hai Phong",
+    "Transport in Haiphong",
+    "海防"
+   ]
+  },
+  "http://dbpedia.org/resource/Thừa_Thiên_Huế_province": {
+   "block": "place",
+   "kinds": [
+    "province"
+   ],
+   "names": [
+    "City of Huế",
+    "Huế",
+    "Thừa Thiên Huế province"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.thuathienhue.gov.vn/",
+    "https://hue.gov.vn/"
+   ],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Huế City",
+    "Tha Thien",
+    "Thua Thien",
+    "Thua Thien - Hue",
+    "Thua Thien - Hue Province",
+    "Thua Thien - Hue province",
+    "Thua Thien Hue",
+    "Thua Thien Hue Province",
+    "Thua Thien province",
+    "Thua Thien – Hue Province",
+    "Thua Thien – Hue province",
+    "Thua Thien-Hue",
+    "Thua Thien-Hue Province",
+    "Thua Thien-Hue province",
+    "Thua Thien-Huế Province",
+    "Thua Thien-Huế province",
+    "Thua Thien–Hue Province",
+    "Thừa Thien-Hue Province",
+    "Thừa Thiên - Huế Province",
+    "Thừa Thiên - Huế province",
+    "Thừa Thiên Huế",
+    "Thừa Thiên Huế Province",
+    "Thừa Thiên Province",
+    "Thừa Thiên province",
+    "Thừa Thiên — Huế",
+    "Thừa Thiên-Huế",
+    "Thừa Thiên-Huế Province",
+    "Thừa Thiên-Huế province",
+    "Thừa Thiên–Huế",
+    "Thừa Thiên–Huế Province",
+    "Thừa Thiên–Huế province",
+    "承天化"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City": {
+   "block": "place",
+   "kinds": [
+    "province",
+    "city"
+   ],
+   "names": [
+    "",
+    "Ho Chi Minh City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://hochiminhcity.gov.vn/"
+   ],
+   "geo": [
+    10.77555561065674,
+    106.7019424438477
+   ],
+   "years": [],
+   "redirects": [
+    "City of Saigon",
+    "Demographics of Ho Chi Minh City",
+    "Districts of HCM",
+    "Districts of HCMC",
+    "Districts of Ho Chi Minh City",
+    "Economy of Ho Chi Minh City",
+    "Ethnic groups in Ho Chi Minh City",
+    "Geography of Ho Chi Minh City",
+    "Gia Ðịnh",
+    "Già Dinh",
+    "H.C.M.C.",
+    "HCM City",
+    "HCM Districts",
+    "HCMC",
+    "HCMC, Vietnam",
+    "History of Ho Chi Minh City",
+    "Ho Chi Min City",
+    "Ho Chi Minh C",
+    "Ho Chi Minh City (Saigon)",
+    "Ho Chi Minh City People's Committee",
+    "Ho Chi Minh City, Viet Nam",
+    "Ho Chi Minh City, Vietnam",
+    "Ho Chi Minh city",
+    "Ho Chi Minh, Vietnam",
+    "Ho Chih Minh City",
+    "Ho chi Minhh City",
+    "Ho-Chi-Minh City",
+    "Ho-chiming City",
+    "HoChiMinh City",
+    "HoChiMinh-City",
+    "Hochi Min City",
+    "Hochimin City",
+    "Hochiminh City",
+    "Hochiminh City, Vietnam",
+    "Hochiminh city",
+    "Hohochiminh",
+    "Hồ Chí Minh City",
+    "Hồ Chí Minh city",
+    "Public transport in Ho Chi Minh City",
+    "Sai Gon",
+    "Sai Gon, Viet Nam",
+    "Sai Gon, Vietnam",
+    "Sai-gon",
+    "SaiGon",
+    "Saigon",
+    "Saigon (Vietnam)",
+    "Saigon City",
+    "Saigon, South Vietnam",
+    "Saigon, Vietnam",
+    "Saigon-Cholon",
+    "Saigon–Cholon",
+    "Saïgon",
+    "Saïgon-Cholon",
+    "Saïgon-Cholon, Vietnam",
+    "Saïgon–Cholon",
+    "Saïgon–Cholon, Vietnam",
+    "Sài Gòn",
+    "Sài Gòn, Vietnam",
+    "Sài Gòn, Việt Nam",
+    "Sài-gòn",
+    "Sàigòn",
+    "T.P. Ho Chi Minh",
+    "TP HCM",
+    "TP Ho Chi Minh",
+    "TP Hồ Chí Minh",
+    "TP. HCM",
+    "TP. Ho Chi Minh",
+    "TP. Hồ Chí Minh",
+    "TP.HCM",
+    "TPHCM",
+    "Thanh Pho Ho Chi Minh",
+    "Thanh pho Ho Chi Minh",
+    "Thành Phó Hò Chí Minh",
+    "Thành Phô Hô Chí Minh",
+    "Thành Phố Hồ Chí Minh",
+    "Thành phố Hồ Chí Minh",
+    "Thành-Phô Hô Chí Minh",
+    "Tourism in Ho Chi Minh City",
+    "Tphcm",
+    "UN/LOCODE:VNSGN",
+    "Universities in Ho Chi Minh City",
+    "Water transport in Ho Chi Minh City",
+    "城舖胡志明",
+    "胡志明市"
+   ]
+  },
+  "http://dbpedia.org/resource/Hanoi": {
+   "block": "place",
+   "kinds": [
+    "province",
+    "city"
+   ],
+   "names": [
+    "Hanoi",
+    "Hanoi Capital",
+    "Hanoi City",
+    "Hà Nội"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.english.hanoi.gov.vn/"
+   ],
+   "geo": [
+    21.0,
+    105.8499984741211
+   ],
+   "years": [
+    "1873-11-20",
+    "1954-10-10"
+   ],
+   "redirects": [
+    "Bắc Thành",
+    "Capital of vietnam",
+    "Dai La",
+    "Dong Do",
+    "Dong Kinh",
+    "Economy of Hanoi",
+    "Geography of Hanoi",
+    "Ha Noi",
+    "Ha Noi Municipality",
+    "Ha Noi Municipality, Vietnam",
+    "Ha Noi city",
+    "Ha Noi, Viet Nam",
+    "Ha Noi, Vietnam",
+    "Ha Nội",
+    "Ha noi",
+    "HaNoi",
+    "Hanoi (Vietnam)",
+    "Hanoi, Vietnam",
+    "Hanoy",
+    "Hanoï",
+    "Hanói",
+    "He Nei",
+    "Hà Nôi",
+    "Hà Nội Municipality",
+    "Hà Nội Municipality, Vietnam",
+    "Hà Nội Province",
+    "Hànôi",
+    "ISO 3166-2:VN-HN",
+    "Kecho",
+    "List of local government divisions of Hanoi",
+    "Museums in Hanoi",
+    "Restaurants in Hanoi",
+    "Thang Long Hanoi",
+    "Thu do Ha Noi",
+    "Thăng Long",
+    "Thủ đô Hà Nội",
+    "Tourism in Hanoi",
+    "Tp.Ha Noi",
+    "Tp.Hà Nội",
+    "UN/LOCODE:VNHAN",
+    "Đông Kinh",
+    "Đông Quan",
+    "Đông Đô"
+   ]
+  },
+  "http://dbpedia.org/resource/Cần_Thơ": {
+   "block": "place",
+   "kinds": [
+    "province",
+    "city"
+   ],
+   "names": [
+    "Can Tho",
+    "City of Cần Thơ",
+    "Cần Thơ"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://cantho.gov.vn%7Ccantho.gov.vn"
+   ],
+   "geo": [
+    10.03333377838135,
+    105.783332824707
+   ],
+   "years": [],
+   "redirects": [
+    "Can Tho City",
+    "Can Tho Province",
+    "Can Tho city",
+    "Can Tho province",
+    "Cantho",
+    "Canthô",
+    "Cân Thỏ",
+    "Cần Thơ City",
+    "Cần Thơ Province",
+    "Cần Thơ province",
+    "History of Cần Thơ"
+   ]
+  },
+  "http://dbpedia.org/resource/Bắc_Kạn": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Bắc Kạn",
+    "Bắc Kạn City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    22.13333320617676,
+    105.8333358764648
+   ],
+   "years": [
+    "2015-03-11"
+   ],
+   "redirects": [
+    "Bac Can",
+    "Bac Kan",
+    "Bắc Cạn",
+    "Bắc Kạn city",
+    "History of Bắc Kạn"
+   ]
+  },
+  "http://dbpedia.org/resource/Thủ_Đức": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Phường Thảo Điền",
+    "Thành phố Thủ Đức",
+    "Thảo Điền",
+    "Thủ Đức",
+    "Thủ Đức City",
+    "Trường Thọ (ward)"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://tpthuduc.hochiminhcity.gov.vn%7CTpthuduc.Hochiminhcity.gov.vn%7C",
+    "https://tpthuduc.hochiminhcity.gov.vn/"
+   ],
+   "geo": [
+    10.82656097412109,
+    106.7608947753906
+   ],
+   "years": [
+    "1997-01-06"
+   ],
+   "redirects": [
+    "Thu Duc",
+    "Thu Duc City"
+   ]
+  },
+  "http://dbpedia.org/resource/Đồng_Hới": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Đồng Hới",
+    "Đồng Hới City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.donghoi.gov.vn"
+   ],
+   "geo": [
+    17.48305511474609,
+    106.599723815918
+   ],
+   "years": [],
+   "redirects": [
+    "Dong Hoi",
+    "History of Đồng Hới",
+    "Đồng Hới District",
+    "Đồng Hới city"
+   ]
+  },
+  "http://dbpedia.org/resource/Chí_Linh": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Chí Linh",
+    "Chí Linh City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    21.13299942016602,
+    106.3830032348633
+   ],
+   "years": [
+    "2010-02-12",
+    "2019-03-01"
+   ],
+   "redirects": [
+    "Chi Linh",
+    "Chi Linh District",
+    "Chí Linh (city)",
+    "Chí Linh District"
+   ]
+  },
+  "http://dbpedia.org/resource/Từ_Sơn": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Từ Sơn",
+    "Từ Sơn City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    21.11888885498047,
+    105.9611129760742
+   ],
+   "years": [],
+   "redirects": [
+    "Tu Son",
+    "Tu Son District",
+    "Tu Son, Bac Ninh",
+    "Từ Son District",
+    "Từ Sơn District",
+    "Từ Sơn, Bac Ninh"
+   ]
+  },
+  "http://dbpedia.org/resource/List_of_twin_towns_and_sister_cities_in_Vietnam": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "List of twin towns and sister cities in Vietnam"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Thái_Bình": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Thái Bình",
+    "Thái Bình City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    20.44611167907715,
+    106.3422241210938
+   ],
+   "years": [
+    "2004-04-29"
+   ],
+   "redirects": [
+    "History of Thái Bình",
+    "Thai Binh",
+    "Thai Binh City",
+    "Thai Binh city",
+    "Thaibinh",
+    "Thái Bình city"
+   ]
+  },
+  "http://dbpedia.org/resource/Thủ_Dầu_Một": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Thủ Dầu Một",
+    "Thủ Dầu Một City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://thudaumot.binhduong.gov.vn/"
+   ],
+   "geo": [
+    10.96666622161865,
+    106.6500015258789
+   ],
+   "years": [],
+   "redirects": [
+    "Thu Dao Mot",
+    "Thu Dau Mot",
+    "Thu Dau Mot City",
+    "Thudaumot",
+    "Thudâumôt",
+    "Thủ Dầu Một Province",
+    "Thủ Dầu Một province"
+   ]
+  },
+  "http://dbpedia.org/resource/Hòa_Bình_(city)": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Hòa Bình",
+    "Hòa Bình (city)",
+    "Hòa Bình City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    20.81333351135254,
+    105.3383331298828
+   ],
+   "years": [],
+   "redirects": [
+    "Hoa Binh, Hoa Binh",
+    "Hòa Bình, Hòa Bình"
+   ]
+  },
+  "http://dbpedia.org/resource/Tây_Ninh": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Tây Ninh",
+    "Tây Ninh City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    11.36777782440186,
+    106.1188888549805
+   ],
+   "years": [],
+   "redirects": [
+    "Tay Ninh",
+    "Tay Ninh City",
+    "Tayninh",
+    "Tây Ninh (city)"
+   ]
+  },
+  "http://dbpedia.org/resource/Biên_Hòa": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Biên Hòa",
+    "Biên Hòa City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.94999980926514,
+    106.8166656494141
+   ],
+   "years": [],
+   "redirects": [
+    "Bien Hoa",
+    "Bien Hoa City",
+    "Bienhoa",
+    "Bienhua",
+    "Biên Hoà",
+    "Biênhoà",
+    "History of Biên Hòa"
+   ]
+  },
+  "http://dbpedia.org/resource/Bắc_Ninh": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Bắc Ninh",
+    "Bắc Ninh City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://tpbacninh.bacninh.gov.vn/"
+   ],
+   "geo": [
+    21.1833324432373,
+    106.0500030517578
+   ],
+   "years": [],
+   "redirects": [
+    "Bac Ninh",
+    "Bac Ninh City",
+    "History of Bắc Ninh"
+   ]
+  },
+  "http://dbpedia.org/resource/Nha_Trang": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Nha Trang",
+    "Nha Trang City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://nhatrang.khanhhoa.gov.vn/",
+    "http://www.khanhhoa.gov.vn/"
+   ],
+   "geo": [
+    12.24499988555908,
+    109.1916656494141
+   ],
+   "years": [
+    "1977-03-30",
+    "2025-07-01"
+   ],
+   "redirects": [
+    "History of Nha Trang",
+    "Na Trang",
+    "Nah Trang",
+    "Nha Trang, Vietnam",
+    "Nhatrang"
+   ]
+  },
+  "http://dbpedia.org/resource/Tuy_Hòa": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Tuy Hòa",
+    "Tuy Hòa Ward"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    13.08194446563721,
+    109.2949981689453
+   ],
+   "years": [],
+   "redirects": [
+    "Tuy Hoa",
+    "Tuy Hoa Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Phan_Rang–Tháp_Chàm": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Phan Rang–Tháp Chàm",
+    "Phan Rang–Tháp Chàm City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://prtc.ninhthuan.gov.vn"
+   ],
+   "geo": [
+    11.56666660308838,
+    108.9833297729492
+   ],
+   "years": [],
+   "redirects": [
+    "History of Phan Rang-Tháp Chàm",
+    "History of Phan Rang–Tháp Chàm",
+    "Phan Rang",
+    "Phan Rang - Thap Cham",
+    "Phan Rang - Tháp Chàm",
+    "Phan Rang – Tháp Chàm",
+    "Phan Rang, Vietnam",
+    "Phan Rang-Thap Cham",
+    "Phan Rang-Tháp Chàm",
+    "Phan Rang–Thap Cham"
+   ]
+  },
+  "http://dbpedia.org/resource/Cam_Ranh": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Cam Ranh",
+    "Cam Ranh city"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://camranh.khanhhoa.dcs.vn%7CCamranh.Khanhhoa.dcs.vn",
+    "https://camranh.khanhhoa.gov.vn%7CCamranh.Khanhhoa.gov.vn",
+    "https://camranh.khanhhoa.gov.vn/english"
+   ],
+   "geo": [
+    11.91361141204834,
+    109.1369476318359
+   ],
+   "years": [
+    "2000-07-07",
+    "2010-12-23"
+   ],
+   "redirects": [
+    "Cam Ranh, Khanh Hoa",
+    "Cam-Ranh"
+   ]
+  },
+  "http://dbpedia.org/resource/Cà_Mau": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Cà Mau",
+    "Cà Mau City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.camau.gov.vn"
+   ],
+   "geo": [
+    9.183333396911621,
+    105.1500015258789
+   ],
+   "years": [],
+   "redirects": [
+    "Ca Ma",
+    "Ca Mau",
+    "Ca Mau (city)",
+    "Ca Mau City",
+    "Ca Mau city",
+    "Ca Mau, Vietnam",
+    "Cà Ma",
+    "Cà Mau (city)",
+    "History of Cà Mau"
+   ]
+  },
+  "http://dbpedia.org/resource/Da_Lat": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Da Lat",
+    "Da Lat City",
+    "Đà Lạt"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://dalat.lamdong.gov.vn/"
+   ],
+   "geo": [
+    11.94166660308838,
+    108.4383316040039
+   ],
+   "years": [],
+   "redirects": [
+    "Da Lat, Vietnam",
+    "Dalat, Vietnam",
+    "History of Da Lat",
+    "Đà-lạt"
+   ]
+  },
+  "http://dbpedia.org/resource/Hà_Tĩnh": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Hà Tĩnh",
+    "Hà Tĩnh City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://hatinhcity.gov.vn"
+   ],
+   "geo": [
+    18.33333396911621,
+    105.9000015258789
+   ],
+   "years": [
+    "2007-05-28"
+   ],
+   "redirects": [
+    "Ha Tinh",
+    "Ha Tinh Town",
+    "Hà Tĩnh city",
+    "Thi xa Ha Tinh",
+    "Thị xã Hà Tĩnh"
+   ]
+  },
+  "http://dbpedia.org/resource/Long_Xuyên": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Long Xuyên",
+    "Long Xuyên City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.37361145019531,
+    105.4458312988281
+   ],
+   "years": [
+    "1999-03-01"
+   ],
+   "redirects": [
+    "History of Long Xuyên",
+    "Long Xuyen",
+    "Long Xuyen City",
+    "Long Xuyên Province",
+    "Long Xuyên province",
+    "Longxuyen",
+    "Thoai Ngoc Hau High School"
+   ]
+  },
+  "http://dbpedia.org/resource/Lào_Cai": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Lào Cai",
+    "Lào Cai City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    22.48055648803711,
+    103.9749984741211
+   ],
+   "years": [
+    "2004-11-30"
+   ],
+   "redirects": [
+    "History of Lào Cai",
+    "Lao Cai",
+    "Lao Cay",
+    "Lao Kay",
+    "Lao-Kay",
+    "Lao-Kaï",
+    "Lào Kay",
+    "Lào-Kay",
+    "Thành phố Lào Cai"
+   ]
+  },
+  "http://dbpedia.org/resource/Lạng_Sơn": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Lang Sơn City",
+    "Lạng Sơn"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    21.8477783203125,
+    106.7577743530273
+   ],
+   "years": [
+    "2002-11-01"
+   ],
+   "redirects": [
+    "History of Lạng Sơn",
+    "Lang Son",
+    "Lang-son",
+    "Langson"
+   ]
+  },
+  "http://dbpedia.org/resource/Móng_Cái": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Móng Cái",
+    "Móng Cái City",
+    "Thành phố Móng Cái"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://mongcai.quangninh.dcs.vn%7CMongcai.Quangninh.dcs.vn",
+    "https://mongcai.quangninh.gov.vn%7CMongcai.Quangninh.gov.vn"
+   ],
+   "geo": [
+    21.53333282470703,
+    107.966667175293
+   ],
+   "years": [],
+   "redirects": [
+    "Mon-Cay",
+    "Mong Cai",
+    "Mong-Kay"
+   ]
+  },
+  "http://dbpedia.org/resource/Mỹ_Tho": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Mỹ Tho",
+    "Mỹ Tho City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://mytho.tiengiang.gov.vn/"
+   ],
+   "geo": [
+    10.35000038146973,
+    106.3499984741211
+   ],
+   "years": [],
+   "redirects": [
+    "History of Mỹ Tho",
+    "My Thau",
+    "My Tho",
+    "Mytho",
+    "Mĩ Tho",
+    "Mỹ Tho Province",
+    "Mỹ Tho province"
+   ]
+  },
+  "http://dbpedia.org/resource/Phan_Thiết": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Phan Thiết",
+    "Phan Thiết Ward"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.93333339691162,
+    108.0999984741211
+   ],
+   "years": [],
+   "redirects": [
+    "History of Phan Thiết",
+    "Phan Thiet"
+   ]
+  },
+  "http://dbpedia.org/resource/Pleiku": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Pleiku",
+    "Pleiku City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    13.98333358764648,
+    108.0
+   ],
+   "years": [],
+   "redirects": [
+    "History of Pleiku",
+    "Play Cu",
+    "Play Ku",
+    "PleiKu",
+    "Pleiku Province",
+    "Pờ-lây-cu"
+   ]
+  },
+  "http://dbpedia.org/resource/Quảng_Ngãi": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Quảng Ngãi",
+    "Quảng Ngãi City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    15.11666679382324,
+    108.8000030517578
+   ],
+   "years": [],
+   "redirects": [
+    "Quang Ngai",
+    "Quang Ngai City",
+    "Quang-Ngaï",
+    "Thành phố Quảng Ngãi"
+   ]
+  },
+  "http://dbpedia.org/resource/Sóc_Trăng": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Sóc Trăng",
+    "Sóc Trăng City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    9.602777481079102,
+    105.9736099243164
+   ],
+   "years": [],
+   "redirects": [
+    "Soc Trang",
+    "Soc Trang City",
+    "Sóc Trăng city"
+   ]
+  },
+  "http://dbpedia.org/resource/Sơn_La": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Sơn La",
+    "Sơn La City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://thanhpho.sonla.gov.vn/"
+   ],
+   "geo": [
+    21.32703399658203,
+    103.9141311645508
+   ],
+   "years": [],
+   "redirects": [
+    "History of Sơn La",
+    "Son La"
+   ]
+  },
+  "http://dbpedia.org/resource/Thái_Nguyên": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Thái Nguyên",
+    "Thái Nguyên City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.thainguyen.com"
+   ],
+   "geo": [
+    21.60000038146973,
+    105.8499984741211
+   ],
+   "years": [
+    "1962-10-19"
+   ],
+   "redirects": [
+    "Education in Thái Nguyên",
+    "History of Thái Nguyên",
+    "Thai Nguyen",
+    "Thái Nguyên University",
+    "Thái Nguyên city"
+   ]
+  },
+  "http://dbpedia.org/resource/Tuyên_Quang": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Tuyên Quang",
+    "Tuyên Quang City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    21.8166675567627,
+    105.216667175293
+   ],
+   "years": [],
+   "redirects": [
+    "History of Tuyên Quang",
+    "Tuyen Quang",
+    "Tuyen-Quang"
+   ]
+  },
+  "http://dbpedia.org/resource/Tân_An": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Tân An",
+    "Tân An City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.53333377838135,
+    106.4166641235352
+   ],
+   "years": [],
+   "redirects": [
+    "History of Tân An, Long An",
+    "Tan An",
+    "Tan An Town",
+    "Tan An, Long An",
+    "Tân An, Long An",
+    "Tân An, Long An Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Vĩnh_Long": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Vĩnh Long",
+    "Vĩnh Long City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.25,
+    105.966667175293
+   ],
+   "years": [],
+   "redirects": [
+    "Vinh Long",
+    "Vinh Long City",
+    "Vĩnh Long (city)"
+   ]
+  },
+  "http://dbpedia.org/resource/Vũng_Tàu": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Thành phố Vũng Tàu",
+    "Vũng Tàu",
+    "Vũng Tàu City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.38333320617676,
+    107.1166687011719
+   ],
+   "years": [],
+   "redirects": [
+    "Cap Saint Jacques, Bà Rịa-Vũng Tàu, Vietnam",
+    "Cap Saint Jacques, Vietnam",
+    "Cap Saint-Jacques",
+    "Cap Saint-Jacques Province",
+    "Cap Saint-Jacques province",
+    "Cap Saint-Jacques, Bà Rịa-Vũng Tàu, Vietnam",
+    "Cap Saint-Jacques, Bà Rịa–Vũng Tàu, Vietnam",
+    "Cap Saint-Jacques, Vietnam",
+    "Cape Saint Jacques",
+    "Cape Saint-Jacques",
+    "Cape St. Jacques",
+    "History of Vũng Tàu",
+    "Vung Tau",
+    "Vung Tau City",
+    "Vungtau"
+   ]
+  },
+  "http://dbpedia.org/resource/Yên_Bái": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Yên Bái",
+    "Yên Bái City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://thanhphoyenbai.yenbai.gov.vn/"
+   ],
+   "geo": [
+    21.70000076293945,
+    104.8666687011719
+   ],
+   "years": [],
+   "redirects": [
+    "History of Yên Bái",
+    "Yen Bai",
+    "Yen Bai City",
+    "Yen Bay"
+   ]
+  },
+  "http://dbpedia.org/resource/Đông_Hà": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Đông Hà",
+    "Đông Hà City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    16.83027839660645,
+    107.0972213745117
+   ],
+   "years": [],
+   "redirects": [
+    "Dong Ha",
+    "Dongha",
+    "History of Đông Hà"
+   ]
+  },
+  "http://dbpedia.org/resource/Gia_Nghĩa": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Gia Nghĩa",
+    "Gia Nghĩa City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    11.98333358764648,
+    107.6999969482422
+   ],
+   "years": [],
+   "redirects": [
+    "Gia Nghia"
+   ]
+  },
+  "http://dbpedia.org/resource/Sông_Công": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Sông Công",
+    "Sông Công City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://songcong.thainguyen.gov.vn/"
+   ],
+   "geo": [
+    21.48722267150879,
+    105.8130569458008
+   ],
+   "years": [
+    "2015-05-15"
+   ],
+   "redirects": [
+    "Song Cong",
+    "Sông Công District"
+   ]
+  },
+  "http://dbpedia.org/resource/Buôn_Ma_Thuột": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Buôn Ma Thuột",
+    "Buôn Ma Thuột City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://buonmathuot.gov.vn/"
+   ],
+   "geo": [
+    12.66666698455811,
+    108.0500030517578
+   ],
+   "years": [],
+   "redirects": [
+    "Ban Me Thout",
+    "Ban Me Thuot",
+    "Ban Mê Thuột",
+    "Buon Ma Thout",
+    "Buon Ma Thuot",
+    "Buon Me Thuot",
+    "Buonmathuot",
+    "Buôn Ma Thuột city",
+    "Buôn Mê Thuột",
+    "Lac Giao"
+   ]
+  },
+  "http://dbpedia.org/resource/List_of_cities_in_Vietnam": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "List of cities in Vietnam"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Cities in Vietnam",
+    "List of cities, towns and villages in Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/Trà_Vinh": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Trà Vinh",
+    "Trà Vinh City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    9.933333396911621,
+    106.3499984741211
+   ],
+   "years": [],
+   "redirects": [
+    "Tra Vinh",
+    "Trà Vinh (city)",
+    "Trà Vinh District"
+   ]
+  },
+  "http://dbpedia.org/resource/Dĩ_An": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Dĩ An",
+    "Dĩ An City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.90388870239258,
+    106.7677764892578
+   ],
+   "years": [
+    "2011-01-13",
+    "2020-02-01"
+   ],
+   "redirects": [
+    "Di An",
+    "Di An District",
+    "Dĩ An District"
+   ]
+  },
+  "http://dbpedia.org/resource/Hà_Tiên": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Hà Tiên",
+    "Hà Tiên City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.38333320617676,
+    104.4833297729492
+   ],
+   "years": [],
+   "redirects": [
+    "Ha Tien",
+    "Ha Tien, Kien Giang",
+    "Ha Tien,Kien Giang",
+    "Ha-tien",
+    "Hatien",
+    "History of Hà Tiên",
+    "Hà Tiên District",
+    "Hà Tiên, Kiên Giang"
+   ]
+  },
+  "http://dbpedia.org/resource/Ngã_Bảy": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Ngã Bảy",
+    "Ngã Bảy City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    9.816389083862305,
+    105.8197250366211
+   ],
+   "years": [],
+   "redirects": [
+    "Nga Bay"
+   ]
+  },
+  "http://dbpedia.org/resource/Bà_Rịa": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Bà Rịa",
+    "Bà Rịa City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.49916648864746,
+    107.1675033569336
+   ],
+   "years": [
+    "1994-06-02"
+   ],
+   "redirects": [
+    "Ba Ria",
+    "Bà Rịa Province",
+    "Bà Rịa province"
+   ]
+  },
+  "http://dbpedia.org/resource/Bạc_Liêu": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Bạc Liêu",
+    "Bạc Liêu City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    9.283333778381348,
+    105.716667175293
+   ],
+   "years": [],
+   "redirects": [
+    "Bac Lieu",
+    "Bac Lieu Town",
+    "Bac Liue",
+    "Bac Liêu Town",
+    "Bạc Liêu (city)",
+    "History of Bạc Liêu"
+   ]
+  },
+  "http://dbpedia.org/resource/Bảo_Lộc": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Bảo Lộc",
+    "Bảo Lộc City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    11.54805564880371,
+    107.807502746582
+   ],
+   "years": [
+    "1994-07-11",
+    "2010-04-08"
+   ],
+   "redirects": [
+    "Bao Loc",
+    "Bao Loc District",
+    "Bảo Lộc District",
+    "Bảo Lộc city"
+   ]
+  },
+  "http://dbpedia.org/resource/Bắc_Giang": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Bắc Giang",
+    "Bắc Giang City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    21.26666641235352,
+    106.1999969482422
+   ],
+   "years": [],
+   "redirects": [
+    "Bac Giang",
+    "Bac Giang City",
+    "Phủ Lạng Thương"
+   ]
+  },
+  "http://dbpedia.org/resource/Bến_Tre": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Bến Tre",
+    "Bến Tre City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://bentre.gov.vn/"
+   ],
+   "geo": [
+    10.23333358764648,
+    106.3833312988281
+   ],
+   "years": [],
+   "redirects": [
+    "Ben Tre",
+    "Ben Tre logic",
+    "Destroy the village to save it",
+    "History of Bến Tre"
+   ]
+  },
+  "http://dbpedia.org/resource/Cẩm_Phả": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Cẩm Phả",
+    "Cẩm Phả City",
+    "Thành phố Cẩm Phả"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.quangninh.gov.vn/vi-VN/huyenthi/txcampha/Trang/default.aspx",
+    "https://www.quangninh.gov.vn/vi-VN/huyenthi/txcampha%7CCamPha"
+   ],
+   "geo": [
+    21.01666641235352,
+    107.3166656494141
+   ],
+   "years": [
+    "2012-02-21"
+   ],
+   "redirects": [
+    "Cam Pha",
+    "Cam Pha City",
+    "Cam Pha District",
+    "Campha",
+    "Cẩm Phả District"
+   ]
+  },
+  "http://dbpedia.org/resource/Hà_Giang": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Hà Giang",
+    "Hà Giang City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hagiangcity.gov.vn"
+   ],
+   "geo": [
+    22.83333396911621,
+    104.9833297729492
+   ],
+   "years": [],
+   "redirects": [
+    "Ha Giang",
+    "History of Hà Giang"
+   ]
+  },
+  "http://dbpedia.org/resource/Hưng_Yên": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Hưng Yên",
+    "Hưng Yên City",
+    "Thành phố Hưng Yên"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://thanhphohungyen.gov.vn%7CThanhphoHungyen.gov.vn"
+   ],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Hung Yen",
+    "Hung Yen City",
+    "Hung Yen city",
+    "Hưng Yên city",
+    "Pho Hien",
+    "Phổ Hiền"
+   ]
+  },
+  "http://dbpedia.org/resource/Hạ_Long": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Hạ Long",
+    "Hạ Long City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.halongcity.gov.vn/",
+    "https://halongcity.gov.vn/"
+   ],
+   "geo": [
+    20.95000076293945,
+    107.0833358764648
+   ],
+   "years": [],
+   "redirects": [
+    "Ha Long",
+    "Ha Long City",
+    "Halong City",
+    "History of Hạ Long",
+    "Hon Gai",
+    "Hongay",
+    "Hà Long",
+    "Hòn Gai"
+   ]
+  },
+  "http://dbpedia.org/resource/Hải_Dương": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Hải Dương",
+    "Hải Dương City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    20.93972206115723,
+    106.3305587768555
+   ],
+   "years": [],
+   "redirects": [
+    "Hai Duong",
+    "Hai Duong City"
+   ]
+  },
+  "http://dbpedia.org/resource/Hội_An": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Hoi An Ward",
+    "Hội An"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    15.87972259521484,
+    108.3319473266602
+   ],
+   "years": [
+    "2008-01-29"
+   ],
+   "redirects": [
+    "Fai Foo",
+    "Fai-Fo",
+    "Faifo",
+    "Faifoo",
+    "History of Hội An",
+    "Hoi An",
+    "Hoi An Ancient Town",
+    "Hoian",
+    "Hội An Ancient Town",
+    "Museums in Hội An",
+    "Thành phố Hội An"
+   ]
+  },
+  "http://dbpedia.org/resource/Kon_Tum": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Kon Tum",
+    "Kon Tum City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    14.36166667938232,
+    108.0083312988281
+   ],
+   "years": [],
+   "redirects": [
+    "History of Kon Tum",
+    "Kon Tum, Kon Tum Province",
+    "Kontum"
+   ]
+  },
+  "http://dbpedia.org/resource/Phủ_Lý": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Phủ Lý",
+    "Phủ Lý City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    20.54111099243164,
+    105.9138870239258
+   ],
+   "years": [],
+   "redirects": [
+    "History of Phủ Lý",
+    "Phu Ly"
+   ]
+  },
+  "http://dbpedia.org/resource/Quy_Nhon": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Quy Nhon",
+    "Quy Nhon City",
+    "Quy Nhơn"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.quynhon.gov.vn"
+   ],
+   "geo": [
+    13.76666641235352,
+    109.2333297729492
+   ],
+   "years": [],
+   "redirects": [
+    "History of Qui Nhơn",
+    "Qui Nhon",
+    "Qui Nhon Bay",
+    "Qui Nhơn"
+   ]
+  },
+  "http://dbpedia.org/resource/Rạch_Giá": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Rạch Giá",
+    "Rạch Giá City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.01666641235352,
+    105.0833358764648
+   ],
+   "years": [],
+   "redirects": [
+    "Rach Gia",
+    "Rạch Giá Province",
+    "Rạch Giá province"
+   ]
+  },
+  "http://dbpedia.org/resource/Sầm_Sơn": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Sầm Sơn",
+    "Sầm Sơn City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://samson.thanhhoa.dcs.vn%7CSamson.Thanhhoa.dcs.vn",
+    "https://samson.thanhhoa.gov.vn%7CSamson.Thanhhoa.gov.vn"
+   ],
+   "geo": [
+    19.73333358764648,
+    105.9000015258789
+   ],
+   "years": [
+    "1981-12-18"
+   ],
+   "redirects": [
+    "Sam Son"
+   ]
+  },
+  "http://dbpedia.org/resource/Tam_Kỳ": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Tam Kỳ",
+    "Tam Kỳ City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    15.56666660308838,
+    108.4833297729492
+   ],
+   "years": [
+    "1983-12-03",
+    "2006-09-29"
+   ],
+   "redirects": [
+    "Tam Ky",
+    "Tam Ky City",
+    "Tam-Ky"
+   ]
+  },
+  "http://dbpedia.org/resource/Thanh_Hóa": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Thanh Hóa",
+    "Thanh Hóa City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://thanhhoacity.gov.vn"
+   ],
+   "geo": [
+    19.8075008392334,
+    105.7763900756836
+   ],
+   "years": [],
+   "redirects": [
+    "Economy of Thanh Hóa",
+    "Thanh Hoa",
+    "Thanh Hoa City",
+    "Thanh Hoá"
+   ]
+  },
+  "http://dbpedia.org/resource/Việt_Trì": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Việt Trì",
+    "Việt Trì City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    21.29999923706055,
+    105.4333343505859
+   ],
+   "years": [],
+   "redirects": [
+    "Viet Tri",
+    "Viettri"
+   ]
+  },
+  "http://dbpedia.org/resource/Vĩnh_Yên": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Vĩnh Yên",
+    "Vĩnh Yên City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    21.30999946594238,
+    105.5966644287109
+   ],
+   "years": [],
+   "redirects": [
+    "Vinh Yen",
+    "Vĩnh Yên District"
+   ]
+  },
+  "http://dbpedia.org/resource/Vị_Thanh": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Vị Thanh",
+    "Vị Thanh City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    9.783333778381348,
+    105.466667175293
+   ],
+   "years": [
+    "1999-07-01",
+    "2010-09-23"
+   ],
+   "redirects": [
+    "Long-My",
+    "Long-Mỹ",
+    "Vi Thanh",
+    "Vi Thanh city",
+    "Vi-Thanh",
+    "Vị Thanh District",
+    "Vị Thanh city",
+    "Vị-Thanh"
+   ]
+  },
+  "http://dbpedia.org/resource/Điện_Biên_Phủ": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Điện Biên Phủ",
+    "Điện Biên Phủ City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    21.38333320617676,
+    103.0166702270508
+   ],
+   "years": [
+    "1992-04-18",
+    "2003-09-26"
+   ],
+   "redirects": [
+    "Die Bien Phu",
+    "Dien Ben Phu",
+    "Dien Bien Phu",
+    "Dien Bien Phu City",
+    "Dien bien phu",
+    "Dien bienphu",
+    "Dien-bien-phu",
+    "Dienbien phu",
+    "Dienbienphu",
+    "Diê Biên Phu",
+    "Diên Biên Phu",
+    "Diên Biên Phú",
+    "Diên-Biên-Phu",
+    "Dîen Bîen Phu",
+    "History of Điện Biên Phủ",
+    "Ðiện Biên Phủ",
+    "Điên Biên Phủ"
+   ]
+  },
+  "http://dbpedia.org/resource/Phú_Quốc": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Phú Quốc",
+    "Phú Quốc Special Administrative Region",
+    "Đặc khu Phú Quốc"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://phuquoc.kiengiang.dcs.vn%7CPhuquoc.Kiengiang.dcs.vn",
+    "https://phuquoc.kiengiang.gov.vn%7CPhuquoc.Kiengiang.gov.vn",
+    "https://phuquoc.kiengiang.gov.vn/"
+   ],
+   "geo": [
+    10.23333358764648,
+    103.9499969482422
+   ],
+   "years": [],
+   "redirects": [
+    "Dao Phu Quoc",
+    "History of Phú Quốc",
+    "Koh Tral",
+    "Phu Quoc",
+    "Phu Quoc Island",
+    "Phú Quốc City",
+    "Phú Quốc District",
+    "Phú Quốc Island",
+    "Phú Quốc, Kiên Giang Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Châu_Đốc": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Châu Đốc",
+    "Châu Đốc City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.69999980926514,
+    105.1166687011719
+   ],
+   "years": [],
+   "redirects": [
+    "Chau Doc",
+    "Chaudoc",
+    "History of Châu Đốc"
+   ]
+  },
+  "http://dbpedia.org/resource/Hoa_Lư_(city)": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Hoa Lư",
+    "Hoa Lư (city)",
+    "Hoa Lư City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    20.2538890838623,
+    105.9749984741211
+   ],
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Phúc_Yên": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Phúc Yên",
+    "Phúc Yên City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    21.23333358764648,
+    105.6999969482422
+   ],
+   "years": [],
+   "redirects": [
+    "Phuc Yen",
+    "Phuc Yen District",
+    "Phúc Yên District"
+   ]
+  },
+  "http://dbpedia.org/resource/Uông_Bí": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Uông Bí",
+    "Uông Bí City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    21.03555488586426,
+    106.7644424438477
+   ],
+   "years": [
+    "1961-10-28",
+    "2011-02-25"
+   ],
+   "redirects": [
+    "Uong Bi"
+   ]
+  },
+  "http://dbpedia.org/resource/Thuận_An": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Thuận An",
+    "Thuận An City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://thuanan.binhduong.gov.vn"
+   ],
+   "geo": [
+    10.90499973297119,
+    106.6994476318359
+   ],
+   "years": [
+    "1977-11-03"
+   ],
+   "redirects": [
+    "Thuan An",
+    "Thuan An District",
+    "Thuan An city",
+    "Thuận An District",
+    "Thuận An, Bình Dương"
+   ]
+  },
+  "http://dbpedia.org/resource/Long_Khánh": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Long Khánh",
+    "Long Khánh City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.91699981689453,
+    107.1669998168945
+   ],
+   "years": [],
+   "redirects": [
+    "Long Khanh",
+    "Long Khanh District",
+    "Long Khánh District"
+   ]
+  },
+  "http://dbpedia.org/resource/Sa_Đéc": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Sa Đéc",
+    "Sa Đéc City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://sadec.dongthap.gov.vn"
+   ],
+   "geo": [
+    10.30000019073486,
+    105.7667007446289
+   ],
+   "years": [],
+   "redirects": [
+    "Sa Dec",
+    "Sa Dec town",
+    "Sa Đéc (town)",
+    "Sa Đéc town",
+    "Sadec",
+    "Đức Thịnh District"
+   ]
+  },
+  "http://dbpedia.org/resource/Phổ_Yên": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Phổ Yên",
+    "Phổ Yên City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    21.41555595397949,
+    105.8738861083984
+   ],
+   "years": [],
+   "redirects": [
+    "Pho Yen",
+    "Pho Yen District",
+    "Phổ Yen District",
+    "Phổ Yên District"
+   ]
+  },
+  "http://dbpedia.org/resource/Cao_Bằng": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Cao Bằng",
+    "Cao Bằng City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    22.66666603088379,
+    106.2583312988281
+   ],
+   "years": [
+    "2012-09-25"
+   ],
+   "redirects": [
+    "Cao Bang",
+    "History of Cao Bằng"
+   ]
+  },
+  "http://dbpedia.org/resource/Cao_Lãnh_(city)": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Cao Lãnh (city)",
+    "Cao Lãnh Ward",
+    "Cao Lãnh, Đồng Tháp",
+    "Phường Cao Lãnh"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.46722221374512,
+    105.6302795410156
+   ],
+   "years": [],
+   "redirects": [
+    "Cao Lãnh City",
+    "Cao Lãnh, Vietnam",
+    "Côn Đảo District",
+    "History of Cao Lãnh"
+   ]
+  },
+  "http://dbpedia.org/resource/Đồng_Xoài": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Đồng Xoài",
+    "Đồng Xoài City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://dongxoai.binhphuoc.gov.vn/"
+   ],
+   "geo": [
+    11.51694488525391,
+    106.8391647338867
+   ],
+   "years": [],
+   "redirects": [
+    "Dong Xoai",
+    "Đôn Luân",
+    "Đôn Luân District"
+   ]
+  },
+  "http://dbpedia.org/resource/Hồng_Ngự_(city)": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Hồng Ngự",
+    "Hồng Ngự (city)",
+    "Hồng Ngự City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.83300018310547,
+    105.2829971313477
+   ],
+   "years": [],
+   "redirects": [
+    "Hong Ngu",
+    "Hong Ngu (town)",
+    "Hồng Ngự (town)",
+    "Hồng Ngự Town"
+   ]
+  },
+  "http://dbpedia.org/resource/Lai_Châu": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Lai Châu",
+    "Lai Châu City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://thanhpho.laichau.gov.vn/"
+   ],
+   "geo": [
+    22.39916610717773,
+    103.4391632080078
+   ],
+   "years": [
+    "2004-10-10",
+    "2013-12-27"
+   ],
+   "redirects": [
+    "Lai-Chau",
+    "Muang Lay"
+   ]
+  },
+  "http://dbpedia.org/resource/Tân_Uyên,_Bình_Dương": {
+   "block": "place",
+   "kinds": [
+    "city"
+   ],
+   "names": [
+    "Tân Uyên",
+    "Tân Uyên (city)",
+    "Tân Uyên City",
+    "Tân Uyên, Bình Dương"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    11.0508337020874,
+    106.7636108398438
+   ],
+   "years": [],
+   "redirects": [
+    "Tan Uyen",
+    "Tan Uyen District",
+    "Tan Uyen District, Binh Duong",
+    "Tân Uyên District",
+    "Tân Uyên District, Bình Dương",
+    "Tân Uyên Town",
+    "Tân Uyên Town, Bình Dương",
+    "Tân Uyên, Bình Dương Province"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Culture": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City University of Culture"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.80580043792725,
+    106.7311019897461
+   ],
+   "years": [],
+   "redirects": [
+    "Ho chi minh city university of culture"
+   ]
+  },
+  "http://dbpedia.org/resource/Posts_and_Telecommunications_Institute_of_Technology,_Ho_Chi_Minh_City": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Posts and Telecommunications Institute of Technology, Ho Chi Minh City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Posts and Telecommunications Institute of Technology Ho Chi Minh City",
+    "Posts and telecommunications institute of technology ho chi minh city"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Sport": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City University of Sport"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.dhtdtthcm.edu.vn/"
+   ],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Sports and Physical Gymnastics University II"
+   ]
+  },
+  "http://dbpedia.org/resource/Thuyloi_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Thuyloi University"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://en.tlu.edu.vn/"
+   ],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Water Resources University (Vietnam)",
+    "Water Resourses University (Vietnam)"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_Medicine_and_Pharmacy_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City Medicine and Pharmacy University",
+    "University of Medicine and Pharmacy at Ho Chi Minh City",
+    "Đại học Y Dược Thành phố Hồ Chí Minh"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://ump.edu.vn/"
+   ],
+   "geo": [
+    10.75559997558594,
+    106.6629028320312
+   ],
+   "years": [
+    "1947"
+   ],
+   "redirects": [
+    "Ho chi minh city medicine and pharmacy university",
+    "University of Medicine and Pharmacy of Ho Chi Minh City",
+    "University of Medicine of Ho Chi Minh City"
+   ]
+  },
+  "http://dbpedia.org/resource/Tôn_Đức_Thắng_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ton Duc Thang University",
+    "Tôn Đức Thắng University"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [
+    "1997"
+   ],
+   "redirects": [
+    "10.55579",
+    "To Duc Thang University"
+   ]
+  },
+  "http://dbpedia.org/resource/Foreign_Trade_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Foreign Trade University",
+    "Trường Đại học Ngoại thương"
+   ],
+   "alt_names": [
+    "University of Foreign Affairs - Foreign Trade"
+   ],
+   "homepage": [],
+   "geo": [
+    21.02300071716309,
+    105.8050003051758
+   ],
+   "years": [],
+   "redirects": [
+    "10.38203",
+    "Foreign Trade University (Vietnam)",
+    "Hanoi Foreign Trade University",
+    "University of Foreign Trade",
+    "University of Foreign Trade (Vietnam)"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Science": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City University of Science",
+    "Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Thành phố Hồ Chí Minh",
+    "VNU-HCM University of Science"
+   ],
+   "alt_names": [
+    "University of Science, Vietnam National University Ho Chi Minh City"
+   ],
+   "homepage": [
+    "https://www.hcmus.edu.vn/"
+   ],
+   "geo": [
+    10.76277732849121,
+    106.6813888549805
+   ],
+   "years": [
+    "1941-07-26"
+   ],
+   "redirects": [
+    "Hcmuns",
+    "Ho Chi Minh City University of Natural Sciences",
+    "Ho chi minh city university of natural sciences",
+    "University of Natural Sciences",
+    "University of national sciences ho chi minh city"
+   ]
+  },
+  "http://dbpedia.org/resource/National_Academy_of_Public_Administration_(Vietnam)": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Academy of Public Administration and Governance",
+    "National Academy of Public Administration (Vietnam)"
+   ],
+   "alt_names": [
+    "School of Administration"
+   ],
+   "homepage": [
+    "http://napa.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "1959-05-29"
+   ],
+   "redirects": [
+    "Học viện Nguyễn Ái Quốc"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Fine_Arts": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City University of Fine Arts"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://hcmufa.edu.vn"
+   ],
+   "geo": [
+    10.80290031433105,
+    106.6942977905273
+   ],
+   "years": [
+    "1976"
+   ],
+   "redirects": [
+    "Gia Định College of Fine Arts",
+    "Ho Chi Minh City Fine Arts University"
+   ]
+  },
+  "http://dbpedia.org/resource/Hong_Bang_International_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hong Bang International University",
+    "Đại học Quốc tế Hồng Bàng"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hiu.vn"
+   ],
+   "geo": null,
+   "years": [
+    "1997-07-11"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_International_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City International University",
+    "Trường Đại học Quốc tế, Đại học Quốc gia Thành phố Hồ Chí Minh",
+    "VNU-HCM International University"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hcmiu.edu.vn/"
+   ],
+   "geo": [
+    10.87769985198975,
+    106.802001953125
+   ],
+   "years": [
+    "2003-12-05"
+   ],
+   "redirects": [
+    "International University - Vietnam National University HCMC"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Agriculture_and_Forestry": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City University of Agriculture and Forestry",
+    "Trường Đại học Nông Lâm TP.HCM"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://www.hcmuaf.edu.vn/"
+   ],
+   "geo": [
+    10.87129974365234,
+    106.7917022705078
+   ],
+   "years": [
+    "1955"
+   ],
+   "redirects": [
+    "Ho Chi Minh City University of Agriculture and Sylviculture",
+    "Ho chi minh city university of agriculture and sylviculture"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Foreign_Languages_and_Information_Technology": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City University of Foreign Languages - Information Technology",
+    "Ho Chi Minh City University of Foreign Languages and Information Technology",
+    "Đại Học Ngoại Ngữ - Tin Học Thành phố Hồ Chí Minh"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.huflit.edu.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "1992-10-26"
+   ],
+   "redirects": [
+    "Ho chi minh city university of foreign languages and information technology"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Law": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City University of Law",
+    "Đại Học Luật Thành phố Hồ Chí Minh"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hcmulaw.edu.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "1996-03-30"
+   ],
+   "redirects": [
+    "Ho chi minh city university of law"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Social_Sciences_and_Humanities": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City University of Social Sciences and Humanities",
+    "Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Thành phố Hồ Chí Minh",
+    "VNU-HCM University of Social Sciences and Humanities"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hcmussh.edu.vn/"
+   ],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Hcmussh",
+    "Ho chi minh city university of social sciences and humanities",
+    "University of Social Sciences and Humanities, Ho Chi Minh City"
+   ]
+  },
+  "http://dbpedia.org/resource/University_of_Information_Technology": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trường Đại học Công nghệ Thông tin, Đại học Quốc gia Thành phố Hồ Chí Minh",
+    "University of Information Technology",
+    "VNU-HCM University of Information Technology"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.uit.edu.vn"
+   ],
+   "geo": [
+    10.87077808380127,
+    106.8036117553711
+   ],
+   "years": [
+    "2006-06-08"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Fulbright_University_Vietnam": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Fulbright University Vietnam",
+    "Đại học Fulbright Việt Nam"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.fulbright.edu.vn",
+    "https://fulbright.edu.vn"
+   ],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Fulbright School of Engineering and Applied Sciences",
+    "Fulbright School of Public Policy and Management"
+   ]
+  },
+  "http://dbpedia.org/resource/Saigon_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Saigon University",
+    "Trường Đại học Sài Gòn"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.76000022888184,
+    106.681999206543
+   ],
+   "years": [
+    "2007"
+   ],
+   "redirects": [
+    "University of Saigon"
+   ]
+  },
+  "http://dbpedia.org/resource/Vietnam_National_University,_Ho_Chi_Minh_City": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Vietnam National University, Ho Chi Minh City",
+    "Đại học Quốc gia Thành phố Hồ Chí Minh"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.vnuhcm.edu.vn/"
+   ],
+   "geo": [
+    10.86856174468994,
+    106.7963104248047
+   ],
+   "years": [
+    "1995-01-27"
+   ],
+   "redirects": [
+    "10.32508",
+    "HCMC National University",
+    "Ho Chi Minh City National University",
+    "National University of Ho Chi Minh City",
+    "VNU-HCM",
+    "Viet Nam National University Ho Chi Minh City"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Technology": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City University of Technology",
+    "Trường Đại học Bách khoa, Đại học Quốc gia Thành phố Hồ Chí Minh"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hcmut.edu.vn",
+    "https://hcmut.edu.vn/en"
+   ],
+   "geo": [
+    10.77277755737305,
+    106.6597213745117
+   ],
+   "years": [],
+   "redirects": [
+    "Hcmut",
+    "Ho Chi Minh City University Of Technology",
+    "Ho chi minh city university of technology",
+    "Institut polytechnique de Ho Chi Minh Ville"
+   ]
+  },
+  "http://dbpedia.org/resource/Institut_Pasteur_in_Ho_Chi_Minh_City": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Institut Pasteur in Ho Chi Minh City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.pasteurhcm.gov.vn/"
+   ],
+   "geo": [
+    10.78610038757324,
+    106.688102722168
+   ],
+   "years": [],
+   "redirects": [
+    "Pasteur Institute in Ho Chi Minh City",
+    "Pasteur Institute of Ho Chi Minh City",
+    "Pasteur institute of ho chi minh city"
+   ]
+  },
+  "http://dbpedia.org/resource/Văn_Hiến_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Dương Văn An",
+    "Lê Hoàng Khải",
+    "Lê Huỳnh Triệu",
+    "Lê Văn Quang Duyệt",
+    "Lê Vương Minh Nhất",
+    "Lê Xuân Hiếu",
+    "Lương Quốc Thắng",
+    "Nguyễn Danh Minh Quang",
+    "Nguyễn Lê Nhật Quang",
+    "Nguyễn Ngọc Hậu",
+    "Nguyễn Thanh Tuấn",
+    "Nguyễn Trung Hiếu",
+    "Nguyễn Trung Thành",
+    "Nguyễn Trọng Nam",
+    "Nguyễn Văn Dân",
+    "Nguyễn Văn Giang",
+    "Nguyễn Văn Quý",
+    "Phạm Quốc Tuấn",
+    "Phạm Quốc Việt",
+    "Trương Thanh Vương",
+    "Trường Đại học Văn Hiến",
+    "Trần Anh Thi",
+    "Trần Thanh Long",
+    "Văn Hiến University",
+    "Đinh Quý",
+    "Đinh Tiến Phong",
+    "Đoàn Cao Danh",
+    "Đặng Tuấn Nghĩa"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.vhu.edu.vn",
+    "http://www.vhu.edu.vn/",
+    "https://www.facebook.com/VHUFootballClub%7C2=facebook.com"
+   ],
+   "geo": [
+    10.80370044708252,
+    106.6849975585938
+   ],
+   "years": [
+    "1997"
+   ],
+   "redirects": [
+    "Van Hien University"
+   ]
+  },
+  "http://dbpedia.org/resource/Industrial_University_of_Ho_Chi_Minh_City": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Industrial University of Ho Chi Minh City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.iuh.edu.vn/en"
+   ],
+   "geo": [
+    10.93840026855469,
+    106.8243026733398
+   ],
+   "years": [
+    "1956-11-11"
+   ],
+   "redirects": [
+    "10.46242",
+    "Ho Chi Minh City University of Industry",
+    "Ho Chi Minh University of Industry",
+    "Trường Đại học Công nghiệp Thành phố Hồ Chí Minh",
+    "University of Industry",
+    "University of Industry School, Ho Chi Minh City"
+   ]
+  },
+  "http://dbpedia.org/resource/Văn_Lang_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Van Lang University",
+    "Văn Lang University",
+    "Đại học Văn Lang"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.vanlanguni.edu.vn",
+    "https://www.vlu.edu.vn/en"
+   ],
+   "geo": [
+    10.76340007781982,
+    106.6931991577148
+   ],
+   "years": [
+    "1995"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Vietnamese-German_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trường Đại học Việt Đức",
+    "Vietnamese-German University"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.vgu.edu.vn"
+   ],
+   "geo": [
+    11.10750007629395,
+    106.6141662597656
+   ],
+   "years": [
+    "2008",
+    "2008-09-01"
+   ],
+   "redirects": [
+    "Vietnamese German University"
+   ]
+  },
+  "http://dbpedia.org/resource/Royal_Melbourne_Institute_of_Technology_Vietnam": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "RMIT University Vietnam",
+    "Royal Melbourne Institute of Technology Vietnam",
+    "Trường Đại học RMIT Việt Nam"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://www.rmit.edu.vn%7Crmit.edu.vn"
+   ],
+   "geo": [
+    10.72972202301025,
+    106.6938858032227
+   ],
+   "years": [
+    "2000"
+   ],
+   "redirects": [
+    "RMIT Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/List_of_universities_in_Ho_Chi_Minh_City": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "List of universities in Ho Chi Minh City"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/University_of_Economics_Ho_Chi_Minh_City": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "University of Economics Ho Chi Minh City",
+    "Đại học Kinh tế Thành phố Hồ Chí Minh"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.ueh.edu.vn",
+    "http://www.ueh.edu.vn/",
+    "https://www.ueh.edu.vn%7Cueh.edu.vn"
+   ],
+   "geo": [
+    10.78400039672852,
+    106.6941986083984
+   ],
+   "years": [
+    "1976-10-27"
+   ],
+   "redirects": [
+    "10.24311",
+    "University of Economics, HCMC",
+    "University of Economics, Ho Chi Minh City"
+   ]
+  },
+  "http://dbpedia.org/resource/Saigon_Technology_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Saigon Technology University",
+    "Đại Học Công Nghệ Sài Gòn - STU"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.stu.edu.vn"
+   ],
+   "geo": [
+    10.73880004882812,
+    106.6774978637695
+   ],
+   "years": [
+    "1997"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/FPT_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "FPT University"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://fpt.edu.vn/"
+   ],
+   "geo": [
+    21.02861022949219,
+    105.7799987792969
+   ],
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Hoa_Sen_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hoa Sen University",
+    "Đại học Hoa Sen"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hoasen.edu.vn/",
+    "https://www.hoasen.edu.vn/"
+   ],
+   "geo": [
+    10.77239990234375,
+    106.6792984008789
+   ],
+   "years": [],
+   "redirects": [
+    "Lotus University",
+    "School of Foreign Languages and Information Technology"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_Open_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City Open University",
+    "Đại học Mở Thành phố Hồ Chí Minh"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.ou.edu.vn/"
+   ],
+   "geo": [
+    10.77639961242676,
+    106.6902008056641
+   ],
+   "years": [
+    "1990"
+   ],
+   "redirects": [
+    "10.46223"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Architecture": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City University of Architecture",
+    "University of Architecture Ho Chi Minh City",
+    "Đại học Kiến trúc Thành phố Hồ Chí Minh"
+   ],
+   "alt_names": [
+    "Đại học Kiến trúc Sài Gòn, UAH, HCMUArc"
+   ],
+   "homepage": [
+    "http://uah.edu.vn/"
+   ],
+   "geo": [
+    10.78208351135254,
+    106.6941604614258
+   ],
+   "years": [
+    "1976"
+   ],
+   "redirects": [
+    "Ho Chi Minh City Architecture University"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Economics_and_Finance": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City University of Economics and Finance",
+    "Ho Chi Minh City University of Economics and Finance (UEF)"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.uef.edu.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "2007-09-24"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Technology_and_Education": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City University of Technology and Education",
+    "Trường Đại học Sư phạm Kỹ thuật Thành phố Hồ Chí Minh"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hcmute.edu.vn",
+    "https://hcmute.edu.vn/"
+   ],
+   "geo": [
+    10.8499002456665,
+    106.7716979980469
+   ],
+   "years": [
+    "1962-10-05"
+   ],
+   "redirects": [
+    "10.54644",
+    "Ho Chi Minh City University of Technical Education",
+    "Technical Training University of Ho Chi Minh City",
+    "Technical training university of ho chi minh city"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Transport": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City University of Transport",
+    "Trường Đại học Giao thông vận tải Thành phố Hồ Chí Minh"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://ut.edu.vn/",
+    "http://ut.edu.vn/en/"
+   ],
+   "geo": [
+    10.80472183227539,
+    106.7163925170898
+   ],
+   "years": [
+    "2001"
+   ],
+   "redirects": [
+    "10.55228",
+    "Ho Chi Minh City University of Transportation",
+    "Ho chi minh city university of transportation"
+   ]
+  },
+  "http://dbpedia.org/resource/Pham_Ngoc_Thach_University_of_Medicine": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Pham Ngoc Thach University of Medicine",
+    "Đại học Y Khoa Phạm Ngọc Thạch"
+   ],
+   "alt_names": [
+    "Centre for training and education of healthcare staff, HCMC"
+   ],
+   "homepage": [
+    "http://pnt.edu.vn"
+   ],
+   "geo": [
+    10.77369976043701,
+    106.665397644043
+   ],
+   "years": [
+    "1989"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/University_of_Economics_and_Law": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trường Đại học Kinh tế – Luật, Đại học Quốc gia Thành phố Hồ Chí Minh",
+    "University of Economics and Law",
+    "VNU-HCM University of Economics and Law"
+   ],
+   "alt_names": [
+    "VNU-HCM School of Economics"
+   ],
+   "homepage": [
+    "http://www.uel.edu.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "2010-03-24"
+   ],
+   "redirects": [
+    "Ho Chi Minh City University of Economics and Law"
+   ]
+  },
+  "http://dbpedia.org/resource/Vietnam_Aviation_Academy": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Học Viện Hàng Không Việt Nam",
+    "Vietnam Aviation Academy"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://vaa.edu.vn",
+    "https://vaa.edu.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "2006-07-17"
+   ],
+   "redirects": [
+    "Academy of Aviation of Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_University_of_Banking": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh University of Banking",
+    "Ho Chi Minh University of Banking (HUB)",
+    "Đại học Ngân hàng Thành phố Hồ Chí Minh"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://hub.edu.vn"
+   ],
+   "geo": [
+    10.85840034484863,
+    106.7630996704102
+   ],
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Education": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City University of Education"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hcmup.edu.vn"
+   ],
+   "geo": [
+    10.78660011291504,
+    106.6809997558594
+   ],
+   "years": [],
+   "redirects": [
+    "Ho Chi Minh City Pedagogical University"
+   ]
+  },
+  "http://dbpedia.org/resource/Conservatory_of_Ho_Chi_Minh_City": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Conservatory of Ho Chi Minh City",
+    "Music Conservatory of Ho Chi Minh City",
+    "Nhạc viện Thành phố Hồ Chí Minh"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hcmcons.vn"
+   ],
+   "geo": [
+    10.77419471740723,
+    106.6950836181641
+   ],
+   "years": [
+    "1956-04-12"
+   ],
+   "redirects": [
+    "Conservatory of Saigon",
+    "Conservatory of ho chi minh city",
+    "Ho Chi Minh City Conservatoire",
+    "Ho Chi Minh City Conservatory",
+    "Ho Chi Minh Conservatory",
+    "Saigon Conservatory"
+   ]
+  },
+  "http://dbpedia.org/resource/UEH-International_School_of_Business": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "UEH-International School of Business",
+    "UEH-International School of Business (UEH-ISB)"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.isb.edu.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "2010"
+   ],
+   "redirects": [
+    "International School of Business (Vietnam)"
+   ]
+  },
+  "http://dbpedia.org/resource/Saigon_Institute_of_Information_Technology": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Saigon Institute of Information Technology"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Sai Gon Institute of Information Technology",
+    "Saigon Tech",
+    "SaigonTech",
+    "Saigontech",
+    "Saigontech.edu.vn",
+    "Saigontech.net",
+    "Truong Cao Dang Nghe Sai Gon",
+    "Trường Cao Đẳng Nghề Sài Gòn"
+   ]
+  },
+  "http://dbpedia.org/resource/Fulbright_Economics_Teaching_Program": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Fulbright Economics Teaching Program"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Fulbright economics teaching program"
+   ]
+  },
+  "http://dbpedia.org/resource/Vietnamese-American_Vocational_Training_College": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Vietnamese-American Vocational Training College"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "VATC",
+    "Vietnamese-american vocational training college"
+   ]
+  },
+  "http://dbpedia.org/resource/Hanoi_University_of_Public_Health": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hanoi University of Public Health"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/An_Giang_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "An Giang University",
+    "Trường Đại học An Giang, Đại học Quốc gia Thành phố Hồ Chí Minh",
+    "VNU-HCM An Giang University"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.agu.edu.vn"
+   ],
+   "geo": [
+    10.37180042266846,
+    105.4311981201172
+   ],
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/List_of_universities_in_Vietnam": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "List of universities in Vietnam"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Higher education in Vietnam",
+    "Key national universities of Vietnam",
+    "Universities in Vietnam",
+    "Vietnamese universities"
+   ]
+  },
+  "http://dbpedia.org/resource/Vietnam_Maritime_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Vietnam Maritime University"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    20.83733558654785,
+    106.6956329345703
+   ],
+   "years": [],
+   "redirects": [
+    "ISE-Vimaru"
+   ]
+  },
+  "http://dbpedia.org/resource/Vietnam_Naval_Academy": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Học viện Hải quân",
+    "Vietnam Naval Academy"
+   ],
+   "alt_names": [
+    "Coastal Training School",
+    "Naval Officers School",
+    "Naval School of Vietnam",
+    "Naval Training School",
+    "School of Commander Naval engineering"
+   ],
+   "homepage": [
+    "http://www.hocvienhaiquan.edu.vn/"
+   ],
+   "geo": [
+    12.21510028839111,
+    109.2065963745117
+   ],
+   "years": [
+    "1955"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Vietnamese_military_academies": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Vietnamese military academies"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Dong_Thap_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Dong Thap University",
+    "Đại học Đồng Tháp"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.dthu.edu.vn"
+   ],
+   "geo": [
+    10.42055511474609,
+    105.6433334350586
+   ],
+   "years": [
+    "2003-01-10"
+   ],
+   "redirects": [
+    "10.52714"
+   ]
+  },
+  "http://dbpedia.org/resource/British_University_Vietnam": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "British University Vietnam",
+    "Trường Đại học Anh Quốc Việt Nam"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://www.buv.edu.vn%7Cbuv.edu.vn"
+   ],
+   "geo": [
+    20.96649932861328,
+    105.9317016601562
+   ],
+   "years": [
+    "2009"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Vietnamese-Japanese_Foreign_Language-Technology_College": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "College Foreign Language - Technology Vietnamese-Japanese",
+    "Trường Cao đẳng Ngoại ngữ - Công nghệ Việt Nhật",
+    "Vietnamese-Japanese Foreign Language-Technology College"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://web.archive.org/web/20130807012705/http://cnc.edu.vn/%3FsetLanguage=en",
+    "https://web.archive.org/web/20130807012705/http:/cnc.edu.vn/%3FsetLanguage=en"
+   ],
+   "geo": null,
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Can_Tho_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Can Tho University",
+    "Đại học Cần Thơ"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.03229999542236,
+    105.7682037353516
+   ],
+   "years": [
+    "1966"
+   ],
+   "redirects": [
+    "10.22144",
+    "Cantho University",
+    "Cantho university software center",
+    "Cần Thơ University"
+   ]
+  },
+  "http://dbpedia.org/resource/Dalat_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Dalat University",
+    "Đại học Đà Lạt"
+   ],
+   "alt_names": [
+    "Viện Đại học Đà Lạt"
+   ],
+   "homepage": [
+    "http://www.dlu.edu.vn"
+   ],
+   "geo": [
+    11.95563888549805,
+    108.4428558349609
+   ],
+   "years": [
+    "1957-08-08",
+    "1976-10-27"
+   ],
+   "redirects": [
+    "10.37569",
+    "University of Dalat"
+   ]
+  },
+  "http://dbpedia.org/resource/Hung_Yen_University_of_Technology_and_Education": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hung Yen University of Technology and Education",
+    "Trường Đại học Sư phạm Kỹ thuật Hưng Yên"
+   ],
+   "alt_names": [
+    "University of Technical Education in Hưng Yên"
+   ],
+   "homepage": [
+    "http://www.utehy.edu.vn"
+   ],
+   "geo": [
+    20.93831634521484,
+    106.3123931884766
+   ],
+   "years": [
+    "January 2003"
+   ],
+   "redirects": [
+    "University of Technology and Education"
+   ]
+  },
+  "http://dbpedia.org/resource/VNU_University_of_Languages_and_International_Studies": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trường Đại học Ngoại ngữ, Đại học Quốc gia Hà Nội",
+    "VNU University of Languages and International Studies"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.ulis.vnu.edu.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "1955"
+   ],
+   "redirects": [
+    "College of Foreign Languages",
+    "College of foreign languages",
+    "University of Languages and International Studies"
+   ]
+  },
+  "http://dbpedia.org/resource/VNU_University_of_Social_Sciences_and_Humanities": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Hà Nội",
+    "VNU University of Social Sciences and Humanities"
+   ],
+   "alt_names": [
+    "College of Social Sciences and Humanities",
+    "University of Hanoi,",
+    "University of Literature,"
+   ],
+   "homepage": [
+    "http://ussh.vnu.edu.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "1945-10-10"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Dong_Nai_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Dong Nai University",
+    "Trường Đại học Đồng Nai"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.95950031280518,
+    106.8613967895508
+   ],
+   "years": [
+    "1976"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Nha_Trang_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Nha Trang University",
+    "Trường Đại học Nha Trang"
+   ],
+   "alt_names": [
+    "Fisheries Faculty of Hanoi Institute of Agriculture and Forestry",
+    "School of Fisheries",
+    "University of Fisheries",
+    "University of Sea-product Technology"
+   ],
+   "homepage": [
+    "http://www.ntu.edu.vn/"
+   ],
+   "geo": [
+    12.27029991149902,
+    109.1996994018555
+   ],
+   "years": [
+    "1959"
+   ],
+   "redirects": [
+    "10.53818"
+   ]
+  },
+  "http://dbpedia.org/resource/National_Key_Universities_of_Vietnam": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "National Key Universities of Vietnam"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Vinh_Medical_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Vinh Medical University",
+    "Đại Học Y khoa Vinh"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.vmu.edu.vn"
+   ],
+   "geo": [
+    18.68610000610352,
+    105.6985015869141
+   ],
+   "years": [
+    "2010-07-13"
+   ],
+   "redirects": [
+    "Vinh medical university"
+   ]
+  },
+  "http://dbpedia.org/resource/Academy_of_Journalism_and_Communication": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Academy of Journalism and Communication"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    21.03779983520508,
+    105.7884979248047
+   ],
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Bac_Ha_International_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Bac Ha International University"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.bhiu.edu.vn/",
+    "https://bhiu.edu.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "2007"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Hung_Vuong_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hung Vuong University",
+    "Trường Đại học Hùng Vương"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "HVU",
+    "Hùng Vương University"
+   ]
+  },
+  "http://dbpedia.org/resource/Hồng_Đức_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hong Duc University",
+    "Hồng Đức University"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://eng.hdu.edu.vn"
+   ],
+   "geo": null,
+   "years": [
+    "1997"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Lạc_Hồng_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Lạc Hồng University"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://en.lhu.edu.vn/"
+   ],
+   "geo": [
+    10.95450019836426,
+    106.8022994995117
+   ],
+   "years": [
+    "1997-08-08"
+   ],
+   "redirects": [
+    "Lac Hong University"
+   ]
+  },
+  "http://dbpedia.org/resource/Tra_Vinh_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Tra Vinh University"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://en.tvu.edu.vn"
+   ],
+   "geo": [
+    9.92199993133545,
+    106.3470001220703
+   ],
+   "years": [
+    "2006"
+   ],
+   "redirects": [
+    "10.35382",
+    "History of Tra Vinh University",
+    "History of Trà Vinh University",
+    "Trà Vinh University"
+   ]
+  },
+  "http://dbpedia.org/resource/Tân_Tạo_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Tan Tao University",
+    "Tân Tạo University"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.80029964447021,
+    106.4550018310547
+   ],
+   "years": [
+    "2010"
+   ],
+   "redirects": [
+    "10.53901"
+   ]
+  },
+  "http://dbpedia.org/resource/Quảng_Bình_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Quảng Bình University",
+    "Đại học Quảng Bình"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://quangbinhuni.edu.vn/",
+    "https://qbu.edu.vn/"
+   ],
+   "geo": [
+    17.48579978942871,
+    106.6044998168945
+   ],
+   "years": [],
+   "redirects": [
+    "Dong Hoi University",
+    "Quang Binh University"
+   ]
+  },
+  "http://dbpedia.org/resource/Vinh_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Vinh University"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "10.56824"
+   ]
+  },
+  "http://dbpedia.org/resource/Hanoi_Architectural_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "",
+    "Hanoi Architectural University"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://hau.edu.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "1969"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Pontifical_College_of_St._Pius_X": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Pontifical College of St. Pius X"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [
+    "1958"
+   ],
+   "redirects": [
+    "Pius X Pontifical College",
+    "Pontifical College St.Pius X"
+   ]
+  },
+  "http://dbpedia.org/resource/Le_Quy_Don_Technical_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Le Quy Don Technical University"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.lqdtu.edu.vn",
+    "https://mta.edu.vn/",
+    "https://www.lqdtu.edu.vn/"
+   ],
+   "geo": [
+    21.0483341217041,
+    105.7858352661133
+   ],
+   "years": [
+    "1966-10-28"
+   ],
+   "redirects": [
+    "10.56651",
+    "Dai hoc Ky thuat Le Quy Don",
+    "HLTU",
+    "Hanoi Le-Quy-Don State Technical University",
+    "LQDTU",
+    "LQDU",
+    "Le Qui Don Technical University",
+    "Le Qui Don Technical University (LeTech)",
+    "Le Quy Don Technological University",
+    "Le Quy Don University of Technology",
+    "Le-Quy-Don Hanoi State Technical University",
+    "LeTech",
+    "Vietnam Le-Quy-Don Technical University",
+    "Vietnam National Technical University",
+    "Đại học Kỹ thuật Lê Quý Đôn"
+   ]
+  },
+  "http://dbpedia.org/resource/List_of_RMIT_University_people": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "List of RMIT University people"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "List of Royal Melbourne Institute of Technology people",
+    "List of alumni and faculty of the Royal Melbourne Institute of Technology"
+   ]
+  },
+  "http://dbpedia.org/resource/MIT_University_Vietnam": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "MIT University Vietnam"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://mit.vn/"
+   ],
+   "geo": [
+    10.94444465637207,
+    107.1608352661133
+   ],
+   "years": [
+    "2013-11-11"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Hanoi_University_of_Science_and_Technology": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "",
+    "Hanoi University",
+    "Hanoi University of Science and Technology",
+    "of Science and Technology"
+   ],
+   "alt_names": [
+    "Hanoi University of Technology (HUT) (-2010)",
+    "Polytechnic University",
+    "Polytechnic University ()"
+   ],
+   "homepage": [
+    "http://www.hust.edu.vn"
+   ],
+   "geo": null,
+   "years": [
+    "1956-10-15"
+   ],
+   "redirects": [
+    "10.51316",
+    "Hanoi University of Technology"
+   ]
+  },
+  "http://dbpedia.org/resource/Vietnam_National_University_of_Agriculture": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Học viện Nông nghiệp Việt Nam",
+    "Vietnam National University of Agriculture"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hua.edu.vn/vie/"
+   ],
+   "geo": null,
+   "years": [
+    "1956-10-12"
+   ],
+   "redirects": [
+    "Hanoi University of Agriculture"
+   ]
+  },
+  "http://dbpedia.org/resource/VNU_University_of_Engineering_and_Technology": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội",
+    "VNU University of Engineering and Technology"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [
+    "2004"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/The_American_University_of_Vietnam": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "American University of Vietnam",
+    "The American University in Vietnam",
+    "The American University of Vietnam"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.auv.edu.vn",
+    "https://www.auv.edu.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "2011"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Da_Nang_University_of_Economics": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Da Nang University of Economics",
+    "Trường Đại học Kinh tế, Đại học Đà Nẵng"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.due.udn.vn/",
+    "https://due.udn.vn"
+   ],
+   "geo": [
+    16.04777717590332,
+    108.2391662597656
+   ],
+   "years": [
+    "1975"
+   ],
+   "redirects": [
+    "Da nang university of economics"
+   ]
+  },
+  "http://dbpedia.org/resource/Da_Nang_University_of_Science_and_Technology": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Da Nang University of Science and Technology",
+    "The University of Da Nang - University of Science and Technology",
+    "Trường Đại học Bách khoa, Đại học Đà Nẵng"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://en.dut.udn.vn"
+   ],
+   "geo": null,
+   "years": [
+    "1975"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/University_of_Da_Nang": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "University of Da Nang",
+    "University of Danang",
+    "Đại học Đà Nẵng"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.udn.vn/english"
+   ],
+   "geo": [
+    16.07089996337891,
+    108.2193984985352
+   ],
+   "years": [
+    "1994-04-04"
+   ],
+   "redirects": [
+    "10.31130",
+    "10.47393",
+    "The University of Da Nang",
+    "University of Đà Nẵng"
+   ]
+  },
+  "http://dbpedia.org/resource/Duy_Tan_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Duy Tan University"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.duytan.edu.vn/"
+   ],
+   "geo": [
+    16.06010055541992,
+    108.2097015380859
+   ],
+   "years": [
+    "1994"
+   ],
+   "redirects": [
+    "Duy Tân University"
+   ]
+  },
+  "http://dbpedia.org/resource/Da_Nang_University_of_Architecture": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Da Nang University of Architecture"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://dananghoiancogi.vn/"
+   ],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Danang University of Architecture",
+    "Danang university of architecture"
+   ]
+  },
+  "http://dbpedia.org/resource/Đông_Á_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Đông Á University"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://donga.edu.vn/"
+   ],
+   "geo": [
+    16.0319995880127,
+    108.2212982177734
+   ],
+   "years": [
+    "2002"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Vietnam_University_of_Fine_Arts": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trường Đại học Mỹ thuật Việt Nam",
+    "Vietnam University of Fine Arts"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://mythuatvietnam.edu.vn"
+   ],
+   "geo": [
+    21.0221004486084,
+    105.8427963256836
+   ],
+   "years": [],
+   "redirects": [
+    "EBAI",
+    "Ecole Superieure des Beaux-Arts de L'Indochine",
+    "Ecole des Beaux-Arts de l'Indochine",
+    "Hanoi College of Fine Arts",
+    "Hanoi University of Fine Arts",
+    "Indochina Fine Arts College",
+    "Prix d'Indochine",
+    "Vietnam College of Fine Arts",
+    "Vietnam Fine Arts College",
+    "École Supérieure des Beaux Arts de l'Indochine",
+    "École Supérieure des Beaux-Arts de L'Indochine",
+    "École des Beaux Arts de l'Indochine",
+    "École des Beaux-Arts d'Indochine",
+    "École des Beaux-Arts de l'Indochine",
+    "École des Beaux-Arts de l’Indochine"
+   ]
+  },
+  "http://dbpedia.org/resource/Hanoi_University_of_Civil_Engineering": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hanoi University",
+    "Hanoi University of Civil Engineering",
+    "Trường Đại học Xây dựng Hà Nội",
+    "of Civil Engineering",
+    "of Civil Engineering (HUCE)"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://en.huce.edu.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "1966"
+   ],
+   "redirects": [
+    "10.31814",
+    "Ha Noi University of Civil Engineering",
+    "National University of Civil Engineering",
+    "University of Civil Engineering of Vietnam"
+   ]
+  },
+  "http://dbpedia.org/resource/MICA_Institute": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "MICA Institute",
+    "MICA: Multimedia, Information, Communication & Applications"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.mica.edu.vn"
+   ],
+   "geo": null,
+   "years": [
+    "2002"
+   ],
+   "redirects": [
+    "Multimedia Information Communication and Application"
+   ]
+  },
+  "http://dbpedia.org/resource/University_of_Transport_and_Communications": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "University of Transport and Communications"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "10.47869",
+    "Hanoi University of Communications and Transport",
+    "Truong Dai hoc Giao thong Van tai",
+    "Trường Đại học Giao thông Vận tải",
+    "University of Communication and Transport",
+    "University of Communications and Transport"
+   ]
+  },
+  "http://dbpedia.org/resource/Diplomatic_Academy_of_Vietnam": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Diplomatic Academy of Vietnam",
+    "Học viện Ngoại giao"
+   ],
+   "alt_names": [
+    "Diplomatic University of Vietnam",
+    "International Relations Academy of Vietnam"
+   ],
+   "homepage": [
+    "https://www.dav.edu.vn/"
+   ],
+   "geo": [
+    21.02300071716309,
+    105.8059997558594
+   ],
+   "years": [],
+   "redirects": [
+    "Diplomatic Academy of Viet Nam"
+   ]
+  },
+  "http://dbpedia.org/resource/Hanoi_University_of_Industry": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hanoi University of Industry"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.haui.edu.vn/"
+   ],
+   "geo": [
+    21.05410003662109,
+    105.7349014282227
+   ],
+   "years": [
+    "1898"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Institut_de_la_Francophonie_pour_l'Informatique": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Institut de la Francophonie pour l'Informatique"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.ifi.vnu.edu.vn/"
+   ],
+   "geo": [
+    21.00309944152832,
+    105.8477020263672
+   ],
+   "years": [
+    "1995"
+   ],
+   "redirects": [
+    "Francophone Institut of Computer Science",
+    "Francophone Institute for Computer Science",
+    "Francophone institute for computer science"
+   ]
+  },
+  "http://dbpedia.org/resource/National_Economics_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "National Economics University",
+    "Đại học Kinh tế Quốc dân"
+   ],
+   "alt_names": [
+    "School of Economics and Finance"
+   ],
+   "homepage": [
+    "https://en.neu.edu.vn"
+   ],
+   "geo": [
+    20.99972152709961,
+    105.8448104858398
+   ],
+   "years": [
+    "1956-01-25"
+   ],
+   "redirects": [
+    "National Economics University (Vietnam)"
+   ]
+  },
+  "http://dbpedia.org/resource/Electric_Power_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Electric Power University",
+    "Trường Đại học Điện Lực"
+   ],
+   "alt_names": [
+    "Electric Power College"
+   ],
+   "homepage": [
+    "http://www.epu.edu.vn"
+   ],
+   "geo": [
+    21.04680061340332,
+    105.7851028442383
+   ],
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Hanoi_University_of_Natural_Resources_and_Environment": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hanoi University of Natural Resources and Environment",
+    "Đại học Tài nguyên và Môi trường Hà Nội"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://en.hunre.edu.vn/hunre-en/trang-chu"
+   ],
+   "geo": null,
+   "years": [
+    "-Upgrade to university"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/VNU_Vietnam_Japan_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trường Đại học Việt Nhật, Đại học Quốc gia Hà Nội",
+    "VNU Vietnam Japan University"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://vju.vnu.edu.vn/",
+    "http://vju.vnu.edu.vn/en"
+   ],
+   "geo": null,
+   "years": [
+    "2016-09-09"
+   ],
+   "redirects": [
+    "Vietnam Japan University"
+   ]
+  },
+  "http://dbpedia.org/resource/VNU_University_of_Medicine_and_Pharmacy": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trường Đại học Y Dược, Đại học Quốc gia Hà Nội",
+    "VNU University of Medicine and Pharmacy"
+   ],
+   "alt_names": [
+    "School of Medicine and Pharmacy, Vietnam National University, Hanoi"
+   ],
+   "homepage": [
+    "http://ump.vnu.edu.vn/"
+   ],
+   "geo": [
+    21.0403003692627,
+    105.7815628051758
+   ],
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Hanoi_Medical_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hanoi Medical University",
+    "Trường Đại học Y Hà Nội"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://hmu.edu.vn"
+   ],
+   "geo": [
+    21.00277709960938,
+    105.8316650390625
+   ],
+   "years": [
+    "1902"
+   ],
+   "redirects": [
+    "10.52852",
+    "Indochina Medical College"
+   ]
+  },
+  "http://dbpedia.org/resource/Hanoi_University_of_Pharmacy": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hanoi University of Pharmacy",
+    "Đại học Dược Hà Nội"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://hup.edu.vn",
+    "https://www.hup.edu.vn/"
+   ],
+   "geo": [
+    21.0216007232666,
+    105.8581008911133
+   ],
+   "years": [
+    "1902"
+   ],
+   "redirects": [
+    "Ha Noi University of Pharmacy"
+   ]
+  },
+  "http://dbpedia.org/resource/Hanoi_University_of_Mining_and_Geology": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hanoi University of Mining and Geology",
+    "Trường Đại học Mỏ - Địa chất Hà Nội"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.humg.edu.vn/vi/"
+   ],
+   "geo": [
+    21.07340049743652,
+    105.7738037109375
+   ],
+   "years": [],
+   "redirects": [
+    "10.46326"
+   ]
+  },
+  "http://dbpedia.org/resource/Vietnam_National_Academy_of_Music": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Vietnam National Academy of Music"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.vnam.edu.vn"
+   ],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "Hanoi Conservatory of Music",
+    "Vietnam National Music Academy"
+   ]
+  },
+  "http://dbpedia.org/resource/VinUniversity": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trường Đại học VinUniversity",
+    "VinUniversity"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [
+    "2018"
+   ],
+   "redirects": [
+    "VinUni"
+   ]
+  },
+  "http://dbpedia.org/resource/Hanoi_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hanoi University",
+    "Trường Đại học Hà Nội"
+   ],
+   "alt_names": [
+    "Hanoi University of Foreign Studies"
+   ],
+   "homepage": [
+    "http://www.hanu.edu.vn"
+   ],
+   "geo": [
+    20.98970031738281,
+    105.7951965332031
+   ],
+   "years": [],
+   "redirects": [
+    "10.56844",
+    "Université de Hanoi"
+   ]
+  },
+  "http://dbpedia.org/resource/University_of_Science_and_Technology_of_Hanoi": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "University of Science and Technology of Hanoi"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.usth.edu.vn"
+   ],
+   "geo": null,
+   "years": [
+    "2009"
+   ],
+   "redirects": [
+    "Vietnam France University"
+   ]
+  },
+  "http://dbpedia.org/resource/Vietnam_National_University_of_Forestry": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Vietnam National University of Forestry"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": [
+    "10.55250"
+   ]
+  },
+  "http://dbpedia.org/resource/Van_Xuan_University_of_Technology": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Van Xuan University of Technology"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.vxut.edu.vn/"
+   ],
+   "geo": [
+    18.7894344329834,
+    105.7169570922852
+   ],
+   "years": [
+    "2008"
+   ],
+   "redirects": [
+    "VXUT",
+    "Van Xuan University"
+   ]
+  },
+  "http://dbpedia.org/resource/Vietnam_Academy_of_Science_and_Technology": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Vietnam Academy of Science and Technology",
+    "Viện Hàn lâm Khoa học và Công nghệ Việt Nam"
+   ],
+   "alt_names": [
+    "Vietnam Academy of Science"
+   ],
+   "homepage": [
+    "http://www.vast.ac.vn/en/",
+    "http://www.vast.gov.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "1975-05-20"
+   ],
+   "redirects": [
+    "Vietnam National Satellite Center",
+    "Vietnam National Space Center",
+    "Vietnamese Academy of Science and Technology"
+   ]
+  },
+  "http://dbpedia.org/resource/Vietnam_National_University,_Hanoi": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "",
+    "Vietnam National University, Hanoi"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.vnu.edu.vn/",
+    "https://vnu.edu.vn/eng/%7Cwww.en.vnu.edu.vn"
+   ],
+   "geo": [
+    21.0402774810791,
+    105.7816696166992
+   ],
+   "years": [
+    "1906-05-16"
+   ],
+   "redirects": [
+    "DHQGHN",
+    "Dai hoc Quoc gia Ha Noi",
+    "Hanoi National University",
+    "Indochinese University",
+    "University of Hanoi",
+    "University of Indochina",
+    "Université Indochinoise",
+    "VNU-Hanoi",
+    "VNUH",
+    "Viet Nam National University",
+    "Vietnam National University Hanoi",
+    "Vietnam National University of Hanoi",
+    "ĐHQGHN",
+    "Đại học Quốc gia Hà Nội"
+   ]
+  },
+  "http://dbpedia.org/resource/VNU_University_of_Science": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội",
+    "VNU University of Science"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hus.vnu.edu.vn"
+   ],
+   "geo": [
+    20.99589920043945,
+    105.8081970214844
+   ],
+   "years": [
+    "1993"
+   ],
+   "redirects": [
+    "Hanoi University of Science"
+   ]
+  },
+  "http://dbpedia.org/resource/International_School,_Vietnam_National_University,_Hanoi": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "International School, Vietnam National University, Hanoi"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Hai_Phong_Medical_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hai Phong Medical University",
+    "Hai Phong University of Medicine and Pharmacy",
+    "Hai Phong University of Medicine and Pharmacy (Hai Phong Medical University)"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    20.84280014038086,
+    106.697998046875
+   ],
+   "years": [
+    "1979"
+   ],
+   "redirects": [
+    "Hai phong medical university"
+   ]
+  },
+  "http://dbpedia.org/resource/Huế_University_of_Medicine_and_Pharmacy": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Huế University of Medicine and Pharmacy"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.huemed-univ.edu.vn"
+   ],
+   "geo": null,
+   "years": [
+    "1957"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Hanoi_National_University_of_Education": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hanoi National University of Education",
+    "Trường Đại học Sư phạm Hà Nội"
+   ],
+   "alt_names": [
+    "Hanoi University of Education",
+    "Hanoi University of Education No. 1"
+   ],
+   "homepage": [
+    "http://english.hnue.edu.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "1951",
+    "1975",
+    "1993",
+    "1999"
+   ],
+   "redirects": [
+    "HNUE"
+   ]
+  },
+  "http://dbpedia.org/resource/Phạm_Hoàng_Hiệp": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Pham Hoang Hiep",
+    "Phạm Hoàng Hiệp"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Huế_University": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Huế University"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://hueuni.edu.vn"
+   ],
+   "geo": [
+    16.45829963684082,
+    107.5795974731445
+   ],
+   "years": [
+    "1957"
+   ],
+   "redirects": [
+    "10.26459",
+    "Hue University"
+   ]
+  },
+  "http://dbpedia.org/resource/Huế_College_of_Foreign_Languages": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hue College of Foreign Languages",
+    "Huế College of Foreign Languages"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://hucfl.hueuni.edu.vn"
+   ],
+   "geo": [
+    16.46680068969727,
+    107.5856018066406
+   ],
+   "years": [
+    "2004-07-13"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Bến_Tre_High_School": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Bến Tre High School"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://www.thptchuyenbentre.edu.vn/"
+   ],
+   "geo": [
+    10.23805522918701,
+    106.3788909912109
+   ],
+   "years": [
+    "1990",
+    "1990-02-15"
+   ],
+   "redirects": [
+    "Ben Tre High School"
+   ]
+  },
+  "http://dbpedia.org/resource/Chu_Văn_An_High_School,_Hanoi": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Chu Van An High School for the Gifted",
+    "Chu Văn An High School, Hanoi",
+    "Trường Trung học Phổ thông chuyên Chu Văn An"
+   ],
+   "alt_names": [
+    "Collège du Protectorat/Trường Thành chung Bảo hộ",
+    "Lycée du Protectorat/Trường Trung học Bảo hộ",
+    "Trường Trung học Phổ thông Chu Văn An"
+   ],
+   "homepage": [
+    "http://c3chuvanan.edu.vn/"
+   ],
+   "geo": [
+    21.04325103759766,
+    105.8334426879883
+   ],
+   "years": [
+    "1908"
+   ],
+   "redirects": [
+    "Chu Văn An High School (Hanoi)"
+   ]
+  },
+  "http://dbpedia.org/resource/Chu_Văn_An_High_School_(Ho_Chi_Minh_City)": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Chu Van An High School",
+    "Chu Văn An High School (Ho Chi Minh City)",
+    "Trường Trung học Chu Văn An"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.75699996948242,
+    106.6664962768555
+   ],
+   "years": [
+    "1961"
+   ],
+   "redirects": [
+    "Chu Van An High School (Ho Chi Minh City)",
+    "Chu Van An High School (Saigon)"
+   ]
+  },
+  "http://dbpedia.org/resource/Trần_Đại_Nghĩa_High_School_for_the_Gifted": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Tran Dai Nghia High School for the Gifted",
+    "Trần Đại Nghĩa High School for the Gifted"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://trandainghia.edu.vn",
+    "https://trandainghia.edu.vn/"
+   ],
+   "geo": [
+    10.77960872650146,
+    106.7008666992188
+   ],
+   "years": [
+    "1874",
+    "1976",
+    "2000"
+   ],
+   "redirects": [
+    "Tran Dai Nghia High School",
+    "Trần Đại Nghĩa High School",
+    "Trần Đại Nghĩa High School For The Gifted"
+   ]
+  },
+  "http://dbpedia.org/resource/Nguyen_Quang_Dieu_High_School_for_the_Gifted": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Nguyen Quang Dieu High School for the Gifted",
+    "Nguyễn Quang Diêu High School for the Gifted",
+    "Trường THPT chuyên Nguyễn Quang Diêu"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://thpt-chuyennguyenquangdieu.dongthap.edu.vn/v3/"
+   ],
+   "geo": [
+    10.472900390625,
+    105.6480026245117
+   ],
+   "years": [
+    "2011",
+    "2011-07-08"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Hanoi_–_Amsterdam_High_School": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Hanoi – Amsterdam High School",
+    "Hanoi–Amsterdam High School",
+    "for the Gifted"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.hn-ams.edu.vn",
+    "https://www.hn-ams.edu.vn%7CHnarms.edu.vn"
+   ],
+   "geo": [
+    21.00679969787598,
+    105.7981033325195
+   ],
+   "years": [
+    "1985"
+   ],
+   "redirects": [
+    "Ha Noi - Amsterdam High School",
+    "Hanoi - Ams",
+    "Hanoi - Amsterdam High School",
+    "Hanoi - Amsterdam High School Awards",
+    "Hanoi - Amsterdam High School international awards",
+    "Hanoi - Amsterdam High school",
+    "Hanoi - amsterdam high school",
+    "Hanoi Amsterdam High School",
+    "Hanoi-Amsterdam High School",
+    "Hanoiamsterdam High School",
+    "Hn-Ams"
+   ]
+  },
+  "http://dbpedia.org/resource/Marie_Curie_High_School": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Marie Curie High School"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://mariecurie.edu.vn/"
+   ],
+   "geo": [
+    10.78240013122559,
+    106.690803527832
+   ],
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Foreign_Language_Specialized_School": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Foreign Language Specialized School",
+    "Trường Trung học phổ thông chuyên Ngoại ngữ"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://flss.vnu.edu.vn"
+   ],
+   "geo": null,
+   "years": [
+    "1969"
+   ],
+   "redirects": [
+    "FLSS",
+    "Foreign Language Specialized High School",
+    "Foreign Languages Specialized High School",
+    "Foreign Languages Specializing High School",
+    "Foreign Languages Specializing School",
+    "Pho thong chuyen ngoai ngu",
+    "Phổ Thông Chuyên Ngoại Ngữ"
+   ]
+  },
+  "http://dbpedia.org/resource/Vietnam-Australia_School,_Hanoi": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Vietnam-Australia School, Hanoi"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.vashanoi.edu.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "2007"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/International_German_School_Ho_Chi_Minh_City": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Deutsche Schule Ho Chi Minh Stadt",
+    "International German School Ho Chi Minh City",
+    "International German School Ho Chi Minh City (IGS HCMC)"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.igs-hcmc.org/"
+   ],
+   "geo": [
+    10.80523681640625,
+    106.7479095458984
+   ],
+   "years": [
+    "2012"
+   ],
+   "redirects": [
+    "Deutsche Schule HCMC",
+    "Deutsche Schule Ho Chi Minh City",
+    "International German School HCMC"
+   ]
+  },
+  "http://dbpedia.org/resource/International_School_Ho_Chi_Minh_City": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "International School Ho Chi Minh City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.ishcmc.com/"
+   ],
+   "geo": [
+    10.80556297302246,
+    106.7347793579102
+   ],
+   "years": [
+    "1993"
+   ],
+   "redirects": [
+    "ISHCMC",
+    "International School,Ho Chi Minh City"
+   ]
+  },
+  "http://dbpedia.org/resource/High_School_for_Gifted_Students,_VNU_University_of_Science": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "High School for Gifted Students of Science",
+    "High School for Gifted Students, VNU University of Science",
+    "Trường Trung học phổ thông chuyên Khoa học Tự nhiên"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://hsgs.edu.vn/"
+   ],
+   "geo": null,
+   "years": [
+    "1965"
+   ],
+   "redirects": [
+    "High School for Gifted Students, Hanoi University of Science"
+   ]
+  },
+  "http://dbpedia.org/resource/Renaissance_International_School_Saigon": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Renaissance International School Saigon"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://www.renaissance.edu.vn/"
+   ],
+   "geo": [
+    10.73810005187988,
+    106.7242965698242
+   ],
+   "years": [
+    "2007"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Lam_Son_High_School": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Lam Son High School",
+    "Lam Son High School for the Gifted"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://thptchuyenlamson.vn"
+   ],
+   "geo": null,
+   "years": [
+    "1931"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Ho_Chi_Minh_City_College_of_Stage_Performance_and_Cinematics": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ho Chi Minh City College of Stage Performance and Cinematics"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.76666641235352,
+    106.6999969482422
+   ],
+   "years": [],
+   "redirects": [
+    "Ho Chi Minh City College of Performing Arts & Cinema",
+    "Ho Chi Minh City College of Performing Arts and Cinema",
+    "Ho Chi Minh City College of Stage Arts",
+    "Ho Chi Minh City College of Stage Arts & Film",
+    "Ho Chi Minh City College of Stage Arts and Film",
+    "Ho Chi Minh City College of Stage Performance & Cinematics",
+    "Ho chi minh city college of stage performance and cinematics",
+    "University of Theatre and Cinema Ho Chi Minh City"
+   ]
+  },
+  "http://dbpedia.org/resource/VNU_University_of_Languages_and_International_Studies__VNU_University_of_Languages_and_International_Stud__1": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trường Đại học Ngoại ngữ, Đại học Quốc gia Hà Nội",
+    "VNU University of Languages and International Studies",
+    "VNU University of Languages and International Studies  VNU University of Languages and International Stud  1"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.ulis.vnu.edu.vn/"
+   ],
+   "geo": null,
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Võ_Nguyên_Giáp_Gifted_High_School": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trường THPT Chuyên Võ Nguyên Giáp",
+    "Võ Nguyên Giáp Gifted High School",
+    "Võ Nguyên Giáp Specialized High School"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://chuyen-qb.com/"
+   ],
+   "geo": null,
+   "years": [
+    "1996",
+    "July 1996"
+   ],
+   "redirects": [
+    "Quảng Bình Gifted High School"
+   ]
+  },
+  "http://dbpedia.org/resource/Quốc_Học_–_Huế_High_School_for_the_Gifted": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Quốc Học – Huế High School for the Gifted"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [
+    "1896"
+   ],
+   "redirects": [
+    "Quoc Hoc - Hue High School for the Gifted",
+    "Quoc Hoc High School",
+    "Quoc Hoc – Hue High School for the Gifted",
+    "Quốc Học - Huế High School for the Gifted",
+    "Quốc Học High School"
+   ]
+  },
+  "http://dbpedia.org/resource/Ngo_Quyen_High_School": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Ngo Quyen High School",
+    "Ngô Quyền High School"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://thptngoquyen.edu.vn/"
+   ],
+   "geo": [
+    10.9547004699707,
+    106.8258972167969
+   ],
+   "years": [
+    "1956"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Nguyễn_Thượng_Hiền_High_School": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "(Trường THPT Nguyễn Thượng Hiền)",
+    "Nguyen Thuong Hien High School",
+    "Nguyễn Thượng Hiền High School"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.nguyenthuonghien.edu.vn/"
+   ],
+   "geo": [
+    10.79307460784912,
+    106.6546173095703
+   ],
+   "years": [
+    "1970"
+   ],
+   "redirects": [
+    "Trường Trung học phổ thông Nguyễn Thượng Hiền)"
+   ]
+  },
+  "http://dbpedia.org/resource/European_International_School_Ho_Chi_Minh_City": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "European International School Ho Chi Minh City"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://www.eishcmc.com/"
+   ],
+   "geo": [
+    10.80556297302246,
+    106.7347793579102
+   ],
+   "years": [
+    "2009"
+   ],
+   "redirects": [
+    "EUROPEAN International School HCMC",
+    "EUROPEAN International School Ho Chi Minh City",
+    "European International School HCMC"
+   ]
+  },
+  "http://dbpedia.org/resource/Lê_Quý_Đôn_High_School_for_the_Gifted,_Da_Nang": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Lê Quý Đôn High School for the Gifted, Da Nang",
+    "Trường THPT Chuyên Lê Quý Đôn, Đà Nẵng"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [
+    "1986",
+    "1986-10-15"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Lê_Quý_Đôn_High_School_for_the_Gifted,_Vũng_Tàu": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Le Quy Don High School for the Gifted",
+    "Lê Quý Đôn High School for the Gifted, Vũng Tàu",
+    "Trường Trung học phổ thông chuyên Lê Quý Đôn"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.39039993286133,
+    107.1341018676758
+   ],
+   "years": [
+    "1991",
+    "1991-08-19"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Le_Khiet_High_School_for_the_Gifted,_Quang_Ngai": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Le Khiet High School for the Gifted, Quang Ngai",
+    "Lê Khiết High School for the Gifted",
+    "Trường THPT Chuyên Lê Khiết"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://c3chuyenlekhiet.quangngai.edu.vn/"
+   ],
+   "geo": [
+    15.1161003112793,
+    108.7923965454102
+   ],
+   "years": [
+    "1945",
+    "1945-10-01"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Trưng_Vương_Junior_Secondary_School,_Nha_Trang": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trung Vuong Junior High School",
+    "Trung VuongJunior High School",
+    "Trưng Vương Junior Secondary School, Nha Trang",
+    "Trường Phổ thông Cơ sở Trưng Vương"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    12.25430011749268,
+    109.1899032592773
+   ],
+   "years": [
+    "1933"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/United_Nations_International_School_of_Hanoi": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "United Nations International School of Hanoi"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    21.07509994506836,
+    105.8074035644531
+   ],
+   "years": [
+    "1988"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Lương_Thế_Vinh_High_School_for_the_Gifted": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Lương Thế Vinh High School for the Gifted",
+    "Lương Thế Vinh High School for the Gifted, Đồng Nai",
+    "Trường THPT Chuyên Lương Thế Vinh, Đồng Nai"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [
+    "1994"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Saigon_South_International_School": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Saigon South International School",
+    "Trường Quốc Tế Nam Sài Gòn"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.ssis.edu.vn"
+   ],
+   "geo": [
+    10.72379970550537,
+    106.7089996337891
+   ],
+   "years": [
+    "1997"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/National_Library_of_Vietnam": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "National Library of Vietnam",
+    "Thư viện Quốc gia Việt Nam"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://nlv.gov.vn/en-fr/index.php/en/%7Cnlv.gov.vn"
+   ],
+   "geo": [
+    21.02583312988281,
+    105.8494415283203
+   ],
+   "years": [
+    "1917-11-29"
+   ],
+   "redirects": [
+    "Vietnam National Library"
+   ]
+  },
+  "http://dbpedia.org/resource/Bắc_Ninh_High_School_for_the_Gifted": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Bắc Ninh High School for Gifted Students",
+    "Bắc Ninh High School for the Gifted",
+    "Trường Trung học phổ thông chuyên Bắc Ninh"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    21.19082069396973,
+    106.0612564086914
+   ],
+   "years": [
+    "1993"
+   ],
+   "redirects": [
+    "Bắc Ninh High School for Gifted"
+   ]
+  },
+  "http://dbpedia.org/resource/Trưng_Vương_Junior_Secondary_School,_Hanoi": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trưng Vương Junior Secondary School",
+    "Trưng Vương Junior Secondary School, Hanoi"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://thcstrungvuong.hoankiem.edu.vn/"
+   ],
+   "geo": [
+    21.0233097076416,
+    105.8522109985352
+   ],
+   "years": [
+    "1917"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/VNU-HCM_High_School_for_the_Gifted": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trường Phổ thông Năng khiếu",
+    "VNU-HCM High School for the Gifted"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.ptnk.edu.vn/"
+   ],
+   "geo": [
+    10.75927734375,
+    106.6662216186523
+   ],
+   "years": [
+    "1996"
+   ],
+   "redirects": [
+    "High School for the Gifted"
+   ]
+  },
+  "http://dbpedia.org/resource/Tam_Nong_High_School": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Tam Nong High School",
+    "Tam Nong high school",
+    "Trường Trung học phổ thông Tam Nông"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.41409969329834,
+    105.2251968383789
+   ],
+   "years": [
+    "1983"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/High_School_for_Gifted_Students_in_Social_Sciences_and_Humanities": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "High School for Gifted Students in Social Sciences and Humanities",
+    "Trường Trung học phổ thông chuyên Khoa học Xã hội và Nhân văn"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://hssh.ussh.vnu.edu.vn"
+   ],
+   "geo": [
+    20.99539947509766,
+    105.8070983886719
+   ],
+   "years": [
+    "2019",
+    "2019-10-09"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/British_Vietnamese_International_School": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "British Vietnamese International School"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://bvisvietnam.com/"
+   ],
+   "geo": [
+    10.7209997177124,
+    106.6846008300781
+   ],
+   "years": [
+    "2011",
+    "2012",
+    "August 2011  and August 2012"
+   ],
+   "redirects": [
+    "BVIS",
+    "British Vietnamese International School, Ho Chi Minh City"
+   ]
+  },
+  "http://dbpedia.org/resource/Vinh_Thanh_High_School": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Trường Trung học phổ thông Vĩnh Thạnh",
+    "Vinh Thanh High School",
+    "Vinh Thanh high school"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    10.2322998046875,
+    105.3986968994141
+   ],
+   "years": [
+    "2010"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/American_University_of_Vietnam__The_American_University_in_Vietnam__1": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "American University of Vietnam  The American University in Vietnam  1",
+    "The American University in Vietnam"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://www.auv.edu.vn/"
+   ],
+   "geo": null,
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Victoria_School_Systems": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Victoria School Systems"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://victoriaschool.edu.vn"
+   ],
+   "geo": [
+    10.69740390777588,
+    106.7301940917969
+   ],
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Canadian_International_School_Vietnam": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Canadian International School Vietnam",
+    "Trường Quốc tế Canada"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://cis.edu.vn"
+   ],
+   "geo": [
+    10.71440029144287,
+    106.7297973632812
+   ],
+   "years": [],
+   "redirects": [
+    "Canadian International School (Ho Chi Minh City)",
+    "Canadian International School (Vietnam)",
+    "Canadian International School System",
+    "Canadian International School of Ho Chi Minh City",
+    "The Canadian International School System",
+    "Truong quoc te Canada",
+    "Trường quốc tế Canada"
+   ]
+  },
+  "http://dbpedia.org/resource/Nguyen_Hue_High_School_for_the_Gifted": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Nguyen Hue High School for the Gifted",
+    "Trường Trung học phổ thông chuyên Nguyễn Huệ"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://chuyennguyenhue.edu.vn/"
+   ],
+   "geo": [
+    20.96089935302734,
+    105.7598037719727
+   ],
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Lê_Hồng_Phong_High_School_for_the_Gifted": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Lê Hồng Phong High School for the Gifted",
+    "Trường Trung học Phổ thông chuyên Lê Hồng Phong"
+   ],
+   "alt_names": [
+    "Petrus Ký High School"
+   ],
+   "homepage": [],
+   "geo": [
+    10.76388931274414,
+    106.6816635131836
+   ],
+   "years": [
+    "1927"
+   ],
+   "redirects": [
+    "Lycée Petrus Trương Vĩnh Ký"
+   ]
+  },
+  "http://dbpedia.org/resource/APU_International_School": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "APU American International School",
+    "APU International School",
+    "Primary School",
+    "Secondary School"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.apu.edu.vn"
+   ],
+   "geo": null,
+   "years": [
+    "''Secondary School: 2004",
+    "2004",
+    "2007",
+    "Primary School: 2007''"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/APU_International_School__Primary_School__1": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "APU International School  Primary School  1",
+    "Primary School"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/APU_International_School__Secondary_School__1": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "APU International School  Secondary School  1",
+    "Secondary School"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": null,
+   "years": [],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/British_International_School_Hanoi": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "British International School Hanoi"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "https://www.nordangliaeducation.com/our-schools/vietnam/hanoi/bis"
+   ],
+   "geo": [
+    21.0444450378418,
+    105.9191665649414
+   ],
+   "years": [
+    "2012",
+    "August 2012"
+   ],
+   "redirects": [
+    "British International School, Hanoi"
+   ]
+  },
+  "http://dbpedia.org/resource/Lycée_Yersin": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Lycée Yersin"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://cdspdalat.edu.vn/"
+   ],
+   "geo": [
+    11.94551944732666,
+    108.452751159668
+   ],
+   "years": [
+    "1927",
+    "1927-07-16"
+   ],
+   "redirects": [
+    "Lycee Yersin"
+   ]
+  },
+  "http://dbpedia.org/resource/Nguyễn_Siêu_School": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Nguyễn Siêu School",
+    "Trường Phổ thông liên cấp Nguyễn Siêu"
+   ],
+   "alt_names": [
+    "Trường Phổ thông dân lập Nguyễn Siêu",
+    "Trường Trung học cơ sở và Trung học phổ thông Nguyễn Siêu"
+   ],
+   "homepage": [
+    "http://en.nguyensieu.edu.vn/"
+   ],
+   "geo": [
+    21.01722145080566,
+    105.7900009155273
+   ],
+   "years": [
+    "1991",
+    "1991-09-11"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Lycée_français_Alexandre_Yersin": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Lycée français Alexandre Yersin",
+    "Trường quốc tế Pháp Alexandre Yersin"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.lfay.com.vn/"
+   ],
+   "geo": [
+    21.06089973449707,
+    105.8683013916016
+   ],
+   "years": [
+    "1982"
+   ],
+   "redirects": [
+    "French School of Hanoi",
+    "Lycee Francais Alexandre Yersin",
+    "Lycee francais Alexandre Yersin",
+    "Lycée Français Alexandre Yersin"
+   ]
+  },
+  "http://dbpedia.org/resource/ABC_International_School": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "ABC International School",
+    "The ABC International School"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://www.theabcis.com"
+   ],
+   "geo": [
+    10.7340669631958,
+    106.6916809082031
+   ],
+   "years": [
+    "1995"
+   ],
+   "redirects": []
+  },
+  "http://dbpedia.org/resource/Japanese_School_in_Ho_Chi_Minh_City": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "Japanese School in Ho Chi Minh City",
+    "Trường Nhật Bản",
+    "ホーチミン日本人学校"
+   ],
+   "alt_names": [],
+   "homepage": [
+    "http://jschoolhcmc.com"
+   ],
+   "geo": [
+    10.72531795501709,
+    106.7300338745117
+   ],
+   "years": [
+    "1997"
+   ],
+   "redirects": [
+    "Ho Chi Minh City Japanese School",
+    "JSHCM",
+    "Japanese School of Ho Chi Minh City",
+    "Japanese school in Ho Chi Minh city",
+    "JapaneseSchool in Ho Chi Minh City",
+    "The Japanese School in Ho Chi Minh City"
+   ]
+  },
+  "http://dbpedia.org/resource/High_School_for_Gifted_Students,_Hanoi_National_University_of_Education": {
+   "block": "univ",
+   "kinds": [
+    "univ"
+   ],
+   "names": [
+    "HNUE High School for Gifted Students",
+    "High School for Gifted Students, Hanoi National University of Education",
+    "Trường Trung học phổ thông chuyên Đại học Sư phạm"
+   ],
+   "alt_names": [],
+   "homepage": [],
+   "geo": [
+    21.03777694702148,
+    105.7838897705078
+   ],
+   "years": [
+    "1966"
+   ],
+   "redirects": [
+    "Chuyen Su Pham",
+    "HNUE High school",
+    "HNUE High school for gifted students",
+    "HNUEH",
+    "HUE High school",
+    "HUEH",
+    "Hanoi National University of Education High School for Gifted Students",
+    "Hanoi National University of Education High school for gifted students",
+    "Hanoi National University of Education high school",
+    "Hanoi University of Education High school for gifted students",
+    "Hanoi University of Education high school",
+    "Hanoi University of Education high school for gifted students",
+    "High School for Gifted Students - Hanoi National University of Education"
+   ]
+  }
+ }
+}

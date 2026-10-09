@@ -9,11 +9,11 @@
 
 | Lớp | Số thực thể | Có DBpedia | Có Wikidata |
 |---|---|---|---|
-| `vio:TruongDaiHoc` | 181 | 74 (41%) | 181 (100%) |
+| `vio:TruongDaiHoc` | 190 | 74 (39%) | 190 (100%) |
 | `vio:Tinh` | 88 | 67 (76%) | 87 (99%) |
-| `vio:HocVien` | 34 | 8 (24%) | 33 (97%) |
+| `vio:HocVien` | 36 | 8 (22%) | 35 (97%) |
 | `vio:ThanhPhoTrucThuocTrungUong` | 9 | 9 (100%) | 9 (100%) |
 | `vio:DaiHoc` | 5 | 4 (80%) | 5 (100%) |
-| `vio:DaiHocQuocGia` | 2 | 2 (100%) | 2 (100%) |
 | `vio:DaiHocVung` | 2 | 2 (100%) | 2 (100%) |
-| (không gán lớp) | 175 | 35 (20%) | 158 (90%) |
+| `vio:DaiHocQuocGia` | 2 | 2 (100%) | 2 (100%) |
+| (không gán lớp) | 164 | 35 (21%) | 147 (90%) |

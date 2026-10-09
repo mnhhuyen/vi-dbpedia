@@ -41,6 +41,12 @@ DBO = "http://dbpedia.org/ontology/"
 VIO = "https://w3id.org/vi-dbpedia/ontology/"
 
 
+def write_sorted_nt(g, path):
+    """Ghi N-Triples theo thứ tự dòng cố định (chạy lại cho ra đúng file cũ)."""
+    lines = sorted(l for l in g.serialize(format="nt").splitlines() if l.strip())
+    Path(path).write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
+
+
 def short(u):
     s = str(u)
     for p, ns in (("dbo:", DBO), ("vio:", VIO), ("dbr:", "http://dbpedia.org/resource/"),
@@ -222,7 +228,7 @@ def run(args, sparql):
                      "kieu_en": " ".join(short(t) for t in en_types)})
 
     out = Path(args.links).parent
-    validated.serialize(out / "sameas-dbpedia.validated.nt", format="nt", encoding="utf-8")
+    write_sorted_nt(validated, out / "sameas-dbpedia.validated.nt")
 
     rep = HERE / "reports"
     rep.mkdir(exist_ok=True)
