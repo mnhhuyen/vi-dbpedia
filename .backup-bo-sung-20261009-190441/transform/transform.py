@@ -67,26 +67,15 @@ class Namer:
         self.VIP = Namespace(self.base + "property/")
 
     def resource(self, title):
-        t = clean_title(title)
+        t = nfc(title).strip()
         t = t[:1].upper() + t[1:]
         return URIRef(self.VIR + _iri_escape(t.replace(" ", "_")))
 
     def category(self, name):
-        return URIRef(self.VIR + _iri_escape("Thể_loại:" + clean_title(name).replace(" ", "_")))
+        return URIRef(self.VIR + _iri_escape("Thể_loại:" + nfc(name).strip().replace(" ", "_")))
 
     def raw_property(self, param):
-        return URIRef(self.VIP + _iri_escape(clean_title(param).replace(" ", "_")))
-
-
-# Ký tự vô hình hay gặp khi người viết dán chữ vào link: gạch nối mềm, zero-width, BOM.
-INVISIBLE = re.compile("[\u00ad\u200b-\u200d\u2060\ufeff]")
-
-
-def clean_title(s):
-    """NFC, bỏ ký tự vô hình, mọi khoảng trắng Unicode (NBSP, U+202F...) -> một dấu cách.
-    Không làm bước này, IRI chứa khoảng trắng (N-Triples không hợp lệ) hoặc gạch nối mềm
-    (URI trông giống hệt nhưng khác thực thể thật)."""
-    return re.sub(r"\s+", " ", INVISIBLE.sub("", nfc(s))).strip()
+        return URIRef(self.VIP + _iri_escape(re.sub(r"\s+", "_", nfc(param).strip())))
 
 
 def _iri_escape(s):

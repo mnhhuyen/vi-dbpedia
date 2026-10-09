@@ -1,5 +1,3 @@
 requests
 rdflib
 owlrl
-fastapi
-uvicorn

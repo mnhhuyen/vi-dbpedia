@@ -1,0 +1,2 @@
+rdflib
+owlready2   # cần Java 17+ để chạy HermiT
