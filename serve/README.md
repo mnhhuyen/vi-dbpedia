@@ -53,7 +53,7 @@ không ghi `GRAPH` thấy toàn bộ dữ liệu; ghi `GRAPH <…/graph/inferred
 | File | Câu hỏi | Dùng tính năng |
 |---|---|---|
 | cq01 | 10 tỉnh/thành đông dân nhất | `FILTER NOT EXISTS`, phép tính |
-| cq02 | Các tỉnh đã giải thể | `dbo:dissolutionDate` |
+| cq02 | Các tỉnh đã giải thể | `dbo:dissolutionDate\|dbo:dissolutionYear` |
 | cq03 | Trường có trụ sở tại Hà Nội | lớp `vio:CoSoGiaoDucDaiHoc` **suy ra** từ lớp con |
 | cq04 | Trường thành viên của mỗi đại học | `vio:coThanhVien` **suy ra** từ `owl:inverseOf` |
 | cq05 | Số trường theo tỉnh | `GROUP BY` |
