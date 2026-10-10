@@ -23,6 +23,7 @@ import argparse
 import csv
 import json
 import math
+import os
 import random
 import sys
 import time
@@ -36,7 +37,9 @@ from rdflib.namespace import OWL, RDF, RDFS
 
 HERE = Path(__file__).parent
 ENDPOINT = "https://dbpedia.org/sparql"
-USER_AGENT = "ViDBpediaCourseProject/0.1 (sinh vien; email-cua-ban@example.com)"
+USER_AGENT = os.environ.get(
+    "VIDBPEDIA_USER_AGENT", "ViDBpediaCourseProject/0.1 (sinh vien; email-cua-ban@example.com)"
+).strip()
 DBO = "http://dbpedia.org/ontology/"
 VIO = "https://w3id.org/vi-dbpedia/ontology/"
 
@@ -61,6 +64,9 @@ def short(u):
 # ---------------------------------------------------------------------------
 def sparql_http(query):
     import requests
+    placeholders = ("email-cua-ban", "example.com", "example.edu", "your-email", "your_email")
+    if not USER_AGENT or any(item in USER_AGENT.lower() for item in placeholders):
+        raise RuntimeError("Set VIDBPEDIA_USER_AGENT to an app name and a real contact before querying DBpedia.")
     for attempt in range(6):
         try:
             r = requests.get(ENDPOINT, params={"query": query, "format": "application/sparql-results+json"},

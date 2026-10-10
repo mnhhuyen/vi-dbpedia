@@ -1,9 +1,9 @@
 # Liên kết sang DBpedia tiếng Anh và Wikidata
 
-- Số tài nguyên: **496**
-- Có liên kết DBpedia tiếng Anh: **201** (40.5%)
-- Có liên kết Wikidata: **477** (96.2%)
-- Có ít nhất một liên kết ra ngoài: **477** (96.2%)
+- Số tài nguyên: **495**
+- Có liên kết DBpedia tiếng Anh: **200** (40.4%)
+- Có liên kết Wikidata: **476** (96.2%)
+- Có ít nhất một liên kết ra ngoài: **476** (96.2%)
 
 ## Theo lớp
 
@@ -16,4 +16,4 @@
 | `vio:DaiHoc` | 5 | 4 (80%) | 5 (100%) |
 | `vio:DaiHocVung` | 2 | 2 (100%) | 2 (100%) |
 | `vio:DaiHocQuocGia` | 2 | 2 (100%) | 2 (100%) |
-| (không gán lớp) | 164 | 35 (21%) | 147 (90%) |
+| (không gán lớp) | 163 | 34 (21%) | 146 (90%) |

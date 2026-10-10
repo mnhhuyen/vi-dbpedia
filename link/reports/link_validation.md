@@ -1,6 +1,6 @@
 # Kiểm tra liên kết sang DBpedia tiếng Anh
 
-Endpoint: https://dbpedia.org/sparql · Số liên kết: **201** · Giữ lại sau kiểm tra: **194**
+Endpoint: https://dbpedia.org/sparql · Số liên kết: **200** · Giữ lại sau kiểm tra: **193**
 
 Ghi chú: dòng 'đáng ngờ' được tính trong số 'tồn tại' hoặc 'chuyển hướng' (liên kết có thật nhưng bị bỏ vì kiểu hai bên loại trừ nhau).
 
@@ -8,7 +8,7 @@ Ghi chú: dòng 'đáng ngờ' được tính trong số 'tồn tại' hoặc 'c
 
 | Trạng thái | Số liên kết |
 |---|---|
-| tồn tại | 186 |
+| tồn tại | 185 |
 | chuyển hướng (đã sửa) | 8 |
 | không tồn tại (đã bỏ) | 7 |
 

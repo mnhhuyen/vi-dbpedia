@@ -1,7 +1,7 @@
 # Khảo sát dữ liệu Wikipedia tiếng Việt
 
-- Số bài viết phân tích: **496**
-- Số bài có infobox: **448** (90.3%)
+- Số bài viết phân tích: **495**
+- Số bài có infobox: **447** (90.3%)
 - Số template infobox khác nhau: **18**
 
 ## Độ phủ tích luỹ của các template phổ biến nhất
@@ -15,9 +15,9 @@
 
 | # | Template | Số bài | Bài ví dụ |
 |---|---|---|---|
-| 1 | Thông tin trường học | 267 | Trường Đại học Tài chính – Marketing phân hiệu Quảng Ngãi |
+| 1 | Thông tin trường học | 267 | Học viện Phụ nữ Việt Nam |
 | 2 | Thông tin đơn vị hành chính Việt Nam | 97 | Thanh Hóa |
-| 3 | Infobox | 38 | Sa Đéc (tỉnh) |
+| 3 | Infobox | 37 | Sa Đéc (tỉnh) |
 | 4 | Thông tin đơn vị quân sự Việt Nam | 17 | Học viện Khoa học Quân sự |
 | 5 | Thông tin đơn vị công an nhân dân Việt Nam | 8 | Học viện Chính trị Công an nhân dân (Việt Nam) |
 | 6 | Thông tin nhân vật | 4 | Lê Văn Lân |
@@ -38,7 +38,7 @@
 
 | Từ khoá | Số bài |
 |---|---|
-| Tỉnh | 112 |
+| Tỉnh | 111 |
 | Huyện | 0 |
 | Xã | 0 |
 | Phường | 0 |

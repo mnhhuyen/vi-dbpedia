@@ -17,7 +17,7 @@
 | **F1** | **98.4%** |
 | Liên kết mới (thực thể không có liên kết liên ngôn ngữ) | 24 |
 | — đủ tin cậy, đưa vào `sameas-dbpedia.final.nt` | 6 |
-| Tổng liên kết trong `sameas-dbpedia.final.nt` | 200 |
+| Tổng liên kết trong `sameas-dbpedia.final.nt` | 199 |
 
 Precision chỉ tính trên thực thể có đáp án; liên kết mới cần chấm tay (`reports/new_links_review.csv`, cột `dung`).
 

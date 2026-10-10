@@ -50,7 +50,7 @@ Nguồn: rdflib (cục bộ)
 
 `queries/cq03_truong_tai_ha_noi.rq`
 
-52 dòng.
+53 dòng.
 
 | ten | loai |
 |---|---|
@@ -65,11 +65,11 @@ Nguồn: rdflib (cục bộ)
 | Học viện Nông nghiệp Việt Nam | vio:HocVien |
 | Học viện Phụ nữ Việt Nam | vio:HocVien |
 | Học viện Quản lý giáo dục | vio:HocVien |
+| Học viện Thanh thiếu niên Việt Nam | vio:HocVien |
 | Học viện Tài chính (Việt Nam) | vio:HocVien |
 | Học viện Tư pháp (Việt Nam) | vio:HocVien |
 | Học viện Y – Dược học cổ truyền Việt Nam | vio:HocVien |
-| Học viện Âm nhạc Quốc gia Việt Nam | vio:HocVien |
-| … (37 dòng nữa) | |
+| … (38 dòng nữa) | |
 
 ## CQ4: Các trường thành viên của mỗi đại học quốc gia / đại học vùng (vio:coThanhVien được suy ra từ nghịch đảo)
 
@@ -92,7 +92,7 @@ Nguồn: rdflib (cục bộ)
 
 | tinh | soTruong |
 |---|---|
-| Hà Nội | 52 |
+| Hà Nội | 53 |
 | Thành phố Hồ Chí Minh | 32 |
 | Đà Nẵng | 12 |
 | Huế | 10 |

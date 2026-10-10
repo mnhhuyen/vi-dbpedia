@@ -1,0 +1,33 @@
+Đang nạp DBpedia Ontology...
+
+1. Cú pháp
+  [PASS] vio-ontology.ttl parse được — 332 triple
+  [PASS] dbo-vi-labels.ttl parse được — 48 triple
+
+2. Tham chiếu tới DBpedia Ontology
+  [PASS] 46 IRI dbo: được dùng đều tồn tại
+
+3. Nhãn song ngữ
+  [PASS] 37 thuật ngữ vio: đều có nhãn @vi
+  [PASS] 37 thuật ngữ vio: đều có nhãn @en
+  [PASS] mọi lớp dbo: được tham chiếu đều có nhãn @vi
+
+4. Suy luận trên dữ liệu mẫu (HermiT)
+  [PASS] với dbo GỐC chưa vá: dữ liệu mẫu bị mâu thuẫn (tái hiện lỗi của DBpedia)
+  [PASS] ontology + dữ liệu mẫu nhất quán
+  [PASS] thuocDonViHanhChinh bắc cầu: Dịch Vọng Hậu thuộc Hà Nội
+  [PASS] property chain: trường có trụ sở tại Hà Nội
+  [PASS] subPropertyOf: trụ sở tại => dbo:location
+  [PASS] owl:hasValue: Hà Nội dbo:country dbr:Vietnam
+  [PASS] owl:inverseOf: ĐHQGHN có thành viên là trường
+  [PASS] neo vào dbo: Hà Nội là dbo:City
+  [PASS] neo vào dbo: trường là dbo:University
+  [PASS] neo vào dbo: Cầu Giấy là dbo:District
+
+5. Phát hiện dữ liệu sai
+  [PASS] một đơn vị vừa là tỉnh vừa là phường (AllDisjointClasses) — reasoner: mâu thuẫn
+  [PASS] một trường vừa là tổ chức vừa là đơn vị hành chính (dbo:Agent ⊥ dbo:Place) — reasoner: mâu thuẫn
+  [PASS] trường thuộc 2 đại học KHÔNG được khai báo khác nhau -> vẫn nhất quán, reasoner suy ra owl:sameAs (không có Unique Name Assumption) — reasoner: nhất quán
+  [PASS] trường thuộc 2 đại học đã khai báo khác nhau (FunctionalProperty) — reasoner: mâu thuẫn
+
+Kết quả: 20/20 kiểm tra đạt

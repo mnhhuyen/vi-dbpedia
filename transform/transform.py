@@ -405,8 +405,23 @@ def main():
             G["categories"].add((s, DCTERMS.subject, namer.category(c)))
         for t in page_links(a["code"]):
             G["page-links"].add((s, DBO.wikiPageWikiLink, namer.resource(t)))
-        G["provenance"].add((s, FOAF.isPrimaryTopicOf, wiki_url(a["title"])))
-        G["provenance"].add((s, PROV.wasDerivedFrom, wiki_url(a["title"])))
+        page_uri = wiki_url(a["title"])
+        G["provenance"].add((s, FOAF.isPrimaryTopicOf, page_uri))
+        revision_id = a.get("revision_id")
+        revision_timestamp = a.get("revision_timestamp")
+        if revision_id:
+            revision_uri = URIRef(f"{page_uri}?oldid={int(revision_id)}")
+            G["provenance"].add((s, PROV.wasDerivedFrom, revision_uri))
+            G["provenance"].add((s, DBO.wikiPageRevisionLink, revision_uri))
+            G["provenance"].add((s, DBO.wikiPageRevisionID,
+                                 Literal(int(revision_id), datatype=XSD.integer)))
+            if revision_timestamp:
+                timestamp = dt.datetime.fromisoformat(revision_timestamp.replace("Z", "+00:00"))
+                G["provenance"].add((revision_uri, RDF.type, PROV.Entity))
+                G["provenance"].add((revision_uri, PROV.generatedAtTime,
+                                     Literal(timestamp, datatype=XSD.dateTime)))
+        else:
+            G["provenance"].add((s, PROV.wasDerivedFrom, page_uri))
         G["provenance"].add((s, DBO.wikiPageID, Literal(a["id"], datatype=XSD.integer)))
 
         # Tầng thô: mọi tham số infobox
@@ -486,8 +501,10 @@ def main():
     rep = HERE / "reports"
     rep.mkdir(exist_ok=True)
     short = lambda u: str(u).replace(str(VIO), "vio:").replace(str(DBO), "dbo:")
+    with_revision = sum(1 for article in articles if article.get("revision_id"))
     md = ["# Kết quả chuyển đổi sang RDF", "",
           f"- Số bài: **{len(articles):,}**",
+          f"- Bài có revision ID và timestamp: **{with_revision:,}/{len(articles):,}**",
           f"- Số bài được gán lớp (tầng mapping): **{sum(class_count.values()):,}** "
           f"(trong đó {no_infobox} bài không có infobox, gán lớp theo tiêu đề)",
           f"- Tổng số triple: **{total:,}**", "",

@@ -134,6 +134,7 @@
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_phòng_(Việt_Nam)> <http://xmlns.com/foaf/0.1/homepage> <http://www.nda.edu.vn> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_phòng_(Việt_Nam)> <https://w3id.org/vi-dbpedia/ontology/coQuanChuQuan> <https://w3id.org/vi-dbpedia/resource/Bộ_Quốc_phòng_(Việt_Nam)> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <http://xmlns.com/foaf/0.1/homepage> <http://vya.edu.vn/> .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/ontology/truSoTai> <https://w3id.org/vi-dbpedia/resource/Hà_Nội> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Tài_chính_(Việt_Nam)> <http://xmlns.com/foaf/0.1/homepage> <http://www.hvtc.edu.vn> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Tài_chính_(Việt_Nam)> <https://w3id.org/vi-dbpedia/ontology/loaiHinhSoHuu> <https://w3id.org/vi-dbpedia/ontology/CongLap> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Tài_chính_(Việt_Nam)> <https://w3id.org/vi-dbpedia/ontology/truSoTai> <https://w3id.org/vi-dbpedia/resource/Hà_Nội> .

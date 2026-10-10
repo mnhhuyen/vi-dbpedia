@@ -59,14 +59,6 @@
 <https://w3id.org/vi-dbpedia/resource/An_Giang> <https://w3id.org/vi-dbpedia/property/đại_biểu_quốc_hội> <https://w3id.org/vi-dbpedia/resource/Trần_Thị_Thanh_Hương> .
 <https://w3id.org/vi-dbpedia/resource/An_Giang> <https://w3id.org/vi-dbpedia/property/đại_biểu_quốc_hội> <https://w3id.org/vi-dbpedia/resource/Võ_Thị_Ánh_Xuân> .
 <https://w3id.org/vi-dbpedia/resource/An_Giang> <https://w3id.org/vi-dbpedia/property/đại_biểu_quốc_hội> <https://w3id.org/vi-dbpedia/resource/Đôn_Tuấn_Phong> .
-<https://w3id.org/vi-dbpedia/resource/An_Xuyên_(tỉnh)> <https://w3id.org/vi-dbpedia/property/above> "An Xuyên"@vi .
-<https://w3id.org/vi-dbpedia/resource/An_Xuyên_(tỉnh)> <https://w3id.org/vi-dbpedia/property/dân_số_(1967)> "245.707 người"@vi .
-<https://w3id.org/vi-dbpedia/resource/An_Xuyên_(tỉnh)> <https://w3id.org/vi-dbpedia/property/giải_thể> "1976"@vi .
-<https://w3id.org/vi-dbpedia/resource/An_Xuyên_(tỉnh)> <https://w3id.org/vi-dbpedia/property/phân_chia_hành_chính> "1 thị xã, 5 quận"@vi .
-<https://w3id.org/vi-dbpedia/resource/An_Xuyên_(tỉnh)> <https://w3id.org/vi-dbpedia/property/subheader> <https://w3id.org/vi-dbpedia/resource/Tỉnh_(Việt_Nam_Cộng_hòa)> .
-<https://w3id.org/vi-dbpedia/resource/An_Xuyên_(tỉnh)> <https://w3id.org/vi-dbpedia/property/thành_lập> "22/10/1956"@vi .
-<https://w3id.org/vi-dbpedia/resource/An_Xuyên_(tỉnh)> <https://w3id.org/vi-dbpedia/property/tỉnh_lỵ> <https://w3id.org/vi-dbpedia/resource/Quản_Long> .
-<https://w3id.org/vi-dbpedia/resource/An_Xuyên_(tỉnh)> <https://w3id.org/vi-dbpedia/property/vị_trí> <https://w3id.org/vi-dbpedia/resource/Việt_Nam_Cộng_hòa> .
 <https://w3id.org/vi-dbpedia/resource/Ba_Xuyên> <https://w3id.org/vi-dbpedia/property/above> "Ba Xuyên"@vi .
 <https://w3id.org/vi-dbpedia/resource/Ba_Xuyên> <https://w3id.org/vi-dbpedia/property/dân_số_(1967)> "373.793 người"@vi .
 <https://w3id.org/vi-dbpedia/resource/Ba_Xuyên> <https://w3id.org/vi-dbpedia/property/giải_thể> "1975"@vi .
@@ -1568,6 +1560,7 @@
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Hành_chính_và_Quản_trị_công> <https://w3id.org/vi-dbpedia/property/ngày_thành_lập> "29/5/1959"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Hành_chính_và_Quản_trị_công> <https://w3id.org/vi-dbpedia/property/phó_giám_đốc_học_viện> "TS. Nguyễn Đăng Quế\n\nPGS.TS. Lương Thanh Cường\n\nTS. Lại Đức Vượng\n\nPGS.TS. Nguyễn Quốc Sửu"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Hành_chính_và_Quản_trị_công> <https://w3id.org/vi-dbpedia/property/quốc_gia> "Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Hành_chính_và_Quản_trị_công> <https://w3id.org/vi-dbpedia/property/sáng_lập> <https://w3id.org/vi-dbpedia/resource/Ban_Thường_vụ_Trung_ương_Đoàn_Thanh_niên_Cộng_sản_Hồ_Chí_Minh> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Hành_chính_và_Quản_trị_công> <https://w3id.org/vi-dbpedia/property/thành_viên_của> <https://w3id.org/vi-dbpedia/resource/Học_viện_Chính_trị_Quốc_gia_Hồ_Chí_Minh> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Hành_chính_và_Quản_trị_công> <https://w3id.org/vi-dbpedia/property/tên> "Học viện Hành chính và Quản trị công"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Hành_chính_và_Quản_trị_công> <https://w3id.org/vi-dbpedia/property/tên_cũ> "Trường Hành chính\nHọc viện Hành chính\nHọc viện Hành chính Quốc gia"@vi .
@@ -1576,6 +1569,8 @@
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Hành_chính_và_Quản_trị_công> <https://w3id.org/vi-dbpedia/property/viết_tắt> "HVHC&QTC/APAG"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Hành_chính_và_Quản_trị_công> <https://w3id.org/vi-dbpedia/property/web> "https://apag.edu.vn"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Hành_chính_và_Quản_trị_công> <https://w3id.org/vi-dbpedia/property/xếp_hạng> "Đặc biệt"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Hành_chính_và_Quản_trị_công> <https://w3id.org/vi-dbpedia/property/địa_chỉ> <https://w3id.org/vi-dbpedia/resource/Hà_Nội> .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Hành_chính_và_Quản_trị_công> <https://w3id.org/vi-dbpedia/property/địa_chỉ> <https://w3id.org/vi-dbpedia/resource/Láng_(phường)> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Hải_quân_(Việt_Nam)> <https://w3id.org/vi-dbpedia/property/bộ_chỉ_huy> <https://w3id.org/vi-dbpedia/resource/Khánh_Hòa> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Hải_quân_(Việt_Nam)> <https://w3id.org/vi-dbpedia/property/bộ_chỉ_huy> <https://w3id.org/vi-dbpedia/resource/Nha_Trang_(thành_phố)> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Hải_quân_(Việt_Nam)> <https://w3id.org/vi-dbpedia/property/bộ_phận_của> <https://w3id.org/vi-dbpedia/resource/Quân_chủng_Hải_quân_Việt_Nam> .
@@ -1880,16 +1875,23 @@
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quản_lý_giáo_dục> <https://w3id.org/vi-dbpedia/property/web> "naem.edu.vn"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quản_lý_giáo_dục> <https://w3id.org/vi-dbpedia/property/điện_thoại> "+84 (0)4 3864 3352"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quản_lý_giáo_dục> <https://w3id.org/vi-dbpedia/property/địa_chỉ> <https://w3id.org/vi-dbpedia/resource/Phương_Liệt> .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/bài_hát> "\"Hành khúc Quốc gia Hành chánh\""@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/closed> "30/4/1975"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/established> "7/4/1952"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/giới_hạn_tuổi> "18 - 25 (tuổi)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/giới_hạn_tuổi_dưới> "18"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/giới_hạn_tuổi_trên> "25"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/hiệu_trưởng> "GS. Nguyễn Quốc Trị (cuối cùng)"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/khuôn_viên> "Đô thị"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/loại_hình> <https://w3id.org/vi-dbpedia/resource/Học_viện> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/phó_hiệu_trưởng> "GS. Trương Ngọc Giàu (cuối cùng)"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/quốc_gia> <https://w3id.org/vi-dbpedia/resource/Việt_Nam_Cộng_hòa> .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/sáng_lập> <https://w3id.org/vi-dbpedia/resource/Bảo_Đại> .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/sáng_lập> <https://w3id.org/vi-dbpedia/resource/Chính_phủ_Quốc_gia_Việt_Nam> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/thuộc_tổ_chức> <https://w3id.org/vi-dbpedia/resource/Phủ_Tổng_thống_Việt_Nam_Cộng_hòa> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/thành_phố> <https://w3id.org/vi-dbpedia/resource/Sài_Gòn_(thành_phố)> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/tên> "Học Viện Quốc gia Hành chánh"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/tên_khác> "Trường Quốc gia Hành chánh"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/tình_trạng> "(giải thể)"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/tọa_độ> "10°46'25.6\"N 106°40'34.7\"E"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/property/viết_tắt> "HVQGHC"@vi .
@@ -1916,13 +1918,25 @@
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_phòng_(Việt_Nam)> <https://w3id.org/vi-dbpedia/property/từ> "tháng 4 năm 2016"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_phòng_(Việt_Nam)> <https://w3id.org/vi-dbpedia/property/web> "http://www.nda.edu.vn"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_phòng_(Việt_Nam)> <https://w3id.org/vi-dbpedia/property/đơn_vị> "Học viện Quốc phòng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/bài_hát> "Trường Đoàn thân yêu"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/email> "vya@edu.vn"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/giám_đốc> "TS. Nguyễn Hải Đăng"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/hệ> <https://w3id.org/vi-dbpedia/resource/Công_lập> .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/khẩu_hiệu> "Chất lượng - Tiên phong - Sáng tạo"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/kiểu_hệ> "Hệ"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/loại_hình> <https://w3id.org/vi-dbpedia/resource/Học_viện> .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/mã_trường> "HTN"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/ngày_thành_lập> "15/10/1956"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/phó_giám_đốc> "TS. Hoàng Minh Tuấn\nTS. Trần Thị Tuyết Nhung\nTS. Đặng Vũ Tùng"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/quốc_gia> "Việt Nam"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/thuộc_tổ_chức> <https://w3id.org/vi-dbpedia/resource/Đoàn_Thanh_niên_Cộng_sản_Hồ_Chí_Minh> .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/thành_phố> <https://w3id.org/vi-dbpedia/resource/Hà_Nội> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/tên> "Học viện Thanh thiếu niên Việt Nam"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/tên_cũ> "Trường Trung cấp Cán bộ Đoàn toàn quốc\nTrường Đoàn Trung ương\nTrường Cán bộ Thanh thiếu niên Trung ương"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/tên_tiếng_anh> "Vietnam Youth Academy"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/viết_tắt> "HVTTNVN\nVYA"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/web> "http://vya.edu.vn/"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/property/địa_chỉ> <https://w3id.org/vi-dbpedia/resource/Láng_(phường)> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Tài_chính_(Việt_Nam)> <https://w3id.org/vi-dbpedia/property/email> "vanphong@hvtc.edu.vn"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Tài_chính_(Việt_Nam)> <https://w3id.org/vi-dbpedia/property/fax> "0243 9331 865"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Tài_chính_(Việt_Nam)> <https://w3id.org/vi-dbpedia/property/giám_đốc> "Phó Giáo sư, Tiến sĩ, Nhà giáo ưu tú\n Nguyễn Đào Tùng"@vi .
@@ -2216,7 +2230,7 @@
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/chủ_tịch_ubmttq> <https://w3id.org/vi-dbpedia/resource/Trương_Văn_Nọ> .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/chủ_tịch_ubnd> <https://w3id.org/vi-dbpedia/resource/Nguyễn_Văn_Út> .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/diện_tích> "4.494,79 km²"@vi .
-<https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/dân_số> "1.869.747 người"@vi .
+<https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/dân_số> "1.869.746 người"@vi .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/dân_tộc> <https://w3id.org/vi-dbpedia/resource/Người_Hoa_(Việt_Nam)> .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/dân_tộc> <https://w3id.org/vi-dbpedia/resource/Người_Khmer_(Việt_Nam)> .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/dân_tộc> <https://w3id.org/vi-dbpedia/resource/Người_Việt> .
@@ -2232,7 +2246,7 @@
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/mật_độ_dân_số> "người/km²"@vi .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/phân_chia_hành_chính> "1 thành phố, 1 thị xã và 13 huyện"@vi .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/thành_lập> "22/10/1956"@vi .
-<https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/thời_điểm_dân_số> "14/12/2025"@vi .
+<https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/thời_điểm_dân_số> "30/6/2025"@vi .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/thời_điểm_kinh_tế> "2024"@vi .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/tên> "Long An"@vi .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <https://w3id.org/vi-dbpedia/property/tên_cũ> <https://w3id.org/vi-dbpedia/resource/Chợ_Lớn_(tỉnh)> .
@@ -4132,7 +4146,7 @@
 <https://w3id.org/vi-dbpedia/resource/Trường_Khoa_học_liên_ngành_và_Nghệ_thuật,_Đại_học_Quốc_gia_Hà_Nội> <https://w3id.org/vi-dbpedia/property/khẩu_hiệu> "Kiến tạo tương lai bằng tri thức liên ngành"@vi .
 <https://w3id.org/vi-dbpedia/resource/Trường_Khoa_học_liên_ngành_và_Nghệ_thuật,_Đại_học_Quốc_gia_Hà_Nội> <https://w3id.org/vi-dbpedia/property/loại_hình> "Công lập"@vi .
 <https://w3id.org/vi-dbpedia/resource/Trường_Khoa_học_liên_ngành_và_Nghệ_thuật,_Đại_học_Quốc_gia_Hà_Nội> <https://w3id.org/vi-dbpedia/property/mã_trường> "QHK"@vi .
-<https://w3id.org/vi-dbpedia/resource/Trường_Khoa_học_liên_ngành_và_Nghệ_thuật,_Đại_học_Quốc_gia_Hà_Nội> <https://w3id.org/vi-dbpedia/property/ngày_thành_lập> "20/5/2002\n(khoa sau đại học)\n25/1/2017\n(Khoa Các khoa học liên ngành) \n1/3/2024 \n(Trường Khoa học liên ngành và Nghệ thuật)"@vi .
+<https://w3id.org/vi-dbpedia/resource/Trường_Khoa_học_liên_ngành_và_Nghệ_thuật,_Đại_học_Quốc_gia_Hà_Nội> <https://w3id.org/vi-dbpedia/property/ngày_thành_lập> "20/5/2002\n(khoa sau đại học)\n25/1/2017\n(Khoa Các khoa học liên ngành) \n29/1/2024 \n(Trường Khoa học liên ngành và Nghệ thuật)"@vi .
 <https://w3id.org/vi-dbpedia/resource/Trường_Khoa_học_liên_ngành_và_Nghệ_thuật,_Đại_học_Quốc_gia_Hà_Nội> <https://w3id.org/vi-dbpedia/property/pushpin_map> "Hanoi"@vi .
 <https://w3id.org/vi-dbpedia/resource/Trường_Khoa_học_liên_ngành_và_Nghệ_thuật,_Đại_học_Quốc_gia_Hà_Nội> <https://w3id.org/vi-dbpedia/property/quốc_gia> "Việt Nam"@vi .
 <https://w3id.org/vi-dbpedia/resource/Trường_Khoa_học_liên_ngành_và_Nghệ_thuật,_Đại_học_Quốc_gia_Hà_Nội> <https://w3id.org/vi-dbpedia/property/thành_phố> <https://w3id.org/vi-dbpedia/resource/Hà_Nội> .
@@ -8106,7 +8120,8 @@
 <https://w3id.org/vi-dbpedia/resource/Định_Tường> <https://w3id.org/vi-dbpedia/property/tỉnh_lỵ> <https://w3id.org/vi-dbpedia/resource/Mỹ_Tho_(thành_phố)> .
 <https://w3id.org/vi-dbpedia/resource/Định_Tường> <https://w3id.org/vi-dbpedia/property/vị_trí> <https://w3id.org/vi-dbpedia/resource/Việt_Nam_Cộng_hòa> .
 <https://w3id.org/vi-dbpedia/resource/Đồng_Nai> <https://w3id.org/vi-dbpedia/property/biển_số_xe> <https://w3id.org/vi-dbpedia/resource/Biển_xe_cơ_giới_Việt_Nam> .
-<https://w3id.org/vi-dbpedia/resource/Đồng_Nai> <https://w3id.org/vi-dbpedia/property/biệt_danh> "Xứ cánh thép ven sông"@vi .
+<https://w3id.org/vi-dbpedia/resource/Đồng_Nai> <https://w3id.org/vi-dbpedia/property/biệt_danh> <https://w3id.org/vi-dbpedia/resource/Cao_su> .
+<https://w3id.org/vi-dbpedia/resource/Đồng_Nai> <https://w3id.org/vi-dbpedia/property/biệt_danh> <https://w3id.org/vi-dbpedia/resource/Hạt_điều> .
 <https://w3id.org/vi-dbpedia/resource/Đồng_Nai> <https://w3id.org/vi-dbpedia/property/bí_thư> <https://w3id.org/vi-dbpedia/resource/Vũ_Hồng_Văn> .
 <https://w3id.org/vi-dbpedia/resource/Đồng_Nai> <https://w3id.org/vi-dbpedia/property/chủ_tịch_hđnd> <https://w3id.org/vi-dbpedia/resource/Tôn_Ngọc_Hạnh> .
 <https://w3id.org/vi-dbpedia/resource/Đồng_Nai> <https://w3id.org/vi-dbpedia/property/chủ_tịch_ubmttq> <https://w3id.org/vi-dbpedia/resource/Huỳnh_Thị_Hằng> .

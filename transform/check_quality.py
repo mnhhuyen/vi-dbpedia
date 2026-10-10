@@ -24,7 +24,9 @@ from rdflib.namespace import OWL, RDF, RDFS
 HERE = Path(__file__).parent
 XSD = "http://www.w3.org/2001/XMLSchema#"
 # Các kiểu rdflib kiểm tra được giá trị (gYear... rdflib không chuyển đổi nên bỏ qua)
-CHECKED_TYPES = {URIRef(XSD + t) for t in ("date", "integer", "nonNegativeInteger", "double", "float")}
+CHECKED_TYPES = {URIRef(XSD + t) for t in (
+    "date", "dateTime", "integer", "nonNegativeInteger", "double", "float")}
+SHAPES = HERE / "shapes.ttl"
 
 
 def short(u):
@@ -52,8 +54,8 @@ def main():
         print(f"[!] Không thấy {dbo_file}: chỉ kiểm tra theo ontology vio:")
 
     data = Graph()
-    for n in ("instance-types", "mappingbased-literals", "mappingbased-objects"):
-        data.parse(Path(args.data) / f"{n}.nt")
+    for path in sorted(Path(args.data).glob("*.nt")):
+        data.parse(path)
 
     def supers(c, memo={}):
         if c not in memo:
@@ -91,11 +93,37 @@ def main():
                 problems.append(("functional", s, f"{short(p)} có {len(os_)} giá trị: "
                                  + ", ".join(sorted(short(o) for o in os_))))
     for s, p, o in data:
-        if isinstance(o, Literal) and o.datatype in CHECKED_TYPES and o.value is None:
-            problems.append(("kiểu dữ liệu", s, f"{short(p)} = '{o}' không hợp lệ với {short(o.datatype)}"))
+        if isinstance(o, Literal) and o.datatype in CHECKED_TYPES:
+            invalid = o.value is None
+            if o.datatype in (URIRef(XSD + "date"), URIRef(XSD + "dateTime")):
+                try:
+                    from datetime import date, datetime
+                    parse = date.fromisoformat if o.datatype == URIRef(XSD + "date") else datetime.fromisoformat
+                    parse(str(o).replace("Z", "+00:00"))
+                except ValueError:
+                    invalid = True
+            if invalid:
+                problems.append(("kiểu dữ liệu", s,
+                                 f"{short(p)} = '{o}' không hợp lệ với {short(o.datatype)}"))
+
+    try:
+        from pyshacl import validate
+    except ImportError as exc:
+        raise SystemExit("Thiếu pyshacl. Cài thư viện bằng: pip install -r requirements.txt") from exc
+    conforms, shacl_report, _ = validate(data, shacl_graph=str(SHAPES),
+                                         abort_on_first=False, allow_infos=False,
+                                         allow_warnings=False)
+    shacl_problems = []
+    for result in shacl_report.subjects(RDF.type, URIRef("http://www.w3.org/ns/shacl#ValidationResult")):
+        focus = shacl_report.value(result, URIRef("http://www.w3.org/ns/shacl#focusNode"))
+        path = shacl_report.value(result, URIRef("http://www.w3.org/ns/shacl#resultPath"))
+        message = shacl_report.value(result, URIRef("http://www.w3.org/ns/shacl#resultMessage"))
+        shacl_problems.append(("SHACL", focus or "", f"{short(path) if path else 'shape'}: {message or ''}"))
+    problems.extend(shacl_problems)
 
     print(f"Đã kiểm tra {len(types)} thực thể, {len(data)} triple, "
           f"{len(disjoint)} cặp lớp loại trừ, {len(functional)} thuộc tính functional.")
+    print(f"SHACL: {'đạt' if conforms else 'không đạt'} · {len(shacl_problems)} vi phạm")
     if not problems:
         print("Không phát hiện vi phạm.")
     for kind, s, msg in sorted(problems, key=lambda x: (x[0], str(x[1]))):
@@ -104,7 +132,9 @@ def main():
     rep = HERE / "reports"
     rep.mkdir(exist_ok=True)
     lines = ["# Kiểm tra chất lượng dữ liệu", "",
-             f"Thực thể: {len(types)} · Triple: {len(data)} · Vi phạm: **{len(problems)}**", ""]
+             f"Thực thể: {len(types)} · Triple: {len(data)} · "
+             f"SHACL: **{'đạt' if conforms else 'không đạt'}** ({len(shacl_problems)} vi phạm) · "
+             f"Tổng vi phạm: **{len(problems)}**", ""]
     if problems:
         lines += ["| Loại | Thực thể | Chi tiết |", "|---|---|---|",
                   *[f"| {k} | `{short(s)}` | {m} |" for k, s, m in problems]]

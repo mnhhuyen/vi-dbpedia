@@ -1,8 +1,9 @@
 {
+  "collected_at": "2026-10-09T22:06:18Z",
   "categories": 66,
-  "articles": 496,
-  "with_en_link": 201,
-  "with_wikidata": 477,
+  "articles": 495,
+  "with_en_link": 200,
+  "with_wikidata": 476,
   "missing_text_this_run": 0,
   "root_categories": [
     {

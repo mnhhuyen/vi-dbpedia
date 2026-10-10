@@ -9,6 +9,7 @@ Mỗi hàm parse_* nhận wikitext thô của MỘT tham số và trả về:
 """
 import re
 import unicodedata
+from datetime import date
 
 import mwparserfromhell
 
@@ -112,14 +113,14 @@ def link_targets(wikitext):
 # Số
 # ---------------------------------------------------------------------------
 # Kiểu Việt Nam: dấu chấm phân cách hàng nghìn, dấu phẩy là dấu thập phân.
-NUM_VI = re.compile(r"\d{1,3}(?:\.\d{3})+(?:,\d+)?|\d+(?:,\d+)?")
+NUM_VI = re.compile(r"[+-]?(?:\d{1,3}(?:[. ]\d{3})+(?:,\d+)?|\d+(?:,\d+)?)")
 
 
 def _vi_number(s):
-    return float(s.replace(".", "").replace(",", "."))
+    return float(s.replace(" ", "").replace(".", "").replace(",", "."))
 
 
-EN_THOUSANDS = re.compile(r"\b\d{1,3}(?:,\d{3})+\b(?![.,]\d)")
+EN_THOUSANDS = re.compile(r"(?<!\w)[+-]?\d{1,3}(?:,\d{3})+\b(?![.,]\d)")
 
 
 def parse_int(wikitext):
@@ -130,7 +131,7 @@ def parse_int(wikitext):
     if not m:
         return []
     v = _vi_number(m.group())
-    return [int(v)] if v == int(v) and v >= 0 else []
+    return [int(v)] if v == int(v) else []
 
 
 UNIT_TO_M2 = [("km²", 1e6), ("km2", 1e6), ("ha", 1e4), ("hecta", 1e4), ("m²", 1.0), ("m2", 1.0)]
@@ -139,7 +140,8 @@ UNIT_TO_M2 = [("km²", 1e6), ("km2", 1e6), ("ha", 1e4), ("hecta", 1e4), ("m²", 
 def parse_area_m2(wikitext, default_unit="km²"):
     """Diện tích -> mét vuông (quy ước của DBpedia cho dbo:areaTotal)."""
     text = to_text(wikitext)
-    m = NUM_VI.search(text)
+    # Chấp nhận cả cách viết Việt (4.713,75) lẫn quốc tế (1,234.56).
+    m = re.search(r"[+-]?(?:\d{1,3}(?:[., ]\d{3})+(?:[.,]\d+)?|\d+(?:[.,]\d+)?)", text)
     if not m:
         return []
     rest = text[m.end():].strip().lower()
@@ -148,7 +150,18 @@ def parse_area_m2(wikitext, default_unit="km²"):
         if rest.startswith(unit):
             factor = f
             break
-    return [_vi_number(m.group()) * factor]
+    token = m.group().replace(" ", "")
+    if "." in token and "," in token:
+        decimal = "." if token.rfind(".") > token.rfind(",") else ","
+        thousands = "," if decimal == "." else "."
+        token = token.replace(thousands, "").replace(decimal, ".")
+    elif "," in token:
+        token = token.replace(",", ".")
+    elif "." in token:
+        groups = token.lstrip("+-").split(".")
+        if len(groups[0]) <= 3 and all(len(group) == 3 for group in groups[1:]):
+            token = token.replace(".", "")
+    return [float(token) * factor]
 
 
 def parse_decimal_point(wikitext):
@@ -204,9 +217,13 @@ def parse_coord(wikitext):
 # ---------------------------------------------------------------------------
 def _ymd(y, m, d):
     y, m, d = int(y), int(m), int(d)
-    if 1 <= m <= 12 and 1 <= d <= 31 and 1 <= y <= 2100:
-        return [(f"{y:04d}-{m:02d}-{d:02d}", "date")]
-    return []
+    if not 1 <= y <= 2100:
+        return []
+    try:
+        value = date(y, m, d)
+    except ValueError:
+        return []
+    return [(value.isoformat(), "date")]
 
 
 def parse_date(wikitext):
@@ -216,6 +233,9 @@ def parse_date(wikitext):
     {{ngày thành lập và tuổi|1999|12|30}} · {{start date and age|1924|10|27}} · 1029
     """
     text = to_text(wikitext).lower()
+    iso = re.search(r"\b(\d{4})-(\d{1,2})-(\d{1,2})\b", text)
+    if iso:
+        return _ymd(iso.group(1), iso.group(2), iso.group(3))
     m = re.search(r"(\d{1,2})\s*tháng\s*(\d{1,2})\s*(?:năm|,)?\s*(\d{3,4})", text)
     if m:
         return _ymd(m.group(3), m.group(2), m.group(1))

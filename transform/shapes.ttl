@@ -1,0 +1,83 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix vio: <https://w3id.org/vi-dbpedia/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+vio:EntityShape a sh:NodeShape ;
+    # Chỉ kiểm tra thực thể dataset; revision PROV cũng có rdf:type nhưng không
+    # phải tài nguyên vi-dbpedia và không cần rdfs:label tiếng Việt.
+    sh:targetSubjectsOf dbo:wikiPageID ;
+    sh:property [
+        sh:path rdfs:label ;
+        sh:qualifiedValueShape [ sh:languageIn ( "vi" ) ] ;
+        sh:qualifiedMinCount 1 ;
+    ] .
+
+vio:DateShape a sh:NodeShape ;
+    sh:targetSubjectsOf dbo:foundingDate, dbo:dissolutionDate ;
+    sh:property [
+        sh:path dbo:foundingDate ;
+        sh:datatype xsd:date ;
+    ] ;
+    sh:property [
+        sh:path dbo:dissolutionDate ;
+        sh:datatype xsd:date ;
+    ] .
+
+vio:PopulationShape a sh:NodeShape ;
+    sh:targetSubjectsOf dbo:populationTotal ;
+    sh:property [
+        sh:path dbo:populationTotal ;
+        sh:datatype xsd:nonNegativeInteger ;
+        sh:minInclusive 0 ;
+    ] .
+
+vio:AreaShape a sh:NodeShape ;
+    sh:targetSubjectsOf dbo:areaTotal ;
+    sh:property [
+        sh:path dbo:areaTotal ;
+        sh:datatype xsd:double ;
+        sh:minInclusive 0 ;
+    ] .
+
+vio:CoordinateShape a sh:NodeShape ;
+    sh:targetSubjectsOf geo:lat, geo:long ;
+    sh:property [
+        sh:path geo:lat ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minInclusive -90 ;
+        sh:maxInclusive 90 ;
+    ] ;
+    sh:property [
+        sh:path geo:long ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:float ;
+        sh:minInclusive -180 ;
+        sh:maxInclusive 180 ;
+    ] .
+
+vio:ObjectLinkShape a sh:NodeShape ;
+    sh:targetSubjectsOf vio:truSoTai, vio:laThanhVienCua,
+        vio:coQuanChuQuan, vio:trungTamHanhChinh ;
+    sh:property [
+        sh:path vio:truSoTai ;
+        sh:nodeKind sh:IRI ;
+    ] ;
+    sh:property [
+        sh:path vio:laThanhVienCua ;
+        sh:nodeKind sh:IRI ;
+    ] ;
+    sh:property [
+        sh:path vio:coQuanChuQuan ;
+        sh:nodeKind sh:IRI ;
+    ] ;
+    sh:property [
+        sh:path vio:trungTamHanhChinh ;
+        sh:nodeKind sh:IRI ;
+    ] .

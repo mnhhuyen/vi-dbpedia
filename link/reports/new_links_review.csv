@@ -5,6 +5,7 @@ vir:Hải_Ninh_(tỉnh),vio:Tinh,http://dbpedia.org/resource/Bắc_Ninh_province
 vir:Học_viện_Công_nghệ_Bưu_chính_Viễn_thông,vio:HocVien,"http://dbpedia.org/resource/Posts_and_Telecommunications_Institute_of_Technology,_Ho_Chi_Minh_City",0.900,name=0.90,0,
 vir:Học_viện_Hành_chính_và_Quản_trị_công,vio:HocVien,http://dbpedia.org/resource/National_Academy_of_Public_Administration_(Vietnam),1.000,name=1.00 year=1.00,1,
 vir:Học_viện_Khoa_học_và_Công_nghệ,vio:HocVien,http://dbpedia.org/resource/Vietnam_Academy_of_Science_and_Technology,1.000,name=1.00,0,
+vir:Long_Xuyên_(tỉnh),vio:Tinh,http://dbpedia.org/resource/An_Xuyên_province,0.833,name=0.78 type=1.00,0,
 vir:Trường_Đại_học_Công_nghệ_Kỹ_thuật_Thành_phố_Hồ_Chí_Minh,vio:TruongDaiHoc,http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Technology_and_Education,0.900,name=0.85 homepage=1.00 year=1.00,0,
 vir:Trường_Đại_học_Công_nghệ_Thành_phố_Hồ_Chí_Minh,vio:TruongDaiHoc,http://dbpedia.org/resource/Ho_Chi_Minh_City_University_of_Foreign_Languages_and_Information_Technology,0.800,name=0.80,0,
 "vir:Trường_Đại_học_Giáo_dục,_Đại_học_Quốc_gia_Hà_Nội",vio:TruongDaiHoc,http://dbpedia.org/resource/VNU_University_of_Languages_and_International_Studies__VNU_University_of_Languages_and_International_Stud__1,0.816,name=0.82,0,

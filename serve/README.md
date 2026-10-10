@@ -35,6 +35,19 @@ Không cài được Fuseki? `python run_queries.py --local` chạy các truy v�
 - **SPARQL endpoint:** `http://localhost:3030/vi-dbpedia/sparql` — dùng được từ mọi công cụ SPARQL,
   ví dụ: `curl --data-urlencode "query=SELECT * WHERE { ?s ?p ?o } LIMIT 5" http://localhost:3030/vi-dbpedia/sparql`
 
+### Linked Data browser cục bộ
+
+Mở terminal thứ hai trong thư mục `serve/` và chạy:
+
+```bash
+python ld_server.py
+```
+
+Giao diện chạy tại `http://127.0.0.1:8000/`; tài nguyên có trang HTML, RDF content negotiation,
+và dump tải xuống. Chế độ không cần Fuseki: `python ld_server.py --local`.
+Đây là demo cục bộ. Muốn `https://w3id.org/vi-dbpedia/` truy cập công khai, cần triển khai server
+HTTPS và cấu hình chuyển tiếp w3id.
+
 ## 4. Tổ chức dữ liệu trong endpoint
 
 | Named graph | Nội dung |

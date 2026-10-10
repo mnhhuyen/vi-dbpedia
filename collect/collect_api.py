@@ -5,7 +5,7 @@ thay vì tải toàn bộ bản dump.
 Chỉ tải những bài thuộc các thể loại bạn chọn (kèm thể loại con tới độ sâu cho
 trước). Đầu ra cùng định dạng với collect_articles.py, nên các bước sau dùng chung:
 
-  data/articles.jsonl.gz    {"id", "title", "text"}         -> bước 3
+  data/articles.jsonl.gz    {"id", "title", "text", "revision_id", "revision_timestamp"} -> bước 3
   data/langlinks.tsv.gz     tiêu đề tiếng Việt <TAB> tiêu đề tiếng Anh  -> bước 4
   data/wikidata.tsv.gz      tiêu đề tiếng Việt <TAB> mã Wikidata (Q...) -> bước 4
   data/source_categories.tsv.gz  tiêu đề <TAB> thể loại nơi tìm thấy bài -> bước 3
@@ -30,6 +30,7 @@ Lưu ý:
 import argparse
 import gzip
 import json
+import os
 import time
 import unicodedata
 from pathlib import Path
@@ -49,7 +50,11 @@ def nfc(s):
 class Wiki:
     def __init__(self, session=None, pause=0.2):
         self.s = session or requests.Session()
-        self.s.headers["User-Agent"] = USER_AGENT
+        user_agent = os.environ.get("VIDBPEDIA_USER_AGENT", USER_AGENT).strip()
+        placeholders = ("email-cua-ban", "example.com", "example.edu", "your-email", "your_email")
+        if not user_agent or any(item in user_agent.lower() for item in placeholders):
+            raise ValueError("Set VIDBPEDIA_USER_AGENT to an app name and a real contact before crawling.")
+        self.s.headers["User-Agent"] = user_agent
         self.pause = pause
 
     def query(self, **params):
@@ -122,14 +127,20 @@ class Wiki:
         """Lấy wikitext, liên kết sang tiếng Anh và mã Wikidata cho tối đa 50 trang."""
         result = {}
         for q in self.query(pageids="|".join(map(str, pageids)),
-                            prop="revisions|langlinks|pageprops", rvprop="content", rvslots="main",
+                            prop="revisions|langlinks|pageprops",
+                            rvprop="ids|timestamp|content", rvslots="main",
                             lllang="en", lllimit="max", ppprop="wikibase_item"):
             for p in q.get("pages", []):
-                rec = result.setdefault(p["pageid"], {"id": p["pageid"], "title": nfc(p["title"]),
-                                                      "text": None, "en": None, "qid": None})
+                rec = result.setdefault(p["pageid"], {
+                    "id": p["pageid"], "title": nfc(p["title"]), "text": None,
+                    "revision_id": None, "revision_timestamp": None, "en": None, "qid": None,
+                })
                 revs = p.get("revisions")
                 if revs:
-                    rec["text"] = revs[0]["slots"]["main"].get("content", "")
+                    revision = revs[0]
+                    rec["text"] = revision["slots"]["main"].get("content", "")
+                    rec["revision_id"] = revision.get("revid")
+                    rec["revision_timestamp"] = revision.get("timestamp")
                 for ll in p.get("langlinks", []):
                     rec["en"] = nfc(ll["title"])
                 if "pageprops" in p:
@@ -271,8 +282,12 @@ def main():
                 if not rec["text"]:
                     missing += 1
                     continue
-                fa.write(json.dumps({"id": rec["id"], "title": rec["title"], "text": rec["text"]},
-                                    ensure_ascii=False) + "\n")
+                article = {
+                    "id": rec["id"], "title": rec["title"], "text": rec["text"],
+                    "revision_id": rec["revision_id"],
+                    "revision_timestamp": rec["revision_timestamp"],
+                }
+                fa.write(json.dumps(article, ensure_ascii=False) + "\n")
                 if rec["en"]:
                     fl.write(f"{rec['title']}\t{rec['en']}\n")
                 if rec["qid"]:

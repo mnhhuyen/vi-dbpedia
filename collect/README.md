@@ -9,8 +9,9 @@ của Wikipedia. Không cần tải bản dump toàn bộ.
 pip install -r requirements.txt
 ```
 
-Mở `collect_api.py`, sửa biến `USER_AGENT` ở đầu file: thay email mẫu bằng email
-của bạn (Wikimedia yêu cầu chương trình gọi API phải có thông tin liên hệ).
+Trước khi gọi API, đặt `VIDBPEDIA_USER_AGENT` thành tên ứng dụng và thông tin liên hệ thật
+của bạn.
+Script từ chối chạy khi vẫn còn email mẫu.
 
 ## Chạy
 
@@ -24,8 +25,11 @@ của bạn (Wikimedia yêu cầu chương trình gọi API phải có thông ti
    thể loại con lạc đề, giảm độ sâu (`--depth 0` chỉ lấy bài trực tiếp trong thể loại gốc).
 4. **Chạy đầy đủ:**
    ```bash
-   python collect_api.py --depth 1
+   VIDBPEDIA_USER_AGENT="ViDBpediaCourseProject/0.1 (YOUR_REAL_EMAIL)" \
+     python collect_api.py --depth 1 --fresh
    ```
+   Thay `YOUR_REAL_EMAIL` bằng email liên hệ của bạn. `--fresh` tải lại mọi bài và lưu revision ID,
+   timestamp để provenance trỏ đúng phiên bản văn bản.
 5. **Khảo sát infobox** để chuẩn bị bảng mapping cho bước 3:
    ```bash
    python profile_infoboxes.py
@@ -35,7 +39,7 @@ của bạn (Wikimedia yêu cầu chương trình gọi API phải có thông ti
 
 | File | Nội dung | Dùng cho |
 |---|---|---|
-| `data/articles.jsonl.gz` | Mỗi dòng một bài: id, tiêu đề, wikitext | Bước 3 |
+| `data/articles.jsonl.gz` | Mỗi dòng: id, tiêu đề, wikitext, revision ID và timestamp | Bước 3 |
 | `data/langlinks.tsv.gz` | Tiêu đề tiếng Việt → tiêu đề tiếng Anh | Bước 4 |
 | `data/wikidata.tsv.gz` | Tiêu đề tiếng Việt → mã Wikidata | Bước 4 |
 | `reports/collect_summary.json` | Số thể loại, số bài, số bài có liên kết tiếng Anh | Báo cáo |

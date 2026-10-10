@@ -84,6 +84,9 @@ def reason(dbo, vio, extra_ttl=""):
     if extra_ttl:
         g.parse(data=PREFIXES + extra_ttl, format="turtle")
     g.remove((None, OWL.imports, None))  # đã gộp thủ công, không tải qua mạng
+    # HermiT không nhận rdf:langString làm range. Language-tagged literals vẫn
+    # giữ nguyên trong dữ liệu; chỉ bỏ range khỏi bản ontology dùng cho reasoner.
+    strip_non_owl2_datatypes(g)
     fd, path = tempfile.mkstemp(suffix=".nt")
     os.close(fd)
     g.serialize(path, format="nt")

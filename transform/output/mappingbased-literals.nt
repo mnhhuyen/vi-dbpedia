@@ -608,6 +608,15 @@
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <http://dbpedia.org/ontology/abbreviation> "HVQGHC"^^<http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_gia_Hành_chánh> <https://w3id.org/vi-dbpedia/ontology/tenHieuTruong> "Nguyễn Quốc Trị"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Quốc_phòng_(Việt_Nam)> <http://dbpedia.org/ontology/foundingDate> "1976-02-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <http://dbpedia.org/ontology/abbreviation> "HVTTNVN\nVYA"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <http://dbpedia.org/ontology/formerName> "Trường Cán bộ Thanh thiếu niên Trung ương"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <http://dbpedia.org/ontology/formerName> "Trường Trung cấp Cán bộ Đoàn toàn quốc"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <http://dbpedia.org/ontology/formerName> "Trường Đoàn Trung ương"@vi .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <http://dbpedia.org/ontology/foundingDate> "1956-10-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <http://dbpedia.org/ontology/motto> "Chất lượng - Tiên phong - Sáng tạo"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <http://www.w3.org/2000/01/rdf-schema#label> "Vietnam Youth Academy"@en .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/ontology/maTuyenSinh> "HTN"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/vi-dbpedia/resource/Học_viện_Thanh_thiếu_niên_Việt_Nam> <https://w3id.org/vi-dbpedia/ontology/tenHieuTruong> "Nguyễn Hải Đăng"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Tài_chính_(Việt_Nam)> <http://dbpedia.org/ontology/formerName> "Trường Đại học Tài chính - Kế toán Hà Nội"@vi .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Tài_chính_(Việt_Nam)> <http://dbpedia.org/ontology/foundingDate> "2001-08-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://w3id.org/vi-dbpedia/resource/Học_viện_Tài_chính_(Việt_Nam)> <http://dbpedia.org/ontology/motto> "Sinh viên Học viện Tài chính phát huy truyền thống, thi đua học tập, sáng tạo, tình nguyện và hội nhập"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -689,9 +698,9 @@
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <http://dbpedia.org/ontology/formerName> "Hậu Nghĩa"@vi .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <http://dbpedia.org/ontology/formerName> "Tân An"@vi .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <http://dbpedia.org/ontology/foundingDate> "1956-10-22"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <http://dbpedia.org/ontology/populationAsOf> "2025-12-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <http://dbpedia.org/ontology/populationAsOf> "2025-06-30"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <http://dbpedia.org/ontology/populationDensity> "415.98"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <http://dbpedia.org/ontology/populationTotal> "1869747"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <http://dbpedia.org/ontology/populationTotal> "1869746"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <http://dbpedia.org/ontology/postalCode> "85xxxx"^^<http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <http://dbpedia.org/ontology/vehicleCode> "62"^^<http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/vi-dbpedia/resource/Long_An_(tỉnh)> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "10.691647"^^<http://www.w3.org/2001/XMLSchema#float> .

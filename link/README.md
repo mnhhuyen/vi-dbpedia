@@ -11,7 +11,8 @@ python validate_links.py    # cần mạng: kiểm tra trên https://dbpedia.org
 python match.py             # so khớp theo nội dung (kiểu Silk) + đánh giá; lần đầu cần mạng
 ```
 
-Sửa biến `USER_AGENT` trong `validate_links.py` (thêm email của bạn) trước khi chạy.
+Đặt `VIDBPEDIA_USER_AGENT` thành tên ứng dụng và thông tin liên hệ thật trước khi gọi DBpedia.
+Ví dụ: `VIDBPEDIA_USER_AGENT="VIDBPEDIA/1.0 (email-cua-ban)"`.
 
 ## Nguồn liên kết
 

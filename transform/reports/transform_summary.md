@@ -1,22 +1,23 @@
 # Kết quả chuyển đổi sang RDF
 
-- Số bài: **496**
+- Số bài: **495**
+- Bài có revision ID và timestamp: **495/495**
 - Số bài được gán lớp (tầng mapping): **332** (trong đó 6 bài không có infobox, gán lớp theo tiêu đề)
-- Tổng số triple: **56,748**
+- Tổng số triple: **58,692**
 
 ## Số triple theo bộ dữ liệu
 
 | Bộ dữ liệu | Số triple |
 |---|---|
-| labels | 496 |
-| abstracts | 496 |
-| categories | 1,953 |
-| page-links | 40,674 |
-| provenance | 1,488 |
-| infobox-properties | 8,221 |
+| labels | 495 |
+| abstracts | 495 |
+| categories | 1,952 |
+| page-links | 40,619 |
+| provenance | 3,465 |
+| infobox-properties | 8,236 |
 | instance-types | 332 |
-| mappingbased-literals | 2,178 |
-| mappingbased-objects | 862 |
+| mappingbased-literals | 2,187 |
+| mappingbased-objects | 863 |
 | geo-coordinates | 48 |
 
 ## Số thực thể theo lớp
@@ -54,20 +55,20 @@ Cột *có tham số*: số bài có tham số đó; *chuẩn hoá được*: s�
 Đại học trọng điểm Quốc g`; `Đại học`; `Đại học tinh hoa
 Đại học quốc gia
 Đại học trọng điểm quốc gi` |
-| Thông tin trường học | ngày thành lập | 194 | 189 | 97% | ``; ``; `` |
+| Thông tin trường học | ngày thành lập | 195 | 190 | 97% | ``; ``; `` |
 | Thông tin trường học | hiệu trưởng | 163 | 162 | 99% | `1` |
-| Thông tin trường học | tên tiếng anh | 115 | 115 | 100% |  |
-| Thông tin trường học | thành phố | 112 | 100 | 89% | `phường Trường Vinh`; `Hồ Chí Minh`; `phường Tuy Hòa` |
-| Thông tin trường học | khẩu hiệu | 108 | 108 | 100% |  |
-| Thông tin trường học | viết tắt | 80 | 80 | 100% |  |
+| Thông tin trường học | tên tiếng anh | 116 | 116 | 100% |  |
+| Thông tin trường học | thành phố | 113 | 101 | 89% | `phường Trường Vinh`; `Hồ Chí Minh`; `phường Tuy Hòa` |
+| Thông tin trường học | khẩu hiệu | 109 | 109 | 100% |  |
+| Thông tin trường học | viết tắt | 81 | 81 | 100% |  |
 | Thông tin trường học | thành viên của | 75 | 72 | 96% | `Học viện Chính trị Quốc gia Hồ Chí Minh`; `UBND tỉnh Cà Mau`; `Giáo hội Phật giáo Việt Nam` |
-| Thông tin trường học | mã trường | 61 | 61 | 100% |  |
+| Thông tin trường học | mã trường | 62 | 62 | 100% |  |
 | Thông tin trường học | tỉnh | 52 | 51 | 98% | `Thành phố Hải Phòng` |
-| Thông tin trường học | tên cũ | 43 | 43 | 100% |  |
+| Thông tin trường học | tên cũ | 44 | 44 | 100% |  |
 | Thông tin trường học | sinh viên đại học | 36 | 36 | 100% |  |
 | Thông tin trường học | tọa độ | 36 | 23 | 64% | ``; ``; `` |
 | Thông tin trường học | giảng viên | 34 | 34 | 100% |  |
-| Thông tin trường học | giám đốc | 26 | 25 | 96% | `PGS.TS Bùi Hữu Toàn - Phụ trách Ban Giám đốc Học viện` |
+| Thông tin trường học | giám đốc | 27 | 26 | 96% | `PGS.TS Bùi Hữu Toàn - Phụ trách Ban Giám đốc Học viện` |
 | Thông tin trường học | sinh viên | 25 | 25 | 100% |  |
 | Thông tin trường học | thuộc tổ chức | 23 | 16 | 70% | `Tập đoàn Giáo dục Văn Lang`; `Tổng Liên đoàn Lao động Việt Nam`; `FPT Education` |
 | Thông tin trường học | nhân viên | 22 | 22 | 100% |  |

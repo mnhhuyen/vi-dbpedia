@@ -14,7 +14,7 @@ vi-dbpedia/
 ```bash
 pip install -r requirements.txt
 python transform.py          # sinh output/*.nt, output/void.ttl, reports/transform_summary.md
-python check_quality.py      # kiểm tra vi phạm tiên đề ontology -> reports/quality_check.md
+python check_quality.py      # kiểm tra ontology và SHACL -> reports/quality_check.md
 ```
 
 Chạy thử trên dữ liệu mẫu (giả lập, có sẵn):
@@ -31,7 +31,8 @@ python transform.py --articles tests/sample-articles.jsonl.gz \
 | `mappings.yaml` | **Bảng mapping** infobox → ontology. Sửa file này để thêm/bớt tham số, không cần sửa code |
 | `parsers.py` | Chuẩn hoá giá trị tiếng Việt: số "1.234,5", diện tích km² → m², ngày "2/7/1976", template ngày, liên kết, tên người bỏ học hàm ("PGS.TS. Nguyễn Văn A" → "Nguyễn Văn A")... |
 | `transform.py` | Đọc bài viết, phân loại, sinh triple, ghi các bộ dữ liệu |
-| `check_quality.py` | Kiểm tra loại trừ, functional, kiểu dữ liệu |
+| `check_quality.py` | Kiểm tra loại trừ, functional, kiểu dữ liệu và SHACL |
+| `shapes.ttl` | Shape cho nhãn tiếng Việt, ngày, tọa độ và quan hệ RDF |
 
 ## Đầu ra (`output/`)
 
@@ -53,6 +54,8 @@ python transform.py --articles tests/sample-articles.jsonl.gz \
 
 - **URI:** `https://w3id.org/vi-dbpedia/resource/<Tiêu_đề_bài>`, giữ nguyên chữ tiếng Việt (IRI),
   chuẩn hoá Unicode NFC.
+- **Provenance:** mỗi bài trỏ tới revision URL (`oldid`), revision ID và timestamp khi các trường này
+  có trong snapshot. Dữ liệu cũ cần được tải lại bằng `collect_api.py --fresh` để có revision metadata.
 - **Mapping có điều kiện:** tỉnh, thành phố trực thuộc trung ương và tỉnh cũ dùng chung một
   template; lớp được quyết định theo thể loại nơi tìm thấy bài. Trường đại học / học viện được
   phân loại theo tiêu đề (template "Thông tin trường học" dùng chung cho mọi loại trường).
